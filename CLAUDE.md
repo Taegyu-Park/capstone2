@@ -24,6 +24,9 @@
   전체 피드가 실패할 때만 중단합니다.
 - **제목과 요약은 전부 외부 입력입니다.** 템플릿에서 `esc()`를 거치지 않고 쓰지 마세요.
 - **`--bare` 모드는 `CLAUDE_CODE_OAUTH_TOKEN`을 읽지 않습니다.** CLI 호출에 붙이면 CI에서 인증이 깨집니다.
+- **`categories[].opinion: true`는 두 곳에 동시에 영향을 줍니다.** `fetch.mjs`가 그 카테고리 기사에는
+  `exclude.bracketTags` 검사를 건너뛰고(`[사설]`이 콘텐츠 자체이므로), `summarize.mjs`가 사실 요약
+  대신 논조를 살린 프롬프트를 씁니다. 둘 중 하나만 고치면 다른 쪽과 어긋납니다.
 
 ## 설정을 고칠 때
 
@@ -33,7 +36,7 @@ JSON에 정규식을 넣으면 이스케이프 때문에 조용히 깨지므로 
 ## 확인 방법
 
 ```bash
-npm run check-feeds                        # 피드 24개 상태 (실패 시 exit 1)
+npm run check-feeds                        # 피드 28개 상태 (실패 시 exit 1)
 node scripts/build.mjs --date=YYYY-MM-DD   # 특정 날짜로 전체 파이프라인
 ```
 

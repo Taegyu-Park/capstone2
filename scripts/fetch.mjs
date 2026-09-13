@@ -15,6 +15,8 @@ const date = assertDateStr(dateArg || yesterdayKst());
 const { start, end } = kstDayRange(date);
 const limit = config.limits.perCategory;
 const isExcluded = makeExcluder(config.exclude);
+// 사설·칼럼처럼 "[사설]" 같은 대괄호 태그가 콘텐츠 자체인 카테고리는 bracketTags 제외를 건너뜁니다.
+const opinionCategoryIds = new Set(config.categories.filter((c) => c.opinion).map((c) => c.id));
 
 console.log(`[fetch] 대상일 ${date}(KST) · 피드 ${config.feeds.length}개 · 카테고리당 최대 ${limit}건`);
 
@@ -33,7 +35,9 @@ for (const r of results) {
     const t = new Date(i.publishedAt);
     return t >= start && t < end;
   });
-  const matched = inWindow.filter((i) => !isExcluded(i.title));
+  const matched = inWindow.filter(
+    (i) => !isExcluded(i.title, { skipBracketTags: opinionCategoryIds.has(i.category) }),
+  );
   excludedCount += inWindow.length - matched.length;
   feedStatus.push({ source: r.feed.source, category: r.feed.category, ok: true, matched: matched.length });
   collected.push(...matched);
@@ -62,6 +66,7 @@ for (const cat of config.categories) {
       link: item.link,
       publishedAt: item.publishedAt,
       description: item.description,
+      author: item.author,
       summary: null,
       summarySource: null,
     });

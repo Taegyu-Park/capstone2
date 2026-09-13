@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generatedAt": "2026-09-13T18:12:56.944Z",
+  "generatedAt": "2026-09-13T22:28:12.332Z",
   "categories": [
     {
       "id": "it",
@@ -17,6 +17,12 @@
     {
       "id": "world",
       "label": "세계·국제"
+    },
+    {
+      "id": "editorial",
+      "label": "사설·칼럼",
+      "opinion": true,
+      "summaryMaxChars": 220
     }
   ],
   "feedStatus": [
@@ -30,7 +36,7 @@
       "source": "Hacker News",
       "category": "it",
       "ok": true,
-      "matched": 11
+      "matched": 7
     },
     {
       "source": "TechCrunch",
@@ -42,37 +48,37 @@
       "source": "The Verge",
       "category": "it",
       "ok": true,
-      "matched": 9
+      "matched": 7
     },
     {
       "source": "블로터",
       "category": "it",
       "ok": true,
-      "matched": 16
+      "matched": 25
     },
     {
       "source": "전자신문",
       "category": "it",
       "ok": true,
-      "matched": 28
+      "matched": 26
     },
     {
       "source": "ZDNet Korea",
       "category": "it",
       "ok": true,
-      "matched": 30
+      "matched": 24
     },
     {
       "source": "BBC Business",
       "category": "economy",
       "ok": true,
-      "matched": 7
+      "matched": 8
     },
     {
       "source": "The Guardian",
       "category": "economy",
       "ok": true,
-      "matched": 18
+      "matched": 17
     },
     {
       "source": "매일경제 경제",
@@ -102,7 +108,7 @@
       "source": "노컷뉴스",
       "category": "politics",
       "ok": true,
-      "matched": 5
+      "matched": 1
     },
     {
       "source": "서울신문",
@@ -114,7 +120,7 @@
       "source": "연합뉴스 사회",
       "category": "politics",
       "ok": true,
-      "matched": 112
+      "matched": 79
     },
     {
       "source": "연합뉴스 정치",
@@ -132,13 +138,13 @@
       "source": "Al Jazeera",
       "category": "world",
       "ok": true,
-      "matched": 13
+      "matched": 0
     },
     {
       "source": "BBC World",
       "category": "world",
       "ok": true,
-      "matched": 13
+      "matched": 12
     },
     {
       "source": "NPR",
@@ -150,7 +156,7 @@
       "source": "The Guardian",
       "category": "world",
       "ok": true,
-      "matched": 8
+      "matched": 7
     },
     {
       "source": "연합뉴스 국제",
@@ -163,6 +169,30 @@
       "category": "economy",
       "ok": true,
       "matched": 15
+    },
+    {
+      "source": "경향신문 오피니언",
+      "category": "editorial",
+      "ok": true,
+      "matched": 15
+    },
+    {
+      "source": "NYT Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 10
+    },
+    {
+      "source": "The Guardian Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 3
+    },
+    {
+      "source": "Washington Post Opinions",
+      "category": "editorial",
+      "ok": true,
+      "matched": 5
     }
   ],
   "items": [
@@ -174,8 +204,9 @@
       "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
       "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
       "publishedAt": "2026-09-13T14:28:36.000Z",
-      "description": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 208 # Comments: 81",
-      "summary": "Astra와 Fable이 2025년 정렬 평가의 간단한 변형들을 지속적으로 우회하고 있다.",
+      "description": "Article URL: https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment Comments URL: https://news.ycombinator.com/item?id=49684393 Points: 334 # Comments: 154",
+      "author": "Levitating",
+      "summary": "Astra와 Fable이 2025년의 정렬 평가(alignment evals)의 간단한 변형들을 계속 작업하고 있다.",
       "summarySource": "llm"
     },
     {
@@ -187,19 +218,8 @@
       "link": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
       "publishedAt": "2026-09-13T14:28:12.000Z",
       "description": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them. The riders were juveniles in possession of a loaded AR-style ghost gun and were taken to a juvenile hall. While the police report did not specify who was operating the autonomous car, Waymo later confirmed it was one of its vehicles to the Los Angeles Times. A spokesperson told the LA Times that a \"violation of our terms of service involving a firearm\" was detected. At which point the car pulled over and alerted the authorities. Earlier this year, a Waymo fake",
-      "summary": "Waymo 로보택시가 탑승객의 불법 총기 소지를 감지하고 자동으로 경찰에 신고해 미성년 탑승객 2명이 체포되었다.",
-      "summarySource": "llm"
-    },
-    {
-      "id": "c17dc3e0dbc1",
-      "category": "it",
-      "source": "블로터",
-      "region": "kr",
-      "title": "하나은행, 우즈벡 정부와 협약…중앙아시아 첫 교두보 확보",
-      "link": "https://www.bloter.net/news/articleView.html?idxno=673489",
-      "publishedAt": "2026-09-13T14:04:42.000Z",
-      "description": "하나은행이 우즈베키스탄에 대표사무소 설립을 추진하며 중앙아시아로 글로벌 네트워크의 범위를 넓힌다. 우즈베키스탄 정부와 투자·금융 협력 체계를 구축하고 2026년 안에 현지 거점을 확보해 한국 기업의 교역·투자 수요를 선점하겠다는 구상이다.13일 금융권에 따르면 하나은행은 11일 우즈베키스탄 투자산업통상부와 투자·금융 분야 상호 협력을 위한 업무협약을 체결했다. 16일 서울에서 열리는 제1회 한-중앙아시아 정상회의를 앞두고 양국 간 경제·금융 협력 확대에 보조를 맞춘 행보로 풀이된다. 동남아 넘어 중앙아시아로…대표사무소 연내 설립이번",
-      "summary": "하나은행이 우즈베키스탄 정부와 투자·금융 협력 업무협약을 체결하고, 2026년 안에 중앙아시아 지역의 첫 거점인 대표사무소 설립을 추진한다.",
+      "author": null,
+      "summary": "Waymo 자율주행 택시가 탑승자들의 불법 총기 소유를 감지해 경찰에 신고했으며, 미성년자 2명이 체포됐다.",
       "summarySource": "llm"
     },
     {
@@ -211,7 +231,8 @@
       "link": "https://zdnet.co.kr/view/?no=20260913222231",
       "publishedAt": "2026-09-13T13:35:17.000Z",
       "description": "[지디넷코리아]전 세계 유기발광다이오드(OLED) TV 출하량이 2028년 760만대를 기록하고 2029년과 2030년 2년 연속 하락할 것이란 전망이 나왔다. 액정표시장치(LCD) TV 출하량은 같은 기간 조금씩 늘어날 것으로 기대됐다. 시장조사업체 시그마인텔이 최근 제시한 연도별 OLED TV 출하량 전망치는 ▲2024년 610만대 ▲2025년 660만대 ▲2026년 690만대 ▲2027년 720만대 ▲2028년 760만대 ▲2029년 730만대 ▲2030년 720만대 등이다. OLED TV 출하량이 2024년(610만대)부터 2028년(760만대)까지 상승하다가, 2029년(730만대)부터 다시 하락할 것으로 예상됐다. 전 세계 OLED TV 시장은 LG전자와 삼성전자가 이끌고 있다. OLED TV 패널은 LG디스플레이와 삼성디스플레이가 공급 중이다. LCD TV 출하량 예상치는 ▲2024년 2억 1590만대 ▲2025년 2억 1500만대 ▲2026년 2억 1080만대 ▲2027년 2억 600만대 ▲2028년 2억 750만대 ▲2029년 2억 820만대 ▲2030년 2억 840만대 등이다. 2024년 전년비 상승했던 LCD TV 출하량은 2027년(2억",
-      "summary": "전 세계 OLED TV 출하량이 2028년 760만대를 기록한 후 2029년부터 하락할 것으로 시장조사업체 시그마인텔이 전망했다.",
+      "author": "이기종 기자",
+      "summary": "OLED TV 세계 출하량은 2028년 760만대 최고조를 기록한 후 2029년부터 하락할 것으로 전망되는 반면, LCD TV는 증가세를 유지할 것으로 예상됐다.",
       "summarySource": "llm"
     },
     {
@@ -223,19 +244,21 @@
       "link": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
       "publishedAt": "2026-09-13T13:15:00.000Z",
       "description": "Fusion startups are inking defense-related deals, reigniting the relationship between fusion and national security that might have gone dormant, but never completely disappeared.",
-      "summary": "핵융합 스타트업들이 국방 부문과의 거래를 체결하면서 핵융합과 국가 안보 간의 관계를 재활성화하고 있다.",
+      "author": "Tim De Chant",
+      "summary": "핵융합 에너지 스타트업들이 방위산업 관련 계약을 체결하면서 핵융합과 국가 안보의 관계가 재조명되고 있다.",
       "summarySource": "llm"
     },
     {
-      "id": "ca0e2eca3649",
+      "id": "8ba74951e609",
       "category": "it",
-      "source": "ZDNet Korea",
+      "source": "블로터",
       "region": "kr",
-      "title": "KOSA·메가존클라우드, 도쿄서 국내 AI·SW 기업 일본 진출 지원",
-      "link": "https://zdnet.co.kr/view/?no=20260913210555",
-      "publishedAt": "2026-09-13T12:06:09.000Z",
-      "description": "[지디넷코리아]국내 인공지능(AI)·소프트웨어(SW) 기업들이 일본 현지 기업과의 비즈니스 상담회를 통해 시장 진출 기회를 모색했다. 한국인공지능·소프트웨어산업협회(KOSA)와 메가존클라우드는 일본 도쿄에서 국내 AI·SW 기업 10개사가 참여하는 일본 진출 프로그램을 개최하고 현지 시장 수요 파악과 사업 협력 발굴을 지원했다고 13일 밝혔다.이번 행사는 대·중소기업·농어업협력재단의 '대·중소기업 동반진출 지원사업'의 일환으로 추진됐다. KOSA와 메가존클라우드는 3년째 사업을 공동 운영하며 국내 기업의 해외 시장 진출을 지원하고 있다.프로그램에는 건우솔루션, 도슨티, 셀렉트스타, 쓰리아이, 와탭랩스, 윌로그, 이스트소프트, 인스웨이브, 지미션, 프라이빗에이아이 등 10개 기업이 참여했다. 이들 기업은 AI 에이전트, 디지털 트윈, IT 옵저버빌리티, 스마트 물류, 보안 등 다양한 분야의 기술과 서비스를 보유하고 있다.첫째 날 열린 세미나에서는 스에나가 슌이치로 메가존재팬 최고사업책임자(CBO)가 일본 AI·SW 시장의 수요와 진출 기회를 주제로 발표했다. 이어 일본 AI협회가 현지 AI 정책 및 규제 대응 가이드라인을 소개했으며, 일본 시장에 진출한 국내 ",
-      "summary": "KOSA와 메가존클라우드가 도쿄에서 국내 AI·SW 기업 10개사의 일본 진출을 지원하는 프로그램을 개최하고 현지 기업과의 비즈니스 기회를 모색했다.",
+      "title": "김대일 펄어비스 의장, '대한민국 콘텐츠대상' 후보 올랐다",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673493",
+      "publishedAt": "2026-09-13T12:33:48.000Z",
+      "description": "문화체육관광부(문체부)가 '2026년 대한민국 콘텐츠대상' 정부포상 추천 후보자 30명(단체 포함) 명단을 공개하고 검증 절차에 들어갔다. 게임산업발전 부문에는 김대일 펄어비스 의장, 김강안 111퍼센트 대표이사, 진성건 넷마블네오 이사 등 3명이 이름을 올렸다.문체부는 김 의장이 자체 엔진 기반 게임 '검은사막'·'붉은사막' 개발과 약 3조원 매출 성과로 K-게임 수출 경쟁력과 국내 게임산업 발전에 기여했다고 밝혔다.김 의장은 2010년 펄어비스를 설립한 뒤 자체 게임엔진을 기반으로 '검은사막'과 '붉은사막'을 개발했다. 올해 출",
+      "author": "최이담 기자",
+      "summary": "펄어비스 김대일 의장이 2026년 대한민국 콘텐츠대상 게임산업발전 부문 후보로 선정되었으며, '검은사막', '붉은사막' 개발을 통해 K-게임 수출 경쟁력 강화에 기여한 것으로 평가됐다.",
       "summarySource": "llm"
     },
     {
@@ -247,7 +270,8 @@
       "link": "https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/",
       "publishedAt": "2026-09-13T11:00:41.000Z",
       "description": "The manufacturer has a service that lets owners repair their own equipment.",
-      "summary": "John Deere가 소유자의 자가 수리를 지원하는 서비스를 제공하고 있으나 농민들의 반응은 회의적이다.",
+      "author": "Boone Ashworth, WIRED.com",
+      "summary": "John Deere가 트랙터 자가 수리 서비스를 제공하고 있으나 농민들의 호응이 낮은 상태다.",
       "summarySource": "llm"
     },
     {
@@ -259,7 +283,21 @@
       "link": "https://www.etnews.com/20260913000085",
       "publishedAt": "2026-09-13T10:22:28.000Z",
       "description": "인공지능(AI)이 인간 수학자들이 수십 년간 풀지 못한 최고 수준의 수학 난제까지 공략하기 시작하자 세계적인 수학자들이 AI 기업들의 '난제 해결 경쟁'에 집단 경고를 내놨다. 11일(현지시간) 월스트리트저널(WSJ) 등 외신에 따르면 허준이 미국 프린스턴대 교수와 테런스 타오 미국 캘리포니아대 로스앤젤레스(UCLA) 교수 등 필즈상 수상자 25명은 '수학 분야에서 AI의 심각한 목표 불일치'라는 제목의 공동성명을 발표했다. 이들은 AI 기업들",
-      "summary": "필즈상 수상자 25명이 AI 기업들의 난제 해결 경쟁에 대해 수학 분야에서의 심각한 목표 불일치를 경고하는 공동성명을 발표했다.",
+      "author": "서희원",
+      "summary": "필즈상 수상자 25명이 AI 기업들의 수학 난제 해결 경쟁에서 AI의 목표 불일치 문제를 우려하는 공동성명을 발표했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "c8d52b1c249b",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "[AI 대전환 리딩 전략]LG이노텍, FC-BGA로 글로벌 톱티어 도약",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673352",
+      "publishedAt": "2026-09-13T10:00:00.000Z",
+      "description": "AI(인공지능) 대전환의 물결이 산업 전반을 흔드는 가운데 LG이노텍이 대대적인 체질 개선에 성공하며 차세대 부품 시장에서 주도권을 쥔 모습이다.스마트폰 카메라 모듈 중심의 사업 구조에서 벗어나 포트폴리오 다변화에 성공한 덕분이다. FC-BGA(플립칩 볼그리드어레이) 반도체 기판과 온디바이스 AI 비전 센싱, 자율주행·로보틱스 부품 등을 앞세워 'AI 토탈 소재·부품 솔루션 기업'으로 빠르게 재편하고 있다.수익성 개선도 눈에 띈다. LG이노텍은 올해 상반기 연결 기준 매출 11조621억원, 영업이익 5411억원을 기록했다. 지난해",
+      "author": "유호승 기자",
+      "summary": "LG이노텍이 스마트폰 카메라 사업에서 벗어나 FC-BGA, AI 비전 센싱, 자율주행 부품 등으로 사업 다각화에 성공하며 차세대 부품 시장에서 주도권을 확보했다.",
       "summarySource": "llm"
     },
     {
@@ -271,7 +309,8 @@
       "link": "https://www.etnews.com/20260911000211",
       "publishedAt": "2026-09-13T08:00:00.000Z",
       "description": "인공지능(AI) 데이터센터 확산으로 미국 에너지저장장치(ESS) 시장이 빠르게 커지고 있다. AI 데이터센터의 안정적인 전력 확보를 위해 기존 2~4시간급 ESS를 넘어 10시간 이상 전력을 공급할 수 있는 장주기 저장장치에 대한 관심도 높아지고 있다. 미국 태양광산업협회(SEIA)와 벤치마크 미네랄 인텔리전스가 이달 초 내놓은 시장 전망에 따르면, 미국 상업·산업용(C&I) ESS 설치량은 2분기 1.8기가와트시(GWh)로 분기 최대를 기록했",
-      "summary": "AI 데이터센터 확산으로 미국 에너지저장장치(ESS) 시장이 급성장하면서, 기존 2~4시간급을 넘어 10시간 이상 전력을 공급할 수 있는 장주기 저장장치에 대한 수요가 증가하고 있다.",
+      "author": "김명희",
+      "summary": "AI 데이터센터의 안정적 전력 확보 수요로 미국 에너지저장장치 시장이 급성장하고 있으며, 10시간 이상의 장주기 저장장치에 대한 관심이 높아지고 있다.",
       "summarySource": "llm"
     },
     {
@@ -283,7 +322,8 @@
       "link": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-13T14:53:40.000Z",
       "description": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
-      "summary": "Anthropic의 전직 연구원이 AI 직원들이 인류의 미래에 대해 정말로 두려워하고 있다고 말했으며, 회사 경영진이 기술의 심각한 위험성을 이유로 개발 속도를 늦춰야 한다고 촉구했다.",
+      "author": null,
+      "summary": "전 Anthropic 연구원이 인류의 미래에 대해 진지한 우려를 표했으며, AI 기업 경영진이 기술 개발을 둔화할 것을 촉구했다.",
       "summarySource": "llm"
     },
     {
@@ -295,7 +335,8 @@
       "link": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
       "publishedAt": "2026-09-13T14:02:24.000Z",
       "description": "Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchers Analysis: critics perplexed and suspicious of call for a slowdown The Guardian view: humanity cannot outsource its survival Sam Altman and Elon Musk have backed a call from the head of Anthropic, Dario Amodei, to “slow the pace” of AI development after he warned that an AI swarm could otherwise become capable of “taking over the entire internet” within a year. In a rare show of unity, the rival technology leaders threw their weight behind the appeal from the founder and chief executive of the ",
-      "summary": "Anthropic의 최고경영자 Dario Amodei가 AI 스웜이 1년 내에 전체 인터넷을 장악할 수 있다며 개발 속도 둔화를 촉구한 가운데, OpenAI의 Sam Altman과 Elon Musk가 이에 동의하는 드문 통일의 모습을 보였다.",
+      "author": "Robert Booth and Julia Kollewe",
+      "summary": "OpenAI의 샘 알트만과 일론 머스크가 AI 개발 속도를 늦출 것을 요구하는 Anthropic 경영진의 호소에 동조했으며, 이는 AI 스웜이 1년 내 인터넷 전체를 장악할 수 있다는 경고에 따른 것이다.",
       "summarySource": "llm"
     },
     {
@@ -307,7 +348,8 @@
       "link": "https://www.theguardian.com/business/2026/sep/13/joyful-harvest-young-welsh-farmers-food-birmingham-powys",
       "publishedAt": "2026-09-13T14:00:04.000Z",
       "description": "A charity in Powys provides the land while growers do the hard work, producing bumper crops for city children Kilos and kilos of courgettes, cucumbers, tomatoes and salad leaves are ripe and ready for picking on a small Welsh farm in the rural county of Powys. The haul being harvested by Tilly Gomersall is not just impressive after a difficult growing season hit by a record string of heatwaves and drought across all of Wales and most of England, but all the more remarkable given that 18 months ago the site was uncultivated pasture. Continue reading...",
-      "summary": "웨일즈의 자선단체 소유 땅에서 농사하는 젊은 농부들이 기록적 폭염과 가뭄을 견디고 버밍엄의 어린이들을 위해 채소를 수확하고 있으며, 18개월 전 미경작지에서 이제 풍부한 수확을 거두게 되었다.",
+      "author": "Joanna Partridge in Powys",
+      "summary": "웨일즈의 자선단체가 토지를 제공하고 젊은 농부들이 상추, 오이, 토마토 등 수확량이 많은 농산물을 생산해 도시 아이들에게 공급했다.",
       "summarySource": "llm"
     },
     {
@@ -319,7 +361,8 @@
       "link": "https://www.mk.co.kr/news/economy/12151570",
       "publishedAt": "2026-09-13T09:17:37.000Z",
       "description": "이형일 경제부총리 겸 재정경제부 장관 후보자는 13일 금융투자소득세를 비롯한 자본이득세 도입 여부에 대해 “시장 여건이 충분히 안정된 이후 검토될 사안”이라고 밝혔다. 이 후보자는..",
-      "summary": "경제부총리 겸 재정경제부 장관 후보자 이형일이 금융투자소득세 도입은 시장 안정화 후 검토하되, 가상자산 과세 기준은 올해 안에 공표하겠다고 밝혔다.",
+      "author": "매일경제",
+      "summary": "이형일 경제부총리 후보자는 금융투자소득세 도입을 시장 안정 이후에 검토할 것이며 가상자산 과세 기준은 연내에 공표하겠다고 밝혔다.",
       "summarySource": "llm"
     },
     {
@@ -331,7 +374,8 @@
       "link": "https://www.mk.co.kr/news/economy/12151539",
       "publishedAt": "2026-09-13T08:53:31.000Z",
       "description": "정부가 올해 안에 액화천연가스(LNG) 용량시장을 다시 개설하는 것을 목표로 운영 방식을 재설계한다. 정부가 2년 만에 용량시장 개설을 추진하면서 한동안 멈췄던 LNG 발전소 건설..",
-      "summary": "정부가 전력 수급 안정을 위해 2년 만에 LNG 용량시장 개설을 재추진하기 위해 운영 방식을 재설계하고 있다.",
+      "author": "매일경제",
+      "summary": "정부가 전력 수급 안정을 위해 올해 안에 LNG 용량시장을 재개설할 목표로 운영 방식을 새로 설계하고 있다.",
       "summarySource": "llm"
     },
     {
@@ -343,7 +387,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913047700002",
       "publishedAt": "2026-09-13T08:51:53.000Z",
       "description": "(세종=연합뉴스) 이세원 이대희 안채원 송정은 기자 = 이형일 부총리 겸 재정경제부 장관 후보자는 13일 야당을 중심으로 단일종목 레버리지 상장...",
-      "summary": "경제부총리 후보자 이형일이 단일종목 레버리지 상장에 대한 국정조사 필요 여부는 국회의 판단을 존중하겠다고 밝혔다.",
+      "author": "안채원",
+      "summary": "이형일 경제부총리 후보자는 단일종목 레버리지 상장지수펀드에 대한 국정조사 필요 여부를 국회의 판단에 맡기겠다고 밝혔다.",
       "summarySource": "llm"
     },
     {
@@ -355,7 +400,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260912044451002",
       "publishedAt": "2026-09-13T08:49:35.000Z",
       "description": "(세종=연합뉴스) 이세원 안채원 기자 = 이형일 부총리 겸 재정경제부 장관 후보자는 2022년부터 이어진 주택 공급 부족이 투기 수요를 자극했다...",
-      "summary": "경제부총리 후보자 이형일이 2022년 이후의 주택 공급 부족이 투기 수요와 매수심리를 자극해왔다고 지적했다.",
+      "author": "이세원",
+      "summary": "이형일 경제부총리 후보자는 2022년 이후 주택 공급 부족이 투기 수요와 매수심리를 자극했다고 진단했다.",
       "summarySource": "llm"
     },
     {
@@ -367,7 +413,8 @@
       "link": "https://www.mk.co.kr/news/stock/12151492",
       "publishedAt": "2026-09-13T08:42:11.000Z",
       "description": "오라클의 과감한 인공지능(AI) 데이터센터 투자 소식에 AI 서버 기업인 델과 휴렛팩커드 엔터프라이즈(HPE) 주가가 하루 새 12%가량 급등했다. 13일 금융투자업계에 따르면 지..",
-      "summary": "오라클의 적극적인 AI 데이터센터 투자 소식에 AI 서버 기업인 델과 휴렛팩커드 엔터프라이즈(HPE)의 주가가 하루 새 12% 급등했다.",
+      "author": "매일경제",
+      "summary": "오라클의 AI 데이터센터 투자 발표에 AI 서버 업체인 델과 HPE의 주가가 하루 만에 12% 이상 급등했다.",
       "summarySource": "llm"
     },
     {
@@ -379,19 +426,8 @@
       "link": "https://www.mk.co.kr/news/stock/12151489",
       "publishedAt": "2026-09-13T08:42:10.000Z",
       "description": "지난 10일 저녁(현지시간) 미국 뉴욕 맨해튼 롯데팰리스호텔에서 열린 'KIS 나이트(Night)'. 한국투자증권이 2024년부터 매년 개최하는 글로벌 투자설명회(IR)다. 칼라일..",
-      "summary": "한국투자증권이 미국 뉴욕에서 개최한 글로벌 투자설명회를 통해 글로벌 금융사들의 선호 파트너가 되겠다는 비전을 제시했다.",
-      "summarySource": "llm"
-    },
-    {
-      "id": "e8bc4f1d06ea",
-      "category": "politics",
-      "source": "노컷뉴스",
-      "region": "kr",
-      "title": "최태원 \"AI, 돈 벌어 스스로 투자할 수 있어야\"",
-      "link": "https://www.nocutnews.co.kr/news/6577243",
-      "publishedAt": "2026-09-13T14:42:49.000Z",
-      "description": "최태원 SK그룹 회장이 인공지능(AI) 산업의 다음 과제로 수익성과 지속가능한 사업 모델 구축을 제시했다. 막대한 자원이 투입된 AI 산업이 실제 수익을 내지 못하면 거품이 꺼질 수 있는 만큼, AI가 스스로 이익을 내고 다시 투자하는 구조를 만들어야 한다는 것이다. 제조 AI 경쟁력을 확보하기 위해서는 국가 차원의 데이터 생태계 구축과 속도전이 필요하다고 강조했다. 최 회장은 11일 울산 울주군 울산전시컨벤션센터(UECO)에서 열린 '2026 울산포럼'에 참석해 \"전 인류가 AI에 이만큼의 에너지를 넣었으면 어떻게든 더 좋은 비즈니스 모델을 만들어 사업화가 돼 돌아가야 한다\"며 이같이 말했다. 이어 \"돈을 벌어 스스로 투자할 수 있는 구조까지 와야 한다\"고 덧붙였다. AI에 투입되는 자원에 비해 수익이 충분하지 않을 경우 버블 우려가 커질 수 있다는 진단도 내놨다. 최 회장은 \"AI에 리소스(자원)를 다 넣었는데 리턴(투자 대비 수익)이 별 것 없다고 하면 (AI 흥행이) 버블처럼 꺼진다는 걱정이 나온다\"며 \"어떤 종류의 비즈니스 모델을 만들 것인지, 또 지속가능성을 어떻게 확보해 자체적으로 구조화할지를 함께 고민해야 하는 상황\"이라고 말했다. 최 회장은 ",
-      "summary": "최태원 SK그룹 회장은 AI가 실제 수익을 내고 스스로 투자하는 구조를 만들어야 한다고 강조했으며, 투자 대비 수익이 충분하지 않을 경우 거품이 꺼질 수 있다고 경고했다.",
+      "author": "매일경제",
+      "summary": "한국투자증권이 뉴욕에서 개최한 글로벌 투자설명회에서 글로벌 금융사의 선호 파트너가 되겠다고 표명했다.",
       "summarySource": "llm"
     },
     {
@@ -403,7 +439,21 @@
       "link": "https://www.seoul.co.kr/news/newsView.php?id=20260914004002",
       "publishedAt": "2026-09-13T14:41:05.000Z",
       "description": "여성의제 없이 ‘잡은 물고기 취급’ 보완수사권 폐지, 불신의 기폭제로 용 지명, 이들에 대해 전혀 모른단 뜻 여성의 생존·안전권 가볍게 여기면 누구보다 매섭게 회초리 드는 집단 일회성 간담회·포퓰리즘으론 안 돼 주거-치안 불안·자산격차 해소해야 추운 겨울 형형색색의 응원봉을 들고 국회 앞 광장으로 뛰쳐나와 계엄 해제와 탄핵을 외쳤던 2030 여성들이 심상찮다. 여성 의제 소멸, 논란 인사, 치안·안전 우려를 키운 보완수사권 폐지 과정을 거치며 이재명 정부에 대한 이들의 기대는 실망으로 바뀌었고, 이는 지지율 하락을 부추기는 요인이 됐다. 일상의 회복을 바라는 2030 여성들은 이재명 정부가 민생 의제를 이념적으로 접근하지 말고 본연의 강점인 실용을 앞세워 주거·치안 불안을 해소해달라고 주문했다. 서울신문이 13일 이 대통령 취임 이후 2030 여성 지지율 추이(한국갤럽 월별 통합 기준, 표본오차는 95% 신뢰수준에 ±3.1%포인트, 중앙선거여론조사심의위 참조)를 분석해보니 지난해 7월 20대 여성 지지율은 61%에서 지난달 44%로 17%포인트 하락했다. 30대 여성 지지율은 같은 기간 69%에서 38%로 31%포인트 급락했다. 1년 2개월 동안 반토막이 난",
-      "summary": "이재명 정부에 대한 2030 여성 지지율이 1년 2개월 사이 급락했으며, 여성 의제 소멸과 보완수사권 폐지 등으로 인한 신뢰 하락이 원인으로 지목됐다.",
+      "author": "김헌주·반영윤·김서호 기자",
+      "summary": "이재명 정부에 대한 20·30대 여성 지지율이 작년 7월 대비 크게 하락했으며, 여성 의제 소멸과 보완수사권 폐지 등이 주된 원인으로 지적됐다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "272d6ea6bca1",
+      "category": "politics",
+      "source": "노컷뉴스",
+      "region": "kr",
+      "title": "\"요건 갖추면 노동자\"…직장인 79%, 근로자 추정제 찬성",
+      "link": "https://www.nocutnews.co.kr/news/6577231",
+      "publishedAt": "2026-09-13T13:40:45.000Z",
+      "description": "직장인 10명 중 8명이 근로자 추정제 도입에 찬성한다는 설문 결과가 나왔다. 플랫폼 노동처럼 기존 틀로 분류하기 어려운 일자리가 늘어나는 흐름과 맞물린 결과로 보인다. 직장갑질119는 여론조사 전문기관 글로벌리서치에 의뢰해 진행한 '근로자 추정제도 도입 필요성' 조사에서 응답자의 79%가 도입에 찬성했다고 13일 밝혔다. 조사는 지난 6월 1~7일 전국 만 19세 이상 직장인 1천명을 상대로 이뤄졌다. 근로자 추정제는 근로자성을 입증할 책임을 사용자 쪽에 지우는 제도다. 일정한 요건을 충족하면 일단 근로자로 추정한다. 정부와 여당은 연내 입법을 목표로 하고 있다. 찬성 응답자들은 제도를 최대한 넓게 적용해야 한다는 쪽에 쏠렸다. 이들 가운데 78.5%는 실질적인 권리 구제를 위해 노동청과 노동위원회 단계부터 근로자 추정제를 적용해야 한다고 답했다. 법원 소송 절차에만 도입하는 것이 적절하다는 응답은 21.5%에 머물렀다. 직장갑질119는 \"법원의 근로자성 판단이 2006년 대법원 판례를 기본 틀로 하고 있어 산업구조의 변화로 업무시간과 장소, 업무 수행 방식이 유연해진 현실을 충분히 반영하지 못하고 있다\"고 지적했다. 그러면서 \"노동자가 자신의 법적 지위를",
+      "author": null,
+      "summary": "직장인 10명 중 8명이 근로자성 입증 책임을 사용자에게 지우는 '근로자 추정제' 도입에 찬성했으며, 정부와 여당은 연내 입법을 목표로 하고 있다.",
       "summarySource": "llm"
     },
     {
@@ -415,7 +465,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913059900004",
       "publishedAt": "2026-09-13T13:21:54.000Z",
       "description": "(서울=연합뉴스) 정지수 기자 = 일요일 저녁 서울 한복판 길거리에서 칼부림 사건이 일어나 1명이 다쳤다.",
-      "summary": "일요일 저녁 서울 동대문구 길거리에서 발생한 칼부림 사건으로 1명이 다쳐 병원으로 이송됐다.",
+      "author": "정지수",
+      "summary": "서울 동대문구 길거리에서 일요일 저녁 칼부림 사건이 발생해 1명이 병원으로 이송됐다.",
       "summarySource": "llm"
     },
     {
@@ -427,7 +478,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913059600055",
       "publishedAt": "2026-09-13T13:06:02.000Z",
       "description": "(전주=연합뉴스) 김문경 기자 = 13일 오전 9시 43분께 전북 전주시 완산구 삼천동의 한 공터에서 쓰레기를 태우던 소각 통 주변 땔감용 목재...",
-      "summary": "전주시 공터에서 쓰레기를 소각하던 중 주변 목재에 불이 붙어 60대가 화상을 입었다.",
+      "author": "김문경",
+      "summary": "전북 전주시에서 쓰레기를 소각하던 중 주변 목재에 불이 옮겨붙어 60대가 화상을 입었다.",
       "summarySource": "llm"
     },
     {
@@ -439,7 +491,8 @@
       "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008750827",
       "publishedAt": "2026-09-13T12:55:00.000Z",
       "description": "정치부 고정현 기자와 궁금한 점들 더 짚어 보겠습니다.Q. '용혜인 사퇴' 관련 언급은?[고정현 기자 : 김민석 민주당 대표가 용혜인 의원의 후보직 사퇴 후인 오늘 오후 열린 고위 당정회의에서 한 발언이 있는데요.",
-      "summary": "김민석 민주당 대표가 용혜인 의원의 후보직 사퇴 후 열린 당정회의에서 진보 세력과의 연대에 박차를 가할 방침을 밝혔다.",
+      "author": "yd@sbs.co.kr (고정현 기자)",
+      "summary": "김민석 민주당 대표가 용혜인 의원의 후보직 사퇴 이후 진보 세력과의 연대를 강화하겠다고 밝혔다.",
       "summarySource": "llm"
     },
     {
@@ -451,7 +504,8 @@
       "link": "https://www.khan.co.kr/article/202609132108015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
       "publishedAt": "2026-09-13T12:08:01.000Z",
       "description": "접수 완료 못한 수험생 최대 1200명유웨이 시스템 30분간 장애 발생교육부, 14일부터 사흘간 피해 구제학과 경쟁률 공개돼 형평성 논란도대입 수시모집 원서접수 마감 직전 발생한 유웨이어플라이 전산장애로 원서접수를 완료하지 못한 수험생이 최대 1200여명에 이르는 것으로 추정됐다. 교육부와 한국대학교육협의회(대교협)는 전산기록을 통해 피해 사실이 확인된 수···",
-      "summary": "대입 수시모집 원서접수 마감 직전 유웨이 시스템 장애로 최대 1200여명의 수험생이 원서 제출을 못해 교육부가 피해 구제를 추진하기로 했다.",
+      "author": "김지혜 기자",
+      "summary": "대입 수시모집 원서접수 마감 직전 유웨이 시스템이 30분간 장애를 일으켜 최대 1200명의 수험생이 피해를 입었다.",
       "summarySource": "llm"
     },
     {
@@ -463,7 +517,8 @@
       "link": "https://www.khan.co.kr/article/202609132108005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
       "publishedAt": "2026-09-13T12:08:00.000Z",
       "description": "성평등 장관 후보 지명 14일 만용 “직 수행하기 어렵다고 판단”“겸직 논란 국민 정서 부합 못해”김민석 대표가 전날 사퇴 권유“송구” 용혜인 성평등가족부 장관 후보자가 13일 국회 소통관에서 장관 후보직 자진사퇴 기자회견을 하면서 고개 숙여 인사하고 있다. 연합뉴스용혜인 성평등가족부 장관 후보자가 후보직에서 13일 자진사퇴했다. 이재명 대통령이 성평등부 ···",
-      "summary": "용혜인 성평등가족부 장관 후보자가 겸직 논란과 국민 정서 문제를 이유로 지명 14일 만에 장관 후보직에서 자진사퇴했다.",
+      "author": "강한들·박하얀·김윤나영 기자",
+      "summary": "용혜인 성평등가족부 장관 후보자가 지명 14일 만에 겸직 논란 등을 이유로 후보직에서 자진사퇴했다.",
       "summarySource": "llm"
     },
     {
@@ -475,7 +530,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913051851001",
       "publishedAt": "2026-09-13T10:47:35.000Z",
       "description": "(서울=연합뉴스) 박경준 김정진 최주성 기자 = 더불어민주당과 정부는 13일 서울 삼청동 총리공관에서 고위당정협의회를 열고 이재명 대통령이 지시...",
-      "summary": "더불어민주당과 정부는 고위당정협의회에서 사법통제부를 불송치사건심사부로 개편하기로 합의했다.",
+      "author": "박경준",
+      "summary": "더불어민주당과 정부가 고위당정협의회를 열고 사법통제부를 '불송치사건심사부'로 개명하기로 결정했다.",
       "summarySource": "llm"
     },
     {
@@ -487,19 +543,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913052300001",
       "publishedAt": "2026-09-13T10:03:51.000Z",
       "description": "(서울=연합뉴스) 오규진 최주성 기자 = 더불어민주당은 13일 용혜인 성평등가족부 장관 후보자의 자진사퇴와 관련, \"기본소득당과 용 후보자도 많...",
-      "summary": "더불어민주당과 기본소득당이 용혜인 성평등가족부 장관 후보자의 자진사퇴에 대해 존중의 입장을 밝혔다.",
-      "summarySource": "llm"
-    },
-    {
-      "id": "d5713a128ec1",
-      "category": "world",
-      "source": "Al Jazeera",
-      "region": "intl",
-      "title": "More than 2,000 Yemenis flee to Djibouti amid Houthi advances",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/13/more-than-2000-yemenis-flee-to-djibouti-amid-houthi-advances?traffic_source=rss",
-      "publishedAt": "2026-09-13T14:38:46.000Z",
-      "description": "Escalating fighting along Yemen’s western coast has driven more than 2,000 Yemenis across the Red Sea to Djibouti.",
-      "summary": "예멘 서부 해안의 전투 격화로 인해 2,000명 이상의 예멘인들이 홍해를 건너 지부티로 피난을 떠났다.",
+      "author": "오규진",
+      "summary": "민주당과 기본소득당이 용혜인 성평등가족부 장관 후보자의 자진사퇴에 대해 존중의 입장을 표했다.",
       "summarySource": "llm"
     },
     {
@@ -511,7 +556,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913061600072",
       "publishedAt": "2026-09-13T14:37:53.000Z",
       "description": "(뉴욕=연합뉴스) 임수정 특파원 = 도널드 트럼프 미국 대통령이 캐나다와의 무역 갈등과 관련해 조만간 합의가 이뤄질 수 있다며 미국·멕시코·캐나...",
-      "summary": "트럼프 대통령은 캐나다와의 무역 갈등이 조만간 해결될 수 있다고 밝혔으며, USMCA 탈퇴에는 반대 입장을 보였다.",
+      "author": "임수정",
+      "summary": "트럼프 미국 대통령이 캐나다와의 무역 갈등을 조만간 해결할 수 있을 것으로 예측하면서도 USMCA 탈퇴와는 구분했다.",
       "summarySource": "llm"
     },
     {
@@ -523,7 +569,8 @@
       "link": "https://www.yna.co.kr/view/AKR20260913061200071",
       "publishedAt": "2026-09-13T14:31:13.000Z",
       "description": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령은 토요일인 12일(현지시간) 아일랜드 더블린에 도착했다.",
-      "summary": "트럼프 대통령이 아일랜드 더블린에 도착했으며, 골프대회와 G20 회의를 개인 리조트에서 개최하려는 계획으로 사익 논란이 제기되고 있다.",
+      "author": "백나리",
+      "summary": "트럼프 대통령이 자신의 리조트에서 골프대회와 G20 같은 주요 행사를 개최하려 하면서 사익 충돌 논란에 직면했다.",
       "summarySource": "llm"
     },
     {
@@ -535,7 +582,21 @@
       "link": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-13T14:25:56.000Z",
       "description": "Human rights groups in Turkey have accused the government of using a family- values campaign to target the LGBTQ+ community.",
-      "summary": "터키 경찰이 게이바와 LGBTQ+ 활동가 집에 대한 단속에서 수십 명을 구금했으며, 인권단체들은 정부의 가족가치 캠페인이 LGBTQ+ 탄압에 악용되고 있다고 비판했다.",
+      "author": null,
+      "summary": "터키 경찰이 LGBTQ+ 활동가들의 집과 게이 바를 대상으로 대규모 단속을 벌이자 인권단체들이 정부의 차별 정책이라고 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "b8577e4a4c82",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리 방식 유지\"",
+      "link": "https://www.yna.co.kr/view/AKR20260913060800071",
+      "publishedAt": "2026-09-13T14:20:29.000Z",
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 대통령은 13일(현지시간) 인공지능(AI) '속도조절론'과 관련, \"솔직히 말해 AI(...",
+      "author": "박성민",
+      "summary": "트럼프 대통령이 AI 개발 속도를 조절해야 한다는 주장에 반대하며 현재의 경쟁 방식을 유지해야 한다고 주장했다.",
       "summarySource": "llm"
     },
     {
@@ -547,19 +608,8 @@
       "link": "https://www.bbc.co.uk/news/articles/cy8zv8v1z7zo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-13T14:01:44.000Z",
       "description": "The heavyweight champion took on the likes of Muhammad Ali and Joe Frazier, and was known for never once getting knocked out or knocked down.",
-      "summary": "캐나다의 전설적 권투선수 조지 추발로가 89세에 사망했다. 그는 무하마드 알리, 조 프레이저 같은 명인들과 대전한 헤비급 챔피언으로, 한 번도 넉아웃되지 않은 것으로 알려졌다.",
-      "summarySource": "llm"
-    },
-    {
-      "id": "46bc695d8c64",
-      "category": "world",
-      "source": "Al Jazeera",
-      "region": "intl",
-      "title": "Iran-GCC summit: What’s behind the meeting, why is Bahrain not attending?",
-      "link": "https://www.aljazeera.com/news/2026/9/13/iran-gcc-summit-whats-behind-the-meeting-why-is-bahrain-not-attending?traffic_source=rss",
-      "publishedAt": "2026-09-13T13:59:27.000Z",
-      "description": "Iran says it plans to hold talks with Iraq and Gulf nations in Oman to help strengthen shared regional security.",
-      "summary": "이란이 오만에서 이라크 및 걸프 국가들과 회담을 개최해 지역 안보를 강화할 계획이며, 바레인은 참석하지 않는 것으로 알려졌다.",
+      "author": null,
+      "summary": "캐나다 전설의 권투 선수 조지 추발로가 89세로 별세했으며, 무하마드 알리 등 명선수들과 싸웠지만 한 번도 KO되지 않은 것으로 유명했다.",
       "summarySource": "llm"
     },
     {
@@ -571,7 +621,8 @@
       "link": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
       "publishedAt": "2026-09-13T12:18:49.000Z",
       "description": "Search and rescue agency says 107 people brought to safety from vessel hit by bad weather in Java Sea Rescue workers in Indonesia said at least six people had died and 130 others were missing on Sunday after a ferry sailing between the islands of Java and Borneo capsized in bad weather. Basarnas, Indonesia’s national search and rescue agency, said 107 people had been rescued from the Virgo ⁠Transport 8 vessel, which set sail on Saturday with 243 ​people onboard, including 30 crew members, ​from ‌the East Java ‌city of Surabaya. Continue reading...",
-      "summary": "자바해의 악천후로 인해 자바와 보르네오 사이를 운항하던 여객선이 침몰했고, 최소 6명이 사망하고 130명이 실종되었으며 107명이 구조되었다.",
+      "author": "Jon Henley and agencies",
+      "summary": "인도네시아 자바해에서 243명을 태운 페리가 악천후로 침몰하면서 최소 6명이 사망하고 130명이 실종되었으며, 107명만 구조되었다.",
       "summarySource": "llm"
     },
     {
@@ -583,7 +634,21 @@
       "link": "https://www.theguardian.com/world/2026/sep/13/spain-james-fergie-chambers-extradition-request",
       "publishedAt": "2026-09-13T12:00:03.000Z",
       "description": "Key government meeting this month will consider US bid to try James ‘Fergie’ Chambers over alleged support for Hamas Attorneys for James “Fergie” Chambers, the US citizen and wealthy donor to leftwing and humanitarian projects worldwide who is currently imprisoned in Madrid and sought in extradition, have submitted a brief ahead of a decisive government meeting on the case. Meanwhile, Chambers’ partner, the actor and activist Stella Schnabel, met last week with multiple members of the Spanish parliament to assert his innocence. Continue reading...",
-      "summary": "미국 시민 제임스 챔버스가 해마스 지원 혐의로 미국의 신병인도 요청을 받고 있으며, 스페인이 이를 거부하기 위한 압력이 높아지고 있다.",
+      "author": "Timothy Pratt",
+      "summary": "미국의 좌파 기부자 제임스 체임버스가 마드리드에서 신병인도 청구에 직면하자 스페인 정부 내에서 이를 거부해야 한다는 압력이 커지고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "d1c6aa17687a",
+      "category": "world",
+      "source": "BBC World",
+      "region": "intl",
+      "title": "Iran war reshapes Brics ties but also exposes divisions",
+      "link": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-13T11:23:42.000Z",
+      "description": "Brics members agree they need a new global order but it's harder to answer what should replace it and how to get there.",
+      "author": null,
+      "summary": "이란 전쟁이 BRICS 국가들의 관계를 재편하고 있으나 새로운 국제질서의 형태와 구현 방식을 두고 회원국들 간 의견이 갈리고 있다.",
       "summarySource": "llm"
     },
     {
@@ -595,13 +660,131 @@
       "link": "https://www.npr.org/2026/09/13/g-s1-143114/about-130-missing-after-indonesian-passenger-ship-overturns",
       "publishedAt": "2026-09-13T10:31:10.000Z",
       "description": "Indonesian rescuers said about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday.",
-      "summary": "자바해의 악천후로 240명 이상을 태운 인도네시아 여객선이 침몰했으며, 약 130명의 승객과 승무원이 실종되었다.",
+      "author": "The Associated Press",
+      "summary": "인도네시아 자바해에서 240명 이상을 탄 여객선이 악천후로 전복되면서 최소 129명이 실종된 수색 구조 작업이 벌어지고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "8b377446acc1",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "Let the U.S. Open Fly Its Freak Flag",
+      "link": "https://www.nytimes.com/2026/09/13/opinion/us-open-tennis-influencers.html",
+      "publishedAt": "2026-09-13T14:17:57.000Z",
+      "description": "Many are complaining about influencers invading Flushing Meadows. But their biggest crime is distracting from the glorious chaos that typifies this tournament.",
+      "author": "Nekesa Mumbi Moody",
+      "summary": "U.S. Open에 몰려든 인플루언서들을 비난하는 목소리가 있지만, 실제 문제는 이 토너먼트 특유의 화려한 혼돈을 방해한다는 점이라고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "f0e17a2267b6",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "What’s Happening to TV Comedies Is Not Funny",
+      "link": "https://www.nytimes.com/2026/09/13/opinion/emmy-comedy-nominees-tv.html",
+      "publishedAt": "2026-09-13T13:03:41.000Z",
+      "description": "The demands of streaming, which is now how most viewers watch TV, are not suited to just plain old comedy.",
+      "author": "Jay Martel",
+      "summary": "스트리밍이 시청의 주요 방식이 되면서 그것이 요구하는 형식이 순수한 코미디와 양립하지 못해 TV 코미디가 쇠퇴하고 있다고 지적했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "60baba921e00",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "The ‘safe’ college majors are gone. So study something useless.",
+      "link": "https://www.washingtonpost.com/opinions/2026/09/13/college-students-try-studying-something-useless-this-fall/",
+      "publishedAt": "2026-09-13T11:30:00.000Z",
+      "description": "Who knows what will be useful by the time you graduate from college? Thank artificial intelligence.",
+      "author": "Joshua T. Katz, Solveig Lucia Gold",
+      "summary": "인공지능으로 인해 졸업까지 어떤 전공이 유용할지 예측 불가능하므로, 실용성을 무시하고 원하는 전공을 자유롭게 선택하라고 조언했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "eba1a33f2bf4",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "[미디어세상]트로이 목마와 보도 독립",
+      "link": "https://www.khan.co.kr/article/202609132004015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-13T11:04:01.000Z",
+      "description": "트로이 사람들은 그리스군이 남기고 간 목마를 아테나 신에게 바치는 봉헌물로 여겨 성안으로 끌어들였다. 목마가 승리를 가져오고 여신이 트로이를 지켜줄 것이라고 믿었기 때문이다. 그러나 밤이 되자 목마 속에서 그리스 병사들이 뛰쳐나와 성문을 열었고 성은 함락되었다. 트로이는 외부의 적이 아니라 스스로 들여놓은 적에 의해 내부에서부터 무너졌다.민영방송도 한때는 ···",
+      "author": "정연우 세명대 광고홍보학과 명예교수",
+      "summary": "트로이 목마 이야기를 인용해 외부의 적보다 내부적으로 스스로 받아들인 위협이 더 위험하다며, 민영방송의 위기 요인을 경고했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "04c3de6f781b",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "[정동칼럼]세금 때문에 남이 되는 부부들",
+      "link": "https://www.khan.co.kr/article/202609132004005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-13T11:04:00.000Z",
+      "description": "얼마 전 한 선배와 대화를 나누던 중 웃지 못할 이야기를 들었다. 현재 갖고 있는 강남의 아파트가 자신의 단독명의로 되어 있는데, 아내가 이를 두고 시시때때로 원망의 말을 한다는 것이다. 그러면서 그는 담담하게 말했다. 자신이 먼저 병이 들어 죽을 것 같으면, 그때는 아내에게 이혼을 해주겠다 했다고. 거액의 상속세를 피하기 위해 재산분할 방식으로 재산의 절···",
+      "author": "김주영 법무법인 한누리 대표변호사",
+      "summary": "상속세를 피하기 위해 부부가 재산을 분리하고 따로 관리해야 하는 세제 때문에 부부 관계가 훼손되고 있다며 제도의 모순을 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "aa756ce4148e",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "[아침을 열며]‘답정너’ 공론화도 민주주의인가",
+      "link": "https://www.khan.co.kr/article/202609132002025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-13T11:02:02.000Z",
+      "description": "이재명 정부의 보건복지부는 여론에 민감하다. 복지부는 지난 6월 탈모 치료제에 대한 건강보험 적용 논의를 연기했고, 7월 근로소득 외 소득이 일정 기준 이상인 직장인의 건강보험료를 사실상 인상하려다 논의를 중단했다. 이달 초 내년도 예산안을 공개하면서는 수급 대상을 축소하는 내용의 기초연금 제도 개편을 보류했다. 정책 방향에 반발하는 기류가 감지되자 추진을···",
+      "author": "최희진 정책사회부장",
+      "summary": "결론이 미리 정해진 공론화 과정이 민주주의라 할 수 있는지 의문을 제기하며, 정부의 일관성 없는 정책 변경을 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "8d6a7a656b57",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "A hike through the woods feels natural. It’s anything but.",
+      "link": "https://www.washingtonpost.com/opinions/2026/09/13/like-hiking-thank-industrialization/",
+      "publishedAt": "2026-09-13T11:00:00.000Z",
+      "description": "The industrial revolution provided the impetus, the income and the time to do it.",
+      "author": "Dominic Pino",
+      "summary": "숲 속 하이킹이 자연스러운 활동처럼 보이지만, 산업혁명이 제공한 경제 여유와 여가시간이 있어야 가능하다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "a8c713fe9bff",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "Warning: our democracy won’t survive the death of reading. Read on if you still can | John Harris",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/13/democracy-survive-death-reading-fascists-uk-ports",
+      "publishedAt": "2026-09-13T09:00:05.000Z",
+      "description": "While fascists protest in UK ports and purvey nonsense and poison online, ever fewer people have the perspective or analytical tools to challenge them Imagine this. Quite by chance, your TikTok feed presents you with footage of the fascists who recently took part in highly organised shows of strength in Dover and Portsmouth (and, on Wednesday, outside the London offices of the Daily Mail, demanding a new house for the mother of their leader, Daniel “Tommo” Thomas). For as long as the images hold your attention, you see and hear flashes of explanation, but then, as usual, you scroll away to som",
+      "author": "John Harris",
+      "summary": "파시스트 선동이 온라인에서 확산할 때 사람들의 독서력과 분석 능력 부족으로 대항할 수 없으며, 읽기 문화의 붕괴가 민주주의를 위협한다고 경고했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "bc0d6ad7f5b5",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "Think of the parable of a frog in boiling water. That’s us dithering as the ‘unprecedented‘ weather becomes more extreme | Helen Pilcher",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/13/extreme-weather-unprecedented-feel-normal",
+      "publishedAt": "2026-09-13T07:00:01.000Z",
+      "description": "The complacency is staggering: just another hot summer, a flooded street, a crop failure. We are accepting this extraordinary deterioration as normal Recently, I overheard a conversation in a cafe where someone described their toast as “awesome”. I felt myself bristle. Not because the toast wasn’t good – I didn’t taste it – but because I remember a time when “awesome” meant something that inspired awe: towering mountains, the vastness of the night sky, the haunting song of a humpback whale. Now it’s being used to describe breakfast. “Fantastic” has met the same fate, shedding its fantastical o",
+      "author": "Helen Pilcher",
+      "summary": "\"awesome\" 같은 단어의 의미 퇴색처럼 기후재앙도 점차 평상사로 수용되고 있으며, 이런 무감각함이 위험하다고 비판했다.",
       "summarySource": "llm"
     }
   ],
-  "summarizedAt": "2026-09-13T18:15:29.150Z",
+  "summarizedAt": "2026-09-13T22:31:26.556Z",
   "summaryStats": {
-    "llm": 36,
+    "llm": 45,
     "fallback": 0,
     "model": "claude-haiku-4-5"
   }

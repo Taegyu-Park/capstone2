@@ -69,7 +69,10 @@ jobs:
           if git diff --staged --quiet; then
             echo '변경된 데이터가 없습니다.'
           else
-            git commit -m "다이제스트 $(date -u -d '+9 hours' +%Y-%m-%d) 추가"
+            # 실행 시각이 아니라 실제로 바뀐 data/*.json 파일명에서 날짜를 가져옵니다.
+            # 수동 재실행처럼 실행 시각과 대상 날짜가 어긋나는 경우에도 커밋 메시지가 맞도록.
+            CHANGED_DATE=$(git diff --staged --name-only -- 'data/*.json' | sed -E 's#data/([0-9-]+)\.json#\1#' | sort -u | tail -1)
+            git commit -m "다이제스트 ${CHANGED_DATE} 갱신"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi

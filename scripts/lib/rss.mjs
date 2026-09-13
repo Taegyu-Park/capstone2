@@ -79,6 +79,8 @@ export async function fetchFeed(feed, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
         region: feed.region,
         publishedAt: publishedAt.toISOString(),
         description: stripHtml(raw.contentSnippet || raw.summary || raw.content || '').slice(0, 600),
+        // 사설·칼럼은 필자가 논조를 이해하는 데 중요한 정보라 따로 보존합니다(dc:creator).
+        author: stripHtml(raw.creator || '').slice(0, 80) || null,
       });
     }
     return { feed, ok: true, items, ms: Date.now() - startedAt };

@@ -183,6 +183,20 @@ body {
   font-size: 0.9375rem;
 }
 
+/* 사설·칼럼: 사실 보도가 아니라 주장이라는 걸 시각적으로도 구분합니다 */
+.panel[data-cat="editorial"] .card {
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
+}
+.byline {
+  display: block;
+  margin-top: 6px;
+  color: var(--accent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.byline::before { content: "필자 · "; font-weight: 400; opacity: 0.75; }
+
 .empty {
   padding: 32px 0;
   color: var(--muted);

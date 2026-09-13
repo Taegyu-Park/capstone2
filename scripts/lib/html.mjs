@@ -27,8 +27,11 @@ function formatDateLabel(dateStr) {
   return `${dateStr.slice(0, 4)}년 ${Number(dateStr.slice(5, 7))}월 ${Number(dateStr.slice(8, 10))}일 (${days[d.getUTCDay()]})`;
 }
 
-function renderCard(item) {
+function renderCard(item, { showAuthor = false } = {}) {
   const region = item.region === 'intl' ? '<span class="tag intl">해외</span>' : '';
+  // 필자 표기는 사설·칼럼에서만 의미가 있습니다. 일반 뉴스의 취재기자 바이라인까지
+  // 강조하면 모든 카드가 "의견"처럼 보여 사설 카테고리의 시각적 구분이 무너집니다.
+  const author = showAuthor && item.author ? `<span class="byline">${esc(item.author)}</span>` : '';
   return `
           <article class="card">
             <div class="meta">
@@ -36,7 +39,7 @@ function renderCard(item) {
               <time datetime="${esc(item.publishedAt)}">${esc(toKstTime(item.publishedAt))}</time>
             </div>
             <h3><a href="${esc(safeHref(item.link))}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h3>
-            <p>${esc(item.summary || item.description || '')}</p>
+            <p>${esc(item.summary || item.description || '')}</p>${author}
           </article>`;
 }
 
@@ -56,7 +59,7 @@ export function renderDigestPage(payload, { prev, next, basePath = '' }) {
     .map((c, i) => {
       const list = items.filter((x) => x.category === c.id);
       const cards = list.length
-        ? list.map(renderCard).join('\n')
+        ? list.map((item) => renderCard(item, { showAuthor: !!c.opinion })).join('\n')
         : '\n          <p class="empty">이 분야에서 수집된 기사가 없습니다.</p>';
       return `        <section class="panel${i === 0 ? ' active' : ''}" data-cat="${esc(c.id)}">
           <h2 class="sr-only">${esc(c.label)}</h2>${cards}

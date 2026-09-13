@@ -19,35 +19,56 @@ const SYSTEM_PROMPT = [
 ].join(' ');
 
 /** 문장 경계에서 잘라 폴백 요약을 만듭니다. */
-function fallbackSummary(item) {
+function fallbackSummary(item, { minChars, maxChars }) {
   const text = item.description.replace(/\s+/g, ' ').trim();
-  if (text.length <= opts.maxChars) return text;
-  const cut = text.slice(0, opts.maxChars);
+  if (text.length <= maxChars) return text;
+  const cut = text.slice(0, maxChars);
   const boundary = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('다. '), cut.lastIndexOf('? '), cut.lastIndexOf('! '));
-  return (boundary > opts.minChars ? cut.slice(0, boundary + 1) : cut.trimEnd() + '…').trim();
+  return (boundary > minChars ? cut.slice(0, boundary + 1) : cut.trimEnd() + '…').trim();
 }
 
-function buildPrompt(categoryLabel, items) {
+/**
+ * 사설·칼럼(opinion) 카테고리는 일반 뉴스와 다른 지시가 필요합니다.
+ * 사실을 전달하는 게 아니라 특정 입장을 주장하는 글이므로, 논지와 논조를
+ * 살려 쓰라고 명시하지 않으면 다른 카테고리처럼 밋밋한 사실 나열이 되어버립니다.
+ */
+function buildPrompt(cat, items, { minChars, maxChars }) {
   const articles = items
     .map((i, n) => [
       `### ${n + 1}`,
       `id: ${i.id}`,
       `매체: ${i.source}`,
+      ...(i.author ? [`필자: ${i.author}`] : []),
       `제목: ${i.title}`,
       `원문요약: ${i.description || '(없음)'}`,
     ].join('\n'))
     .join('\n\n');
 
+  const rules = cat.opinion
+    ? [
+        '- 이 글들은 사실을 보도하는 기사가 아니라 특정 입장을 주장하는 사설·칼럼입니다.',
+        '- 글쓴이(또는 매체)가 무엇을 주장하는지, 그 근거가 무엇인지 요약하세요. 제목을 되풀이하지 마세요.',
+        '- "~라고 주장했다", "~을 촉구했다", "~라고 비판했다", "~라며 우려했다"처럼 이것이 의견임을 드러내는 표현으로 쓰세요.',
+        '- 원문이 영어면 한국어로 요약하세요. 고유명사는 원어를 병기해도 됩니다.',
+        `- 공백 포함 ${minChars}~${maxChars}자로 쓰세요.`,
+        '- 주어진 정보에 없는 사실을 추측해 덧붙이지 마세요. 정보가 부족하면 있는 내용만 쓰세요.',
+        '- 기자 이름, 이메일, 구독 안내, 광고 문구는 버리세요.',
+      ]
+    : [
+        '- 제목을 그대로 되풀이하지 말고, 기사가 전하는 핵심 사실을 문장으로 풀어 쓰세요.',
+        '- 원문이 영어면 한국어로 요약하세요. 고유명사는 원어를 병기해도 됩니다.',
+        `- 공백 포함 ${minChars}~${maxChars}자로 쓰세요.`,
+        '- 주어진 정보에 없는 사실을 추측해 덧붙이지 마세요. 정보가 부족하면 있는 내용만 쓰세요.',
+        '- 기자 이름, 이메일, 구독 안내, 광고 문구, 사진 설명은 버리세요.',
+        '- 문어체 평서문("~했다")으로 끝맺으세요.',
+      ];
+
+  const topic = cat.opinion ? '사설·칼럼' : '뉴스';
   return [
-    `아래는 '${categoryLabel}' 분야의 어제 뉴스 ${items.length}건입니다. 각 기사를 한국어 1~2문장으로 요약하세요.`,
+    `아래는 '${cat.label}' 분야의 어제 ${topic} ${items.length}건입니다. 각 글을 한국어 1~2문장으로 요약하세요.`,
     '',
     '규칙:',
-    '- 제목을 그대로 되풀이하지 말고, 기사가 전하는 핵심 사실을 문장으로 풀어 쓰세요.',
-    '- 원문이 영어면 한국어로 요약하세요. 고유명사는 원어를 병기해도 됩니다.',
-    `- 공백 포함 ${opts.minChars}~${opts.maxChars}자로 쓰세요.`,
-    '- 주어진 정보에 없는 사실을 추측해 덧붙이지 마세요. 정보가 부족하면 있는 내용만 쓰세요.',
-    '- 기자 이름, 이메일, 구독 안내, 광고 문구, 사진 설명은 버리세요.',
-    '- 문어체 평서문("~했다")으로 끝맺으세요.',
+    ...rules,
     '',
     '출력은 아래 형태의 JSON 배열 하나만. 코드펜스나 설명 없이 배열만 출력하세요.',
     '[{"id": "기사의 id", "summary": "요약문"}]',
@@ -59,14 +80,14 @@ function buildPrompt(categoryLabel, items) {
 }
 
 /** 모델 응답을 id→요약 맵으로 정리합니다. 형식이 어긋난 항목은 버립니다. */
-function collectSummaries(rawList, validIds) {
+function collectSummaries(rawList, validIds, { minChars, maxChars }) {
   const map = new Map();
   for (const entry of rawList) {
     if (!entry || typeof entry !== 'object') continue;
     const id = String(entry.id ?? '').trim();
     const summary = String(entry.summary ?? '').replace(/\s+/g, ' ').trim();
-    if (!validIds.has(id) || summary.length < opts.minChars) continue;
-    map.set(id, summary.length > opts.maxChars * 1.5 ? summary.slice(0, opts.maxChars) + '…' : summary);
+    if (!validIds.has(id) || summary.length < minChars) continue;
+    map.set(id, summary.length > maxChars * 1.5 ? summary.slice(0, maxChars) + '…' : summary);
   }
   return map;
 }
@@ -78,6 +99,7 @@ for (const cat of payload.categories) {
   const items = payload.items.filter((i) => i.category === cat.id);
   if (items.length === 0) continue;
 
+  const bounds = { minChars: cat.summaryMinChars || opts.minChars, maxChars: cat.summaryMaxChars || opts.maxChars };
   const validIds = new Set(items.map((i) => i.id));
   let summaries = new Map();
 
@@ -85,12 +107,12 @@ for (const cat of payload.categories) {
     const pending = items.filter((i) => !summaries.has(i.id));
     if (pending.length === 0) break;
     try {
-      const { text } = await runClaude(buildPrompt(cat.label, pending), {
+      const { text } = await runClaude(buildPrompt(cat, pending, bounds), {
         model: opts.model,
         systemPrompt: SYSTEM_PROMPT,
         timeoutMs: opts.timeoutMs,
       });
-      const got = collectSummaries(extractJsonArray(text), validIds);
+      const got = collectSummaries(extractJsonArray(text), validIds, bounds);
       for (const [id, s] of got) summaries.set(id, s);
       console.log(`[summarize] ${cat.id} 시도 ${attempt + 1}: ${pending.length}건 요청 → ${got.size}건 수신`);
     } catch (e) {
@@ -104,7 +126,7 @@ for (const cat of payload.categories) {
       item.summarySource = 'llm';
       llmCount++;
     } else {
-      item.summary = fallbackSummary(item);
+      item.summary = fallbackSummary(item, bounds);
       item.summarySource = 'rss';
       fallbackCount++;
     }

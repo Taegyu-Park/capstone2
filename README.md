@@ -2,14 +2,17 @@
 
 매일 아침 7시(KST), 전날 국내외 주요 뉴스의 **헤드라인과 1~2문장 요약**을 분야별로 모아 GitHub Pages에 자동 발행합니다.
 
-- **분야**: IT·과학·AI / 경제·금융 / 정치·사회 / 세계·국제
-- **분량**: 분야당 최대 9건 (하루 36건 안팎)
+- **분야**: IT·과학·AI / 경제·금융 / 정치·사회 / 세계·국제 / 사설·칼럼
+- **분량**: 분야당 최대 9건 (하루 45건 안팎)
 - **아카이브**: 날짜별 페이지를 계속 보관합니다
+
+사설·칼럼은 사실 보도가 아니라 특정 입장을 주장하는 글이라 다른 분야와 다르게 다룹니다.
+요약은 "무엇이 있었다"가 아니라 "누가 무엇을 주장했다"를 담고, 필자가 있으면 카드에 함께 표시합니다.
 
 ## 동작 방식
 
 ```
-① fetch.mjs      RSS 24개 수집 → 전날(KST) 필터 → 중복 제거 → 분야별 9건 선별
+① fetch.mjs      RSS 28개 수집 → 전날(KST) 필터 → 중복 제거 → 분야별 9건 선별
 ② summarize.mjs  Claude로 한국어 요약 생성 (실패 시 RSS 원문으로 폴백)
 ③ render.mjs     data/ 전체를 읽어 site/ 정적 사이트를 통째로 재생성
 ④ Actions        data/ 커밋 후 GitHub Pages 배포
@@ -64,11 +67,20 @@ gh secret set CLAUDE_CODE_OAUTH_TOKEN       # 붙여넣기
 | 키 | 설명 |
 |---|---|
 | `categories` | 분야 목록과 화면에 표시할 이름 |
+| `categories[].opinion` | `true`면 사설·칼럼 취급: 요약 프롬프트가 논조 중심으로 바뀌고, `exclude.bracketTags`(`[사설]` 등) 검사를 건너뜁니다 |
+| `categories[].summaryMaxChars` | 그 분야만 쓸 요약 길이 상한(생략 시 `summarize.maxChars`) |
 | `feeds` | RSS 목록. `category`로 분야가 고정 결정됩니다 |
 | `limits.perCategory` | 분야당 최대 기사 수 |
 | `limits.titleSimilarityThreshold` | 제목 유사도 중복 판정 기준 (0~1) |
 | `exclude` | 부고·인사 등 공지성 기사 제외 규칙 |
 | `summarize.model` | 요약 모델. 품질이 아쉬우면 `claude-sonnet-5`로 올리세요 |
+
+### 사설·칼럼(opinion) 카테고리를 다른 분야에도 적용하려면
+
+`categories`에 `"opinion": true`만 추가하면 됩니다. 그러면 그 카테고리는:
+- `[사설]`, `[칼럼]`, `[기고]` 같은 대괄호 태그가 있어도 걸러지지 않고
+- 요약이 "~라고 주장했다" 식으로 논조를 살려 쓰이며
+- RSS의 `dc:creator`(필자)가 있으면 카드에 표시됩니다
 
 ### 피드 추가·교체
 
@@ -89,3 +101,5 @@ gh secret set CLAUDE_CODE_OAUTH_TOKEN       # 붙여넣기
 - **요약은 RSS `description`만 보고 만듭니다.** 본문은 크롤링하지 않습니다(저작권·robots).
   원문 설명이 부실한 매체는 요약도 얕아집니다.
 - **발행 시각은 7시 정각이 아닙니다.** GitHub cron은 혼잡 시 5~15분 지연됩니다.
+- **사설·칼럼은 매체별 발행량 편차가 큽니다.** 경향신문은 하루 10건 이상이지만 Guardian Opinion·
+  Washington Post는 하루 3~5건 수준이라, 분야당 9건이 채워지지 않는 날도 있습니다.
