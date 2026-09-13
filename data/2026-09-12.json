@@ -1,0 +1,791 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-13T23:09:41.801Z",
+  "categories": [
+    {
+      "id": "it",
+      "label": "IT·과학·AI"
+    },
+    {
+      "id": "economy",
+      "label": "경제·금융"
+    },
+    {
+      "id": "politics",
+      "label": "정치·사회"
+    },
+    {
+      "id": "world",
+      "label": "세계·국제"
+    },
+    {
+      "id": "editorial",
+      "label": "사설·칼럼",
+      "opinion": true,
+      "summaryMaxChars": 220
+    }
+  ],
+  "feedStatus": [
+    {
+      "source": "Ars Technica",
+      "category": "it",
+      "ok": true,
+      "matched": 9
+    },
+    {
+      "source": "Hacker News",
+      "category": "it",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "TechCrunch",
+      "category": "it",
+      "ok": true,
+      "matched": 9
+    },
+    {
+      "source": "The Verge",
+      "category": "it",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "블로터",
+      "category": "it",
+      "ok": true,
+      "matched": 6
+    },
+    {
+      "source": "전자신문",
+      "category": "it",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "ZDNet Korea",
+      "category": "it",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "BBC Business",
+      "category": "economy",
+      "ok": true,
+      "matched": 1
+    },
+    {
+      "source": "The Guardian",
+      "category": "economy",
+      "ok": true,
+      "matched": 9
+    },
+    {
+      "source": "매일경제 경제",
+      "category": "economy",
+      "ok": true,
+      "matched": 4
+    },
+    {
+      "source": "연합뉴스",
+      "category": "economy",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "경향신문 사회",
+      "category": "politics",
+      "ok": true,
+      "matched": 11
+    },
+    {
+      "source": "경향신문 정치",
+      "category": "politics",
+      "ok": true,
+      "matched": 10
+    },
+    {
+      "source": "노컷뉴스",
+      "category": "politics",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "서울신문",
+      "category": "politics",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "연합뉴스 사회",
+      "category": "politics",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "연합뉴스 정치",
+      "category": "politics",
+      "ok": true,
+      "matched": 25
+    },
+    {
+      "source": "SBS 뉴스",
+      "category": "politics",
+      "ok": true,
+      "matched": 6
+    },
+    {
+      "source": "Al Jazeera",
+      "category": "world",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "BBC World",
+      "category": "world",
+      "ok": true,
+      "matched": 1
+    },
+    {
+      "source": "NPR",
+      "category": "world",
+      "ok": true,
+      "matched": 8
+    },
+    {
+      "source": "The Guardian",
+      "category": "world",
+      "ok": true,
+      "matched": 7
+    },
+    {
+      "source": "연합뉴스 국제",
+      "category": "world",
+      "ok": true,
+      "matched": 15
+    },
+    {
+      "source": "매일경제 증권",
+      "category": "economy",
+      "ok": true,
+      "matched": 5
+    },
+    {
+      "source": "경향신문 오피니언",
+      "category": "editorial",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "NYT Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 18
+    },
+    {
+      "source": "The Guardian Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 5
+    },
+    {
+      "source": "Washington Post Opinions",
+      "category": "editorial",
+      "ok": true,
+      "matched": 2
+    }
+  ],
+  "items": [
+    {
+      "id": "07e30d1ae0c5",
+      "category": "it",
+      "source": "TechCrunch",
+      "region": "intl",
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "publishedAt": "2026-09-12T14:40:00.000Z",
+      "description": "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators.",
+      "author": "Jagmeet Singh",
+      "summary": "핀테크 서비스 러블루트가 위조된 정부 요청을 통한 고객 데이터 유출 사건을 확인하고 영향을 받은 고객과 관계 기관에 통보했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "55f997459685",
+      "category": "it",
+      "source": "Ars Technica",
+      "region": "intl",
+      "title": "I spent $4,000 on a robot dog from China",
+      "link": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+      "publishedAt": "2026-09-12T11:00:53.000Z",
+      "description": "Unitree might be the world’s most important robotics company.",
+      "author": "Timothy B. Lee",
+      "summary": "저자가 중국 유니트리의 4,000달러 로봇개를 구입한 후, 해당 회사가 세계에서 가장 중요한 로봇공학 회사일 가능성을 제시했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "b5fb04ed2bd8",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "테슬라, 스페이스X 상장 후 주가 부진…'머스크 프리미엄' 분산되나",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673473",
+      "publishedAt": "2026-09-12T06:00:00.000Z",
+      "description": "일론 머스크가 이끄는 전기차업체 테슬라가 지난 6월 스페이스X 상장 이후 약세를 보이고 있다. 11일(현지시간) 블룸버그통신에 따르면 스페이스X의 기업공개(IPO) 이후 3개월 동안 테슬라 주가는 8.9% 하락했다. 같은 기간 스탠더드앤푸어스(S&P)500 지수는 2.7% 상승했다. 반면 스페이스X 주가는 지난 6월11일 공모가인 135달러에서 약 9.8% 높은 수준에서 거래되고 있다.테슬라는 최근 실적 발표와 신제품 출시 이후에도 부진한 주가 흐름을 보이고 있다. 특히 두 이벤트 이후 투자자들이 피지컬 인공지능(AI) 제품으로 전",
+      "author": "최경미 기자",
+      "summary": "스페이스X 상장 이후 3개월간 테슬라 주가는 8.9% 하락했으나, 스페이스X 주가는 공모가 대비 9.8% 상승한 모습을 보이고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "13baef76d352",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "[AI 대전환 리딩 전략] 쿠쿠홈시스, AI 더한 '맞춤형 가전' 승부",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673370",
+      "publishedAt": "2026-09-12T04:00:00.000Z",
+      "description": "쿠쿠홈시스가 AI(인공지능)를 활용해 주력인 렌탈가전의 경쟁력을 높인다. 정수기와 공기청정기 등 기존 생활가전에 AI를 접목해 사용자의 취향과 생활환경에 맞춰 작동하는 개인 맞춤형 제품으로 고도화하는 전략이다. 렌탈 시장의 경쟁이 제품 성능과 정기 관리에서 사용 경험으로 넓어지면서 AI를 새로운 차별화 수단으로 활용하고 있다. 관리 넘어 사용경험 경쟁…개인화로 차별화12일 업계에 따르면 쿠쿠홈시스는 최근 독일 베를린에서 열린 유럽 최대 가전·IT 전시회 'IFA 2026'에서 'AI 바리스타 정수기'를 공개했다. 정보통신산업진흥원(",
+      "author": "이가영 기자",
+      "summary": "쿠쿠홈시스는 정수기와 공기청정기 등 렌탈가전에 AI를 접목해 사용자 맞춤형 제품으로 발전시키고 있으며, IFA 2026에서 'AI 바리스타 정수기'를 선보였다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "dda90d0a3a40",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "美 8월 물가, 유가·휘발유 상승에 압박…소비심리 급락",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673472",
+      "publishedAt": "2026-09-12T02:00:00.000Z",
+      "description": "중동전쟁, 관세와 데이터센터 건설 확대에 따른 물가 상승세가 이어지는 가운데 8월에도 상품과 서비스 가격이 올라 인플레이션 압력이 지속된 것으로 확인됐다. 이에 미국 연방준비제도(Fed·연준)의 9월 기준금리 인상에 대한 시장의 전망이 더욱 강화됐다. 11일(현지시간) 미 노동부 노동통계국(BLS)은 소비자물가지수(CPI)가 8월 계절조정 기준 전월 대비 0.4% 상승했으며 전년 동월 대비 상승률은 3.4%를 기록했다고 발표했다. 두 수치 모두 다우존스가 집계한 시장 전망과 일치했다.그러나 변동성이 큰 식품과 에너지 가격을 제외한",
+      "author": "최경미 기자",
+      "summary": "미국 8월 소비자물가지수가 전월 대비 0.4%, 전년 동월 대비 3.4% 상승했으며, 이는 연방준비제도의 9월 기준금리 인상 가능성을 높였다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "4fb7c0b8bdda",
+      "category": "it",
+      "source": "Ars Technica",
+      "region": "intl",
+      "title": "Some satellite companies still have an appetite for boutique launch services",
+      "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "publishedAt": "2026-09-11T23:34:45.000Z",
+      "description": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
+      "author": "Stephen Clark",
+      "summary": "일부 위성 회사들은 대부분의 임무 수행에 전용 발사 서비스가 필수적이라고 평가하고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "fad5f970d050",
+      "category": "it",
+      "source": "TechCrunch",
+      "region": "intl",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "publishedAt": "2026-09-11T22:58:17.000Z",
+      "description": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "author": "Marina Temkin",
+      "summary": "로봇 훈련 데이터 확보 경쟁 속에서 스타트업 메카 AI가 시쿠이아 리딩 라운드를 통해 5억 달러에 근접한 밸류에이션을 받았다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "d7b2f7525c3f",
+      "category": "it",
+      "source": "Ars Technica",
+      "region": "intl",
+      "title": "Random rewards enrich classic game-theory insights",
+      "link": "https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/",
+      "publishedAt": "2026-09-11T21:41:16.000Z",
+      "description": "Simple games gain rich strategies in the face of noise.",
+      "author": "Chris Lee",
+      "summary": "게임 이론 연구에서 무작위 보상이 추가될 때 단순한 게임들도 풍부하고 복잡한 전략을 개발하게 되는 것으로 나타났다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "ccfd05f69c6f",
+      "category": "it",
+      "source": "TechCrunch",
+      "region": "intl",
+      "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+      "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
+      "publishedAt": "2026-09-11T21:19:05.000Z",
+      "description": "\"It's actually allegedly being built out now,\" said Rabois, who has clearly dealt with a missed construction timeline or two.",
+      "author": "Connie Loizos",
+      "summary": "코슬라 벤처스가 샌드힐로드 밖의 첫 사무실로 뉴욕에 지사를 개설할 예정이며, 현재 건설이 진행 중이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "48b1a5d2fd8b",
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "Deepfakes are wrecking influencers’ credibility, one fake ad at a time",
+      "link": "https://www.theguardian.com/technology/2026/sep/12/deepfakes-wrecking-influencers-credibility",
+      "publishedAt": "2026-09-12T12:00:34.000Z",
+      "description": "Influencers aren’t just battling competitors for brand deals. They’re now battling AI versions of themselves Earlier this year, Emily Schuman, the creator of the lifestyle blog Cupcakes and Cashmere, saw a photo of herself she didn’t recognize on Instagram. In a sponsored ad, Schuman, who has more than 500,000 Instagram followers, is holding up a vial of GLP-1 drugs, advertising the telehealth company Gala. There was just one problem: Schuman had never heard of Gala and had nothing to do with the ad. The ad was based on a digitally altered version of a selfie Schuman had taken in her car and p",
+      "author": "Arielle Pardes",
+      "summary": "유명 인플루언서들이 자신도 모르게 AI로 생성된 가짜 광고에 등장하고 있으며, 이로 인해 신뢰도 피해를 입고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "aa607be0d7dd",
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "We know how to prevent black lung, so why are workers still dying?",
+      "link": "https://www.theguardian.com/us-news/2026/sep/12/black-lung-worker-deaths",
+      "publishedAt": "2026-09-12T11:00:34.000Z",
+      "description": "Silicosis sufferers are getting younger as Trump and the coal mining industry push back on protections Silicosis is one of the oldest workplace hazards and public health experts have known for decades how to prevent it. Yet a new wave of workers, from Appalachian coalminers to Latino countertop fabrication workers, are developing and dying from the disease as industry fights new protections and regulators fail to defend the rules that could protect them. John Robinson’s grandfather developed black lung back when coalminers could spend decades in the mines before being diagnosed with the diseas",
+      "author": "Sara Sneath",
+      "summary": "규폐증은 예방 방법이 알려져 있음에도 광부 등 노동자들 사이에서 발병과 사망이 계속 증가하고 있으며, 이는 산업계 저항과 규제 기관의 해이 때문이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "89710a706614",
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "London Underground workers exposed to asbestos without protective masks, documents reveal",
+      "link": "https://www.theguardian.com/environment/2026/sep/12/london-underground-workers-exposed-to-asbestos-without-protective-masks-documents-reveal",
+      "publishedAt": "2026-09-12T10:00:32.000Z",
+      "description": "Hundreds of staff may have worked without legally required face-fitted masks over 20 years Hundreds of London Underground workers could have been exposed to asbestos for almost 20 years without protection required under safety regulations, according to documents seen by the Guardian. Under 2002 rules on controlling asbestos and other hazardous materials, employers are required to take a series of precautions, including ensuring exposed workers are given individually fitted face masks to prevent inhalation of toxic dust. Continue reading...",
+      "author": "Matthew Weaver",
+      "summary": "런던 지하철의 수백 명의 노동자들이 거의 20년간 법정 요구 안전 조치 없이 석면에 노출되었을 가능성이 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "13146d6ffa74",
+      "category": "economy",
+      "source": "매일경제 경제",
+      "region": "kr",
+      "title": "“우리 아이들 최대 고민, 공부가 아니었다”…대인관계·가족갈등이 52%",
+      "link": "https://www.mk.co.kr/news/economy/12151108",
+      "publishedAt": "2026-09-12T09:10:40.000Z",
+      "description": "다들어줄개 상담 분석 지난해 상담 4만837건 고립·관계단절 예방 강화청소년 고민 가운데 가장 큰 비중을 차지하는 것은 ‘대인관계’인 것으로 나타났다. 가족갈등까지 합치면 절반을 ..",
+      "author": "매일경제",
+      "summary": "청소년들의 주요 고민은 공부가 아니라 대인관계와 가족갈등이며, 이 둘을 합치면 상담 건수의 절반 이상을 차지하는 것으로 나타났다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "d933751a754f",
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "title": "“구형 반도체라고 무시했는데, 주문 2배 폭주”…한달새 21% 뛴 DB하이텍 [이주의 Bull기둥]",
+      "link": "https://www.mk.co.kr/news/stock/12151057",
+      "publishedAt": "2026-09-12T05:40:51.000Z",
+      "description": "中 AI데이터센터·로봇 반도체 수요 구형 반도체도 품귀, 연내 값 올릴듯 9월 주가 20%대↑...목표가 21만원DB하이텍이 중국 인공지능(AI) 데이터센터와 로봇 시장의 성장에..",
+      "author": "매일경제",
+      "summary": "중국의 AI 데이터센터와 로봇 산업 성장에 따라 구형 반도체 수요가 급증하면서 DB하이텍 주가가 한 달간 21% 상승했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "de3727f3f0c8",
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "title": "안전벨트 매고 레버리지로 가속페달…‘양면 베팅’으로 갈아탄 서학개미들",
+      "link": "https://www.mk.co.kr/news/stock/12151044",
+      "publishedAt": "2026-09-12T03:56:06.000Z",
+      "description": "SGOV에 열흘 새 1746억원 몰려 엔비디아 제치고 해외주식 1위 SOXL·QLD엔 반등 베팅 지속미국 증시 변동성이 커지자 서학개미들의 투자 전략에도 변화가 나타나고 있다. 안..",
+      "author": "매일경제",
+      "summary": "미국 증시 변동성이 커지면서 개인 투자자들이 고배당 국채 펀드에 1746억원을 쏟아붓고 해외주식 투자 방향을 전환하고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "c0f52a717c57",
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "title": "코리아에셋투자증권, 아동복지시설에 ‘희망의 계단’ 선물",
+      "link": "https://www.mk.co.kr/news/stock/12151042",
+      "publishedAt": "2026-09-12T03:52:48.000Z",
+      "description": "자매결연 ‘이삭의 집’서 벽화 나눔활동 임직원·아동복지시설 아동 공동 작업 2017년부터 이어온 ESG 경영 이어가코리아에셋투자증권(회장 기동호)이 12일 자매결연을 맺은 아동복지..",
+      "author": "매일경제",
+      "summary": "코리아에셋투자증권이 자매결연 아동복지시설에 희망의 계단 벽화를 기부하며 2017년부터 진행해온 ESG 경영을 지속하고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "dcf83147a103",
+      "category": "economy",
+      "source": "매일경제 경제",
+      "region": "kr",
+      "title": "주유소 휘발유값 17주 연속 하락…서울만 1900원대",
+      "link": "https://www.mk.co.kr/news/economy/12151024",
+      "publishedAt": "2026-09-12T01:38:48.000Z",
+      "description": "국제유가가 큰 폭으로 올랐지만 정부의 석유제품 최고가격제 영향으로 국내 주유소 휘발유와 경유 가격은 17주 연속 하락했다. 12일 한국석유공사 유가정보시스템 오피넷에 따르면 9월 ..",
+      "author": "매일경제",
+      "summary": "국제유가는 크게 올랐지만 정부의 석유제품 최고가격제 덕분에 국내 휘발유값이 17주 연속 하락했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "f1be04831c0b",
+      "category": "economy",
+      "source": "BBC Business",
+      "region": "intl",
+      "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+      "link": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-11T15:37:25.000Z",
+      "description": "O'Leary has said airline passengers \"can't afford to fly with the high-fare rapists around Europe\".",
+      "author": null,
+      "summary": "Ryanair CEO O'Leary는 유럽의 고가 항공사들을 비난하며 승객들이 그들의 높은 요금으로는 비행할 수 없다고 지적했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "9b4a85dbfa88",
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "title": "김민석 \"지분나누기 없다\"…혁신당 \"우당을 가상의 적으로 규정\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260912035351001",
+      "publishedAt": "2026-09-12T12:59:29.000Z",
+      "description": "(서울=연합뉴스) 최평천 기자 = 더불어민주당 김민석 대표는 12일 \"우리 당은 진보 정당과 개인, 중도적 개인, 보수적이면서 합리적이고 유능한...",
+      "author": "최평천",
+      "summary": "김민석 민주당 대표가 당의 포용성을 강조하며 지분나누기가 없다고 밝혔고, 혁신당은 민주당을 가상의 적으로 규정했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "4c6ca892a477",
+      "category": "politics",
+      "source": "SBS 뉴스",
+      "region": "kr",
+      "title": "'공소취소' 묻자 \"철저히 지휘·감독\"…야권서 \"행동대장\"",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749956",
+      "publishedAt": "2026-09-12T12:33:00.000Z",
+      "description": "\"검찰이 중립성을 지키며 업무를 수행하도록 지휘하겠다.\" 김승원 법무장관 후보자가 이재명 대통령 관련 사건의 공소 취소 검토를 지시할 거냐는 질문에 내놓은 답변입니다.",
+      "author": "cbcb@sbs.co.kr (박찬범)",
+      "summary": "김승원 법무장관 후보자는 이재명 대통령 관련 공소취소 검토에 대해 검찰 중립성 유지를 지휘하겠다고 답변했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "36bbc401a520",
+      "category": "politics",
+      "source": "SBS 뉴스",
+      "region": "kr",
+      "title": "민주당 \"마냥 좌시할 순 없어\"…용혜인 정리 수순 나서나",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749955",
+      "publishedAt": "2026-09-12T12:33:00.000Z",
+      "description": "용혜인 성평등가족부 장관 후보자를 둘러싼 여론이 계속해서 나빠지자 민주당이 \"마냥 좌시할 수는 없다\"면서 지도부가 입장을 낼 수 있다고 밝혔습니다.",
+      "author": "ha@sbs.co.kr (하정연)",
+      "summary": "용혜인 성평등가족부 장관 후보자의 부정적 여론이 확산되자 민주당이 지도부 차원의 입장 표명 가능성을 시사했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "fcf8039e9d0e",
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "title": "박지원 \"순천대 의대 무효\", 민형배 \"법원 판단 존중\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260912023151054",
+      "publishedAt": "2026-09-12T10:58:18.000Z",
+      "description": "(전남광주=연합뉴스) 형민우 기자 = 더불어민주당 박지원(해남·완도·진도) 의원이 국립의대 후보대학 선정이 불공정하다며 민형배 전남광주특별시장에...",
+      "author": "장아름",
+      "summary": "박지원 의원은 순천대 의대 후보대학 선정이 불공정하다며 무효를 주장한 반면, 민형배 시장은 법원의 판단을 존중하겠다는 입장을 보였다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "24b40d1d0af7",
+      "category": "politics",
+      "source": "경향신문 사회",
+      "region": "kr",
+      "title": "“호르무즈 가는 순간 한국은 전쟁 당사국”…전국 곳곳서 ‘파병 반대’ 집회",
+      "link": "https://www.khan.co.kr/article/202609121937001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+      "publishedAt": "2026-09-12T10:37:00.000Z",
+      "description": "12일 서울 종로구 거리에서 열린 ‘호르무즈 파병 반대 시민대행진’ 참가자들이 행진에 앞서 손팻말을 들고 구호를 외치고 있다. 연합뉴스12일 전국 곳곳에서 호르무즈 해협 파병에 반대하는 집회가 열렸다.참여연대, 자주통일평화연대 등 시민단체 들은 이날 오후 4시 서울 종로구 르메이에르 빌딩 앞에 모여 ‘호르무즈 파병 반대 집회 시민 대행진’ 집회를 열었다. ···",
+      "author": "서현희 기자",
+      "summary": "시민단체들이 호르무즈 해협 파병이 한국을 전쟁 당사국으로 만들 수 있다며 전국 곳곳에서 반대 집회를 개최했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "72f04787ee27",
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "title": "李대통령 \"개혁 포기한 적 없다…과격한 선명성 선동 경계해야\"",
+      "link": "https://www.yna.co.kr/view/AKR20260912043600001",
+      "publishedAt": "2026-09-12T10:31:35.000Z",
+      "description": "(서울=연합뉴스) 설승은 기자 = 이재명 대통령은 12일 \"자신의 선명성을 드러내는 과격한 선동으로 저항과 역결집을 초래해 결과적으로 개혁을 방...",
+      "author": "설승은",
+      "summary": "이재명 대통령은 개혁을 포기한 적 없다고 강조하면서 과격한 선명성 추구가 개혁을 방해할 수 있다고 경고했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "ea5c6fb0c2fa",
+      "category": "politics",
+      "source": "경향신문 사회",
+      "region": "kr",
+      "title": "썰물에 휩쓸린 두 아들 구하려다···진도 바닷가서 엄마·3세 아들 심정지",
+      "link": "https://www.khan.co.kr/article/202609121831001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+      "publishedAt": "2026-09-12T09:31:00.000Z",
+      "description": "해양경찰청.진도에서 세 모자가 바닷물에 빠지는 사고가 발생했다.12일 완도해양경찰서 등에 따르면 이날 오후 1시 50분쯤 전남광주통합특별시 진도군 의신면 신비의 바닷길 인근에서 세 모자가 바닷물에 빠졌다는 신고가 접수됐다.이 사고로 어머니 A씨와 B(3)군이 심정지 상태로 병원으로 옮겨졌으나 숨졌고, 함께 물에 빠진 C(8)군은 저체온증 증세를 보여 병원에···",
+      "author": "서현희 기자",
+      "summary": "진도 신비의 바닷길 인근에서 바닷물에 빠진 모자 3명 중 어머니와 3세 아들이 심정지로 사망했고, 8세 아들은 저체온증으로 입원했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "84024376a8de",
+      "category": "politics",
+      "source": "경향신문 정치",
+      "region": "kr",
+      "title": "이 대통령 “북극항로 개척 응원…해양수도 부산 앞당길 것”",
+      "link": "https://www.khan.co.kr/article/202609121742001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+      "publishedAt": "2026-09-12T08:42:00.000Z",
+      "description": "북극항로 시범운항 컨테이너선인 ‘팬스타 아크로(PANSTAR ACRO)’가 지난 22일 북극항로로 출발했다. 연합뉴스이재명 대통령이 12일 “해양수도 부산의 꿈과 본격적인 북극항로 개척을 응원한다”고 밝혔다. 국내 컨테이너선으로는 처음 북극항로 시범 운항에 나선 팬스타 아크로호가 영국에 도착한 데 축하의 뜻을 전한 것이다.이 대통령은 이날 엑스에 ”역사적인···",
+      "author": "서현희 기자",
+      "summary": "이재명 대통령은 국내 첫 북극항로 시범운항 컨테이너선의 영국 도착을 축하하며 해양수도 부산 구현을 앞당기겠다고 밝혔다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "655f5f46ec1b",
+      "category": "politics",
+      "source": "경향신문 정치",
+      "region": "kr",
+      "title": "얼굴·실명 공개한 ‘올다르크’···황교안 정당 최고위원 출마한다",
+      "link": "https://www.khan.co.kr/article/202609121719001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+      "publishedAt": "2026-09-12T08:19:00.000Z",
+      "description": "자신의 유튜브 채널에서 얼굴을 공개한 ‘올다르크’ 오자연씨. 유튜브 갈무리올림픽공원 봉쇄 시위 현장에서 이른바 ‘올다르크’(올림픽공원+잔다르크)라는 별명이 붙은 오자연씨가 얼굴과 실명을 공개하고 정치권에 뛰어들었다.12일 정치권에 따르면 오씨는 황교안 전 국무총리가 이끄는 자유와혁신의 최고위원 선거에 후보로 출마했다. 오씨는 지난 10일 유튜브 채널 ‘황교···",
+      "author": "서현희 기자",
+      "summary": "'올다르크'로 불린 오자연이 실명과 얼굴을 공개한 후 황교안 전 국무총리가 이끄는 자유와혁신의 최고위원 선거에 출마했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "0f3069fe67f3",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "\"러 정보요원, 독일 입국해 공항 폭탄드론 공작\"",
+      "link": "https://www.yna.co.kr/view/AKR20260912051700082",
+      "publishedAt": "2026-09-12T14:32:59.000Z",
+      "description": "(베를린=연합뉴스) 김계연 특파원 = 러시아 정보기관 요원이 독일에 직접 입국해 지난달 초 라이프치히-할레 공항에 폭발물 드론 공작을 꾸민 것으...",
+      "author": "김계연",
+      "summary": "러시아 정보기관 요원이 독일에 입국하여 라이프치히-할레 공항에서 폭발물 드론 공작을 진행했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "b3b2b2274111",
+      "category": "world",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "Six Nigerians extradited to US over $6m online romance scam",
+      "link": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+      "publishedAt": "2026-09-12T14:05:45.000Z",
+      "description": "Alleged members of Black Axe criminal network that swindled US women out of $6m flown from South Africa Six Nigerian nationals linked to an organized criminal network that allegedly swindled American women out of more than $6m through online romance scams were extradited to the United States on Friday. South African police confirmed they were to be extradited earlier on Friday, while local news in Africa confirmed that the Directorate for Priority Crime Investigation, known as the Hawks, facilitated their handover to officials from the US Federal Bureau of Investigation and Secret Service at C",
+      "author": "Guardian staff and Associated Press",
+      "summary": "온라인 연애 사기로 미국 여성들로부터 600만 달러를 사취한 나이지리아 국적 6명이 남아프리카공화국에서 미국으로 송환되었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "301ca8daedbb",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "백승호, 교체 투입 4분 만에 시즌 첫 골…버밍엄 2-1 역전승",
+      "link": "https://www.yna.co.kr/view/AKR20260912051300007",
+      "publishedAt": "2026-09-12T13:48:57.000Z",
+      "description": "(서울=연합뉴스) 배진남 기자 = 잉글랜드 프로축구 챔피언십(2부)에서 뛰는 미드필더 백승호(29·버밍엄 시티)가 공식전 9경기 만에 행운이 깃...",
+      "author": "배진남",
+      "summary": "버밍엄 시티의 백승호가 교체로 투입되어 4분 만에 시즌 첫 골을 기록하며 팀의 역전승을 이끌었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "9f9718c0e878",
+      "category": "world",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "IDF soldier filmed shooting Palestinian in leg amid West Bank settler standoff",
+      "link": "https://www.theguardian.com/world/2026/sep/12/idf-soldier-filmed-shooting-palestinian-in-leg-amid-west-bank-settler-standoff",
+      "publishedAt": "2026-09-12T13:44:10.000Z",
+      "description": "Incident is latest to raise questions over Israel’s ability or willingness to stop violent settlers in occupied territory An Israeli soldier has shot a Palestinian man, wounding him in the leg, as settlers confronted villagers by grazing livestock on Palestinian-owned land in the town of Faqqua in the occupied West Bank. Witnesses said a group of settlers had entered the area with their livestock, prompting residents to try to stop them. Israeli forces then intervened and, according to men at the scene, opened fire at residents. One of them shot Qassem Hussam, a Palestinian man in his mid-30s,",
+      "author": "Lorenzo Tondo in Jerusalem",
+      "summary": "요르단강 서안지구 팔콰에서 정착민의 가축 방목을 둘러싼 충돌 중 이스라엘군이 팔레스타인인을 다리에 총으로 쏴 부상을 입혔다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "6d8c8d00b05a",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "브릭스 정상들 \"중동서 자제 촉구\"…공동성명 만장일치 채택(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260912049451104",
+      "publishedAt": "2026-09-12T13:37:28.000Z",
+      "description": "(자카르타=연합뉴스) 손현규 특파원 = 중국과 러시아가 주도하는 비(非)서방 신흥경제국 모임인 브릭스(BRICS) 회원국 정상들이 중동 지역에서...",
+      "author": "손현규",
+      "summary": "브릭스 회원국 정상들이 중동 지역에서의 자제를 촉구하는 공동성명을 만장일치로 채택했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "3c2b4306d8af",
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "title": "'People are still afraid of those three letters': Fighting the stigma of HIV",
+      "link": "https://www.npr.org/2026/09/12/g-s1-142404/hiv-aids-brazil-stigma",
+      "publishedAt": "2026-09-12T13:03:20.000Z",
+      "description": "That's a quote from former rugby star Gareth Thomas, who is HIV positive. At the International AIDS Conference in Rio this year, he spoke out about the isolation and discrimination tied to the virus.",
+      "author": "David Cox",
+      "summary": "리우의 국제 에이즈 회의에서 HIV 양성 판정을 받은 전 럭비 스타 가레스 토마스가 바이러스로 인한 차별과 고립의 심각성을 발언했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "ba9c2c862561",
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "title": "'BRICS' forum brings together emerging economies, aimed at countering western dominance",
+      "link": "https://www.npr.org/2026/09/12/nx-s1-5965777/brics-forum-brings-together-emerging-economies-aimed-at-countering-western-dominance",
+      "publishedAt": "2026-09-12T12:30:55.000Z",
+      "description": "India hosts the 18th BRICS summit in New Delhi this weekend. BRICS is a grouping of major emerging markets and developing countries.",
+      "author": "Diaa Hadid",
+      "summary": "인도가 뉴델리에서 제18회 브릭스 정상회담을 개최했으며, 브릭스는 서방 우위에 대항하는 신흥경제국 조직이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "04d925158d61",
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "title": "Saudi Arabia forced to shut down crucial Red Sea pipeline after attacks",
+      "link": "https://www.npr.org/2026/09/12/nx-s1-5964940/saudi-arabia-forced-to-shut-down-crucial-red-sea-pipeline-after-attacks",
+      "publishedAt": "2026-09-12T12:19:22.000Z",
+      "description": "The Iran-backed Houthi militia captured a strategic Red Sea port city this week. NPR's Scott Simon talks to April Longley Alley of the Washington Institute.",
+      "author": "Scott Simon",
+      "summary": "이란 지원을 받는 후티 민병대가 홍해의 전략적 항구를 점령하면서 사우디아라비아가 중요 송유관을 폐쇄해야 했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "9407855a4b40",
+      "category": "world",
+      "source": "BBC World",
+      "region": "intl",
+      "title": "How global trade and oil prices could be hit by Houthi advance",
+      "link": "https://www.bbc.co.uk/news/videos/cy5z02w1zxxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-11T16:13:39.000Z",
+      "description": "Yemen's Houthis have seized territory near the Bab al-Mandab Strait - a key trade gateway for oil and global shipping.",
+      "author": null,
+      "summary": "예멘의 후티군이 글로벌 무역과 석유 운송의 핵심 통로인 바브알만데브 해협 근처 영토를 점령했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "c37b942f6a4e",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "Should Conservative Students Avoid Liberal Colleges?",
+      "link": "https://www.nytimes.com/2026/09/12/opinion/conservative-students-liberal-colleges.html",
+      "publishedAt": "2026-09-12T14:24:44.000Z",
+      "description": "Readers discuss a column by David French urging students to embrace having their ideas tested.",
+      "author": null,
+      "summary": "보수적 학생들도 자유주의 대학에서 자신의 생각이 도전받는 경험을 기꺼이 받아들여야 한다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "4c975437e7f1",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "Biden and Trump Called It a Genocide and Then Turned Away",
+      "link": "https://www.nytimes.com/2026/09/12/opinion/trump-sudan-genocide.html",
+      "publishedAt": "2026-09-12T11:11:38.000Z",
+      "description": "We know how to stop the atrocities in Sudan. There’s just too little interest in doing so.",
+      "author": "Nicholas Kristof",
+      "summary": "수단의 학살을 멈출 수 있는 방법이 있음에도 국제사회의 무관심으로 인해 계속되고 있다고 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "f5fd6531d14c",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "American Politics Hasn’t Recovered From 9/11",
+      "link": "https://www.nytimes.com/video/opinion/100000011148296/american-politics-hasnt-recovered-from-9-11.html",
+      "publishedAt": "2026-09-12T11:00:23.000Z",
+      "description": "The Sept. 11 attacks carved deep and chaotic grooves into American politics, the economy and our sense of optimism, argues the contributing writer E.J. Dionne Jr. on “The Opinions.” So much went haywire in the 25 years that followed, he says. But that also means there’s an opportunity — and a desire — to move forward.",
+      "author": null,
+      "summary": "9/11 공격이 미국 정치·경제·낙관감에 남긴 악영향이 25년이 지난 지금도 회복되지 못했으며 변화의 기회가 있다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "80b5d991e847",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "Why the Sam Bankman-Fried case should spook the AI elite",
+      "link": "https://www.washingtonpost.com/opinions/2026/09/12/sam-bankman-fried-case-should-spook-ai-elites/",
+      "publishedAt": "2026-09-12T11:00:00.000Z",
+      "description": "The fallen founder’s doomsday ideology helped put him behind bars.",
+      "author": "Jason Willick",
+      "summary": "샘 뱅크먼-프리드(Sam Bankman-Fried) 사건이 AI 엘리트에게 경고가 되며, 그의 종말론적 이데올로기가 투옥을 초래했다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "64b162bec0d5",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "iPhone updates to hold your attention",
+      "link": "https://www.washingtonpost.com/opinions/2026/09/12/edith-pritchett-cartoon-foldable-iphone-apple-updates-screen-time/",
+      "publishedAt": "2026-09-12T10:30:00.000Z",
+      "description": "Is your screen time high enough?",
+      "author": "Edith Pritchett",
+      "summary": "아이폰의 계속된 업데이트가 사용자의 스크린 시간을 늘리도록 의도적으로 설계되어 있다고 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "c900c85f8733",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "The hill I will die on: Comedians should not be hot | Amy Annette",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/12/the-hill-i-will-die-on-comedians-not-hot",
+      "publishedAt": "2026-09-12T09:00:29.000Z",
+      "description": "People making a living from being funny should be exempt from the beauty rules the rest of society plays by It’s a fact that being funny is an evolutionary trait, developed by the unattractive to entice the very good-looking to mate with them. Yes, that is a fact, and no I won’t look it up. And therefore it is not OK for attractive people to also be funny. And I don’t think that I’m going too far when I say that comedians being hot is a crime against nature. I use the word “hot” intentionally. Beauty is ineffable. It can be found anywhere and in anyone. Hotness is different. It’s playing the g",
+      "author": "Amy Annette",
+      "summary": "코미디언은 사회의 미용 기준에서 면제되어야 하며, 재미있는 능력은 매력과 별개여야 한다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "45e051d01cb6",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "Bayeux tapestrymania has gripped Britain. But what does it say about our own age of war and upheaval? | Charlotte Higgins",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/12/bayeux-tapestry-britain-war-british-museum-artwork",
+      "publishedAt": "2026-09-12T07:00:27.000Z",
+      "description": "The tapestry is drawing crowds to the British Museum – and each person who sees it will draw a different meaning from this epic, vivid artwork I have seen the Bayeux tapestry four times since childhood, and loved it on each viewing, for the sheer miracle of its survival and the glorious vividness of its detail. But the fourth time, earlier this week, was different – how could it not be? Tapestrymania has taken hold in London. The textile has been proffered as a diplomatic symbol, the occasion for crowned heads and presidents to mingle and speechify. And, assuming you agree that it was embroide",
+      "author": "Charlotte Higgins",
+      "summary": "바이유 태피스트리가 외교 상징으로 활용되면서 각자가 현시대의 전쟁과 격변에 대해 다양한 해석을 할 수 있다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "3c70b1829ffa",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "Call it the Miliband doctrine. Let’s hope the new Israeli settlement boycott is just the start | Steve Bloomfield",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/12/miliband-doctrine-israeli-settlement-boycott-uk-foreign-policy",
+      "publishedAt": "2026-09-12T05:00:30.000Z",
+      "description": "This week’s move suggests that, even in the age of Trump, Britain will once again have an ‘ethical dimension’ to its foreign policy. That’s good for the world Almost 30 years ago, the Labour titan Robin Cook announced his arrival at the Foreign Office by laying out what would become described as an “ethical foreign policy”. The UK, he said, “must support the demands of other peoples for the democratic rights on which we insist for ourselves”. Human rights would be “at the heart of our foreign policy”. In the 25 years since Cook was demoted, Britain has had a further 14 foreign secretaries – in",
+      "author": "Steve Bloomfield",
+      "summary": "영국의 이스라엘 정착촌 보이콧 결정이 트럼프 시대에도 외교정책의 윤리적 기준을 회복하는 신호라며 긍정적으로 평가했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "34b1cee7279d",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "Trump Has Adam Przeworski Very Worried",
+      "link": "https://www.nytimes.com/2026/09/11/opinion/democracy-trump-crisis.html",
+      "publishedAt": "2026-09-12T02:50:56.000Z",
+      "description": "What is democracy, and is it in crisis?",
+      "author": "Adam Przeworski and John Guida",
+      "summary": "트럼프 현상이 민주주의의 본질적 정의와 현재의 위기 상황에 대한 근본적인 우려를 제기했다.",
+      "summarySource": "llm"
+    }
+  ],
+  "summarizedAt": "2026-09-13T23:12:53.339Z",
+  "summaryStats": {
+    "llm": 45,
+    "fallback": 0,
+    "model": "claude-haiku-4-5"
+  }
+}
