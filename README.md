@@ -2,6 +2,8 @@
 
 매일 아침 7시(KST), 전날 국내외 주요 뉴스의 **헤드라인과 1~2문장 요약**을 분야별로 모아 GitHub Pages에 자동 발행합니다.
 
+### 🔗 [taegyu-park.github.io/capstone2](https://taegyu-park.github.io/capstone2/)
+
 - **분야**: IT·과학·AI / 경제·금융 / 정치·사회 / 세계·국제 / 사설·칼럼
 - **분량**: 분야당 최대 9건 (하루 45건 안팎)
 - **아카이브**: 날짜별 페이지를 계속 보관합니다
