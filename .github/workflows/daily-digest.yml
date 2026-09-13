@@ -15,6 +15,11 @@ on:
         required: false
         type: boolean
         default: false
+      deploy_only:
+        description: '새 기사를 수집하지 않고, 커밋된 data/로 사이트만 다시 배포합니다.'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # data/ 커밋
@@ -42,15 +47,17 @@ jobs:
         run: npm ci
 
       - name: Claude Code CLI 설치
+        if: '! inputs.deploy_only'
         run: npm install -g @anthropic-ai/claude-code@stable
 
       - name: Claude CLI 사전 점검
-        if: inputs.preflight
+        if: inputs.preflight && !inputs.deploy_only
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: bash scripts/preflight.sh
 
       - name: 다이제스트 생성
+        if: '! inputs.deploy_only'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           TARGET_DATE: ${{ inputs.date }}
@@ -61,7 +68,12 @@ jobs:
             node scripts/build.mjs
           fi
 
+      - name: 사이트만 재생성 (배포 전용)
+        if: inputs.deploy_only
+        run: node scripts/render.mjs
+
       - name: data/ 커밋
+        if: '! inputs.deploy_only'
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
