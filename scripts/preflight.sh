@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 # Claude CLI가 CI에서 인증·실행되는지 확인합니다. 요약 단계가 실패할 때 원인을 좁히는 용도입니다.
+# 토큰 값 자체는 절대 출력하지 않습니다. 길이만 봅니다.
 set -u
 
-echo "버전        : $(claude --version 2>&1)"
-echo "토큰 설정   : ${CLAUDE_CODE_OAUTH_TOKEN:+있음(길이 ${#CLAUDE_CODE_OAUTH_TOKEN})}${CLAUDE_CODE_OAUTH_TOKEN:-없음}"
-echo "HOME        : ${HOME}"
-echo "작업 디렉터리: $(pwd)"
+token_len=${#CLAUDE_CODE_OAUTH_TOKEN}
+echo "버전         : $(claude --version 2>&1)"
+if [ "$token_len" -eq 0 ]; then
+  echo "토큰         : 없음 — CLAUDE_CODE_OAUTH_TOKEN 시크릿이 비어 있습니다."
+elif [ "$token_len" -lt 40 ]; then
+  echo "토큰         : 길이 ${token_len} — 너무 짧습니다. 붙여넣기가 잘렸을 가능성이 큽니다."
+else
+  echo "토큰         : 길이 ${token_len} (정상 범위)"
+fi
+echo "HOME         : ${HOME}"
+echo "작업 디렉터리 : $(pwd)"
 echo
 
 echo "--- 최소 호출 ---"
