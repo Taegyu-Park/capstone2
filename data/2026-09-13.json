@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "generatedAt": "2026-09-13T18:06:12.201Z",
+  "generatedAt": "2026-09-13T18:09:38.452Z",
   "categories": [
     {
       "id": "it",
@@ -53,9 +53,8 @@
     {
       "source": "전자신문",
       "category": "it",
-      "ok": false,
-      "error": "fetch failed",
-      "matched": 0
+      "ok": true,
+      "matched": 28
     },
     {
       "source": "ZDNet Korea",
@@ -180,30 +179,6 @@
       "summarySource": "rss"
     },
     {
-      "id": "690e88bd5346",
-      "category": "it",
-      "source": "The Verge",
-      "region": "intl",
-      "title": "Waymo pulls over, calls cops on riders with a ghost gun",
-      "link": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
-      "publishedAt": "2026-09-13T14:28:12.000Z",
-      "description": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them. The riders were juveniles in possession of a loaded AR-style ghost gun and were taken to a juvenile hall. While the police report did not specify who was operating the autonomous car, Waymo later confirmed it was one of its vehicles to the Los Angeles Times. A spokesperson told the LA Times that a \"violation of our terms of service involving a firearm\" was detected. At which point the car pulled over and alerted the authorities. Earlier this year, a Waymo fake",
-      "summary": "Two people were arrested in San Fransico while riding around in a Waymo robotaxi after the cab pulled over and called the cops on them.",
-      "summarySource": "rss"
-    },
-    {
-      "id": "15d32d01aaec",
-      "category": "it",
-      "source": "Hacker News",
-      "region": "intl",
-      "title": "CUDA for AMD on Windows",
-      "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-      "publishedAt": "2026-09-13T14:25:13.000Z",
-      "description": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 72 # Comments: 22",
-      "summary": "Article URL: https://github.com/Speedstu/CUDA-for-AMD-Windows Comments URL: https://news.ycombinator.com/item?id=49684356 Points: 72 # Comments: 22",
-      "summarySource": "rss"
-    },
-    {
       "id": "c17dc3e0dbc1",
       "category": "it",
       "source": "블로터",
@@ -213,18 +188,6 @@
       "publishedAt": "2026-09-13T14:04:42.000Z",
       "description": "하나은행이 우즈베키스탄에 대표사무소 설립을 추진하며 중앙아시아로 글로벌 네트워크의 범위를 넓힌다. 우즈베키스탄 정부와 투자·금융 협력 체계를 구축하고 2026년 안에 현지 거점을 확보해 한국 기업의 교역·투자 수요를 선점하겠다는 구상이다.13일 금융권에 따르면 하나은행은 11일 우즈베키스탄 투자산업통상부와 투자·금융 분야 상호 협력을 위한 업무협약을 체결했다. 16일 서울에서 열리는 제1회 한-중앙아시아 정상회의를 앞두고 양국 간 경제·금융 협력 확대에 보조를 맞춘 행보로 풀이된다. 동남아 넘어 중앙아시아로…대표사무소 연내 설립이번",
       "summary": "하나은행이 우즈베키스탄에 대표사무소 설립을 추진하며 중앙아시아로 글로벌 네트워크의 범위를 넓힌다.",
-      "summarySource": "rss"
-    },
-    {
-      "id": "96732dec9a6a",
-      "category": "it",
-      "source": "블로터",
-      "region": "kr",
-      "title": "금호타이어, '현금창출력 개선' 신용등급 A+ 상향",
-      "link": "https://www.bloter.net/news/articleView.html?idxno=673404",
-      "publishedAt": "2026-09-13T14:00:00.000Z",
-      "description": "한국기업평가가 금호타이어의 신용등급을 A+로 올렸다. 광주공장 화재에 따른 생산 차질에도 북미·유럽 판매와 고부가가치 제품 비중을 늘려 수익성을 유지한 점을 반영했다. 함평·폴란드 공장 건설로 대규모 투자가 예정돼 있지만 개선된 현금창출력으로 자금 소요의 상당 부분을 충당할 수 있을 것으로 분석된다.한국기업평가는 이달 10일 금호타이어의 무보증사채 신용등급을 기존 A에서 A+로 한 단계 상향했다. 등급전망은 긍정적에서 안정적으로 변경했다. 기업어음 신용등급은 A2+로 평가했다.등급 상향의 배경은 판매 지역과 제품 구성의 변화다. 금",
-      "summary": "한국기업평가가 금호타이어의 신용등급을 A+로 올렸다. 광주공장 화재에 따른 생산 차질에도 북미·유럽 판매와 고부가가치 제품 비중을 늘려 수익성을 유지한 점을 반영했다.",
       "summarySource": "rss"
     },
     {
@@ -252,6 +215,18 @@
       "summarySource": "rss"
     },
     {
+      "id": "464b595a9606",
+      "category": "it",
+      "source": "The Verge",
+      "region": "intl",
+      "title": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
+      "link": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026",
+      "publishedAt": "2026-09-13T13:00:00.000Z",
+      "description": "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), and a promising director set to take over the reins (Bassam Tariq). In retrospect, though, the disappointing demise of Blade might not be such a bad thing, because Tariq and Ali have collaborated on something much more interesting than a superhero reboot: the powerful hitman thriller Your Mother Your Mother Your Mother. That was one of five movies I was able to cram into a very hectic third day at the Toronto Interna",
+      "summary": "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes.",
+      "summarySource": "rss"
+    },
+    {
       "id": "ca0e2eca3649",
       "category": "it",
       "source": "ZDNet Korea",
@@ -273,6 +248,30 @@
       "publishedAt": "2026-09-13T11:00:41.000Z",
       "description": "The manufacturer has a service that lets owners repair their own equipment.",
       "summary": "The manufacturer has a service that lets owners repair their own equipment.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "6c2887b2ad88",
+      "category": "it",
+      "source": "전자신문",
+      "region": "kr",
+      "title": "AI가 100년 난제 풀자…허준이 등 필즈상 25명 '집단 경고'",
+      "link": "https://www.etnews.com/20260913000085",
+      "publishedAt": "2026-09-13T10:22:28.000Z",
+      "description": "인공지능(AI)이 인간 수학자들이 수십 년간 풀지 못한 최고 수준의 수학 난제까지 공략하기 시작하자 세계적인 수학자들이 AI 기업들의 '난제 해결 경쟁'에 집단 경고를 내놨다. 11일(현지시간) 월스트리트저널(WSJ) 등 외신에 따르면 허준이 미국 프린스턴대 교수와 테런스 타오 미국 캘리포니아대 로스앤젤레스(UCLA) 교수 등 필즈상 수상자 25명은 '수학 분야에서 AI의 심각한 목표 불일치'라는 제목의 공동성명을 발표했다. 이들은 AI 기업들",
+      "summary": "인공지능(AI)이 인간 수학자들이 수십 년간 풀지 못한 최고 수준의 수학 난제까지 공략하기 시작하자 세계적인 수학자들이 AI 기업들의 '난제 해결 경쟁'에 집단 경고를 내놨다.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "477b86c3482d",
+      "category": "it",
+      "source": "전자신문",
+      "region": "kr",
+      "title": "美 AI 데이터센터가 키우는 ESS…K배터리도 대응 속도",
+      "link": "https://www.etnews.com/20260911000211",
+      "publishedAt": "2026-09-13T08:00:00.000Z",
+      "description": "인공지능(AI) 데이터센터 확산으로 미국 에너지저장장치(ESS) 시장이 빠르게 커지고 있다. AI 데이터센터의 안정적인 전력 확보를 위해 기존 2~4시간급 ESS를 넘어 10시간 이상 전력을 공급할 수 있는 장주기 저장장치에 대한 관심도 높아지고 있다. 미국 태양광산업협회(SEIA)와 벤치마크 미네랄 인텔리전스가 이달 초 내놓은 시장 전망에 따르면, 미국 상업·산업용(C&I) ESS 설치량은 2분기 1.8기가와트시(GWh)로 분기 최대를 기록했",
+      "summary": "인공지능(AI) 데이터센터 확산으로 미국 에너지저장장치(ESS) 시장이 빠르게 커지고 있다. AI 데이터센터의 안정적인 전력 확보를 위해 기존 2~4시간급 ESS를 넘어 10시간 이상 전력을 공급할 수 있는 장주기 저장장치에 대한 관심도 높아지고 있다.",
       "summarySource": "rss"
     },
     {
@@ -600,7 +599,7 @@
       "summarySource": "rss"
     }
   ],
-  "summarizedAt": "2026-09-13T18:06:33.847Z",
+  "summarizedAt": "2026-09-13T18:09:59.211Z",
   "summaryStats": {
     "llm": 0,
     "fallback": 36,
