@@ -58,7 +58,8 @@ export function runClaude(prompt, { model, systemPrompt, timeoutMs = 180000 } = 
     child.on('close', (code) => {
       clearTimeout(timer);
       if (code !== 0) {
-        return reject(new Error(`claude 종료 코드 ${code}: ${stderr.slice(0, 300)}`));
+        const detail = [stderr.trim(), stdout.trim()].filter(Boolean).join(' | ') || '(출력 없음)';
+        return reject(new Error(`claude 종료 코드 ${code}: ${detail.slice(0, 500)}`));
       }
       let parsed;
       try {
