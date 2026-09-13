@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "it",
+      "label": "IT·과학·AI"
+    },
+    {
+      "id": "economy",
+      "label": "경제·금융"
+    },
+    {
+      "id": "politics",
+      "label": "정치·사회"
+    },
+    {
+      "id": "world",
+      "label": "세계·국제"
+    }
+  ],
+  "limits": {
+    "perCategory": 9,
+    "feedTimeoutMs": 15000,
+    "titleSimilarityThreshold": 0.4
+  },
+  "feeds": [
+    {
+      "category": "it",
+      "source": "Ars Technica",
+      "region": "intl",
+      "url": "https://feeds.arstechnica.com/arstechnica/index"
+    },
+    {
+      "category": "it",
+      "source": "Hacker News",
+      "region": "intl",
+      "url": "https://hnrss.org/frontpage"
+    },
+    {
+      "category": "it",
+      "source": "TechCrunch",
+      "region": "intl",
+      "url": "https://techcrunch.com/feed/"
+    },
+    {
+      "category": "it",
+      "source": "The Verge",
+      "region": "intl",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "url": "https://www.bloter.net/rss/allArticle.xml"
+    },
+    {
+      "category": "it",
+      "source": "전자신문",
+      "region": "kr",
+      "url": "https://rss.etnews.com/Section901.xml"
+    },
+    {
+      "category": "it",
+      "source": "ZDNet Korea",
+      "region": "kr",
+      "url": "https://feeds.feedburner.com/zdkorea"
+    },
+    {
+      "category": "economy",
+      "source": "BBC Business",
+      "region": "intl",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml"
+    },
+    {
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "url": "https://www.theguardian.com/uk/business/rss"
+    },
+    {
+      "category": "economy",
+      "source": "매일경제 경제",
+      "region": "kr",
+      "url": "https://www.mk.co.kr/rss/30100041/"
+    },
+    {
+      "category": "economy",
+      "source": "연합뉴스",
+      "region": "kr",
+      "url": "https://www.yna.co.kr/rss/economy.xml"
+    },
+    {
+      "category": "politics",
+      "source": "경향신문 사회",
+      "region": "kr",
+      "url": "https://www.khan.co.kr/rss/rssdata/society_news.xml"
+    },
+    {
+      "category": "politics",
+      "source": "경향신문 정치",
+      "region": "kr",
+      "url": "https://www.khan.co.kr/rss/rssdata/politic_news.xml"
+    },
+    {
+      "category": "politics",
+      "source": "노컷뉴스",
+      "region": "kr",
+      "url": "https://rss.nocutnews.co.kr/nocutnews.xml"
+    },
+    {
+      "category": "politics",
+      "source": "서울신문",
+      "region": "kr",
+      "url": "https://www.seoul.co.kr/xml/rss/rss_politics.xml"
+    },
+    {
+      "category": "politics",
+      "source": "연합뉴스 사회",
+      "region": "kr",
+      "url": "https://www.yna.co.kr/rss/society.xml"
+    },
+    {
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "url": "https://www.yna.co.kr/rss/politics.xml"
+    },
+    {
+      "category": "politics",
+      "source": "SBS 뉴스",
+      "region": "kr",
+      "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01"
+    },
+    {
+      "category": "world",
+      "source": "Al Jazeera",
+      "region": "intl",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "category": "world",
+      "source": "BBC World",
+      "region": "intl",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "url": "https://feeds.npr.org/1004/rss.xml"
+    },
+    {
+      "category": "world",
+      "source": "The Guardian",
+      "region": "intl",
+      "url": "https://www.theguardian.com/world/rss"
+    },
+    {
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "url": "https://www.yna.co.kr/rss/international.xml"
+    },
+    {
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "url": "https://www.mk.co.kr/rss/50200011/"
+    }
+  ],
+  "exclude": {
+    "bracketTags": [
+      "부고",
+      "부음",
+      "인사",
+      "동정",
+      "신간",
+      "날씨",
+      "표",
+      "게시판",
+      "알림",
+      "일정",
+      "주요일정",
+      "사설",
+      "기고",
+      "칼럼",
+      "포토",
+      "영상",
+      "카드뉴스",
+      "운세",
+      "만평",
+      "주간계획",
+      "Overseas Trip",
+      "여행",
+      "레시피"
+    ],
+    "titleContains": [
+      "live blog",
+      "live updates",
+      "live:",
+      "- live",
+      "– live",
+      "— live"
+    ],
+    "titleStartsWith": [
+      "주요 일정",
+      "오늘의 날씨",
+      "부고"
+    ]
+  },
+  "summarize": {
+    "model": "claude-haiku-4-5",
+    "minChars": 40,
+    "maxChars": 180,
+    "retries": 1,
+    "timeoutMs": 180000
+  }
+}
