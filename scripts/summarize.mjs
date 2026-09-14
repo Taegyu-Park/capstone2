@@ -63,15 +63,18 @@ function buildPrompt(cat, items, { minChars, maxChars }) {
         '- 문어체 평서문("~했다")으로 끝맺으세요.',
       ];
 
+  const titleRule = '- title: 원제목이 한국어가 아니면 자연스러운 한국어 헤드라인으로 번역하세요(고유명사는 원어 병기 가능). 원제목이 이미 한국어면 그대로 반환하세요.';
+
   const topic = cat.opinion ? '사설·칼럼' : '뉴스';
   return [
     `아래는 '${cat.label}' 분야의 어제 ${topic} ${items.length}건입니다. 각 글을 한국어 1~2문장으로 요약하세요.`,
     '',
     '규칙:',
     ...rules,
+    titleRule,
     '',
     '출력은 아래 형태의 JSON 배열 하나만. 코드펜스나 설명 없이 배열만 출력하세요.',
-    '[{"id": "기사의 id", "summary": "요약문"}]',
+    '[{"id": "기사의 id", "title": "한국어 제목", "summary": "요약문"}]',
     '',
     '기사 목록:',
     '',
@@ -79,15 +82,19 @@ function buildPrompt(cat, items, { minChars, maxChars }) {
   ].join('\n');
 }
 
-/** 모델 응답을 id→요약 맵으로 정리합니다. 형식이 어긋난 항목은 버립니다. */
-function collectSummaries(rawList, validIds, { minChars, maxChars }) {
+/** 모델 응답을 id→{title, summary} 맵으로 정리합니다. 형식이 어긋난 항목은 버립니다. */
+function collectResults(rawList, validIds, { minChars, maxChars }) {
   const map = new Map();
   for (const entry of rawList) {
     if (!entry || typeof entry !== 'object') continue;
     const id = String(entry.id ?? '').trim();
     const summary = String(entry.summary ?? '').replace(/\s+/g, ' ').trim();
     if (!validIds.has(id) || summary.length < minChars) continue;
-    map.set(id, summary.length > maxChars * 1.5 ? summary.slice(0, maxChars) + '…' : summary);
+    const title = String(entry.title ?? '').replace(/\s+/g, ' ').trim();
+    map.set(id, {
+      summary: summary.length > maxChars * 1.5 ? summary.slice(0, maxChars) + '…' : summary,
+      title: title || null,
+    });
   }
   return map;
 }
@@ -112,8 +119,8 @@ for (const cat of payload.categories) {
         systemPrompt: SYSTEM_PROMPT,
         timeoutMs: opts.timeoutMs,
       });
-      const got = collectSummaries(extractJsonArray(text), validIds, bounds);
-      for (const [id, s] of got) summaries.set(id, s);
+      const got = collectResults(extractJsonArray(text), validIds, bounds);
+      for (const [id, r] of got) summaries.set(id, r);
       console.log(`[summarize] ${cat.id} 시도 ${attempt + 1}: ${pending.length}건 요청 → ${got.size}건 수신`);
     } catch (e) {
       console.warn(`[summarize] ${cat.id} 시도 ${attempt + 1} 실패: ${e.message}`);
@@ -122,8 +129,11 @@ for (const cat of payload.categories) {
 
   for (const item of items) {
     if (summaries.has(item.id)) {
-      item.summary = summaries.get(item.id);
+      const { summary, title } = summaries.get(item.id);
+      item.summary = summary;
       item.summarySource = 'llm';
+      // 번역 실패 시 원제목을 그대로 둡니다 — 발행을 막을 이유는 아닙니다.
+      if (title) item.title = title;
       llmCount++;
     } else {
       item.summary = fallbackSummary(item, bounds);

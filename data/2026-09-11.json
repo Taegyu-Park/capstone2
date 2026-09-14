@@ -206,7 +206,7 @@
       "publishedAt": "2026-09-11T14:46:18.000Z",
       "description": "스톤브릿지캐피탈과 LS증권이 설립한 리얼티파인이 국내 부동산 권리조사 전문기업 리파인에 대한 공개매수에 나섰다. 경영권을 안정적으로 확보하기 위한 것으로 지분율을 최대 78%까지 끌어올리는 것이 목표다.11일 투자은행(IB) 업계에 따르면 리얼티파인의 리파인 공개매수는 8월 18일부터 이달 16일까지 진행한다. 리얼티파인은 리파인 발행주식 1733만주 가운데 831만주(47.96%)를 보유한 최대주주다. 이번 공개매수로 발행주식의 30%인 519만9000주를 추가로 사들여 지분율을 약 78%로 높일 계획이다.리파인은 매출의 90%",
       "author": "국정근 기자",
-      "summary": "스톤브릿지캐피탈과 LS증권이 설립한 리얼티파인이 부동산 권리조사 기업 리파인에 공개매수를 진행 중이며, 현재 47.96% 지분에서 추가 30%를 사들여 약 78%로 높일 목표다.",
+      "summary": "리얼티파인이 부동산 권리조사 기업 리파인의 공개매수에 나섰으며, 현재 47.96% 지분을 최대 78%까지 높일 계획이다.",
       "summarySource": "llm"
     },
     {
@@ -214,12 +214,12 @@
       "category": "it",
       "source": "Ars Technica",
       "region": "intl",
-      "title": "Claude users found ways around safeguards for bioweapons research",
+      "title": "Claude 사용자들, 생물무기 연구 안전장치 우회 방법 발견",
       "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
       "publishedAt": "2026-09-11T13:02:35.000Z",
       "description": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
       "author": "Zehra Munir, Financial Times",
-      "summary": "Claude 사용자들이 위험한 생물학 연구가 정당한 학술 연구와 유사해 보인다는 점을 이용해 AI 안전장치를 우회하는 방법을 찾아냈다.",
+      "summary": "위험한 생물학 연구가 정당한 연구와 구별되기 어려워 인공지능 안전장치의 효과성이 제한되고 있다.",
       "summarySource": "llm"
     },
     {
@@ -227,12 +227,12 @@
       "category": "it",
       "source": "Ars Technica",
       "region": "intl",
-      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "title": "ClickFix 악성코드, PC·맥 감염 확산",
       "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
       "publishedAt": "2026-09-11T11:30:58.000Z",
       "description": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
       "author": "Dan Goodin",
-      "summary": "ClickFix 공격이 PC와 Mac을 감염시키며 확산 중인데, 단순성과 정상적인 작업 수행의 어려움이 결합되어 이 공격을 매우 효과적으로 만들고 있다.",
+      "summary": "단순한 구조와 사용자 접근성의 용이함으로 인해 ClickFix 공격이 널리 확산되고 있다.",
       "summarySource": "llm"
     },
     {
@@ -240,12 +240,12 @@
       "category": "it",
       "source": "Ars Technica",
       "region": "intl",
-      "title": "What happens when quantum mechanics and relativity meet?",
+      "title": "양자역학과 상대성이론의 만남, 새로운 실험으로 규명",
       "link": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
       "publishedAt": "2026-09-11T11:20:02.000Z",
       "description": "Experiment put atoms in a superposition of trajectories to find out.",
       "author": "Jacek Krywko",
-      "summary": "연구자들이 원자를 여러 궤적의 중첩 상태에 놓는 실험을 통해 양자역학과 상대성이론이 만나는 지점을 탐구했다.",
+      "summary": "원자를 궤도의 중첩 상태에 놓은 실험을 통해 양자역학과 상대성이론의 상호작용을 규명했다.",
       "summarySource": "llm"
     },
     {
@@ -253,12 +253,12 @@
       "category": "it",
       "source": "Ars Technica",
       "region": "intl",
-      "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
+      "title": "United Launch Alliance의 재정 위기, 소유권 변화의 신호?",
       "link": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
       "publishedAt": "2026-09-11T11:00:44.000Z",
       "description": "ULA is preparing to resume launching the Vulcan rocket in the coming weeks.",
       "author": "Stephen Clark",
-      "summary": "재정 문제를 겪는 United Launch Alliance(ULA)가 향후 수주 내 Vulcan 로켓의 발사 재개를 준비 중이다.",
+      "summary": "경제적 어려움에 처한 United Launch Alliance가 향후 몇 주 내에 벌칸 로켓 발사를 재개할 준비를 하고 있다.",
       "summarySource": "llm"
     },
     {
@@ -271,7 +271,7 @@
       "publishedAt": "2026-09-11T09:31:00.000Z",
       "description": "KB금융이 '안정의 연장'보다 '변화의 확장'을 택했다. 이재근 KB금융지주 부문장이 차기 회장 최종 후보로 선정됐다. 역대 최대 실적과 주주환원 확대를 이끈 양종희 현 회장의 연임 가능성이 높게 점쳐졌지만 회장후보추천위원회(회추위)의 최종 선택은 이 부문장이었다.결과 못지않게 눈에 띄는 것은 선임 과정이다. KB금융은 내부·외부 각10명씩 총20명으로 출발한 후보군을 12명, 6명, 3명으로 단계적으로 압축했다. 후보 규모와 평가 일정, 인터뷰 시점 등 승계 절차의 큰 틀도 사전에 공개했다. 마지막 3명을 대상으로는 후보별 2시간",
       "author": "이나리 기자",
-      "summary": "KB금융이 변화의 확장을 선택해 이재근 부문장을 차기 회장 최종 후보로 선정했으며, 선임 과정 전체를 사전에 공개했다.",
+      "summary": "KB금융이 양종희 현 회장의 연임 대신 이재근 부문장을 차기 회장 후보로 선정했으며, 선임 과정의 모든 절차를 공개했다.",
       "summarySource": "llm"
     },
     {
@@ -284,7 +284,7 @@
       "publishedAt": "2026-09-11T09:09:10.000Z",
       "description": "LG CNS가 LG그룹과 엔비디아의 인공지능(AI) 팩토리 구축 협력과 피지컬AI 고도화를 위해 3814억원 규모의 그래픽처리장치(GPU)와 인프라 설비를 확보한다. AI팩토리는 고성능 GPU와 데이터·소프트웨어를 결합해 AI 모델을 학습시키고 실제 서비스에 활용하는 인프라다.LG CNS는 11일 이사회를 열고 한국휴렛팩커드 유한회사 등으로부터 엔비디아 베라 루빈(Vera Rubin)을 포함한 GPU와 인프라 설비를 취득하기로 결정했다고 공시했다.취득가액은 지난해 말 연결 기준 자산총액의 7.2%에 해당한다. 취득 목적은 AI팩토리",
       "author": "강준혁 기자",
-      "summary": "LG CNS가 LG그룹과 엔비디아의 AI 팩토리 구축 협력을 위해 엔비디아 베라 루빈(Vera Rubin) GPU와 인프라 설비 확보에 3814억원을 투입하기로 결정했다.",
+      "summary": "LG CNS가 AI 팩토리 구축을 위해 엔비디아의 고성능 GPU '베라 루빈'과 인프라 설비를 확보하는 데 약 3814억원을 투입했다.",
       "summarySource": "llm"
     },
     {
@@ -297,7 +297,7 @@
       "publishedAt": "2026-09-11T09:04:02.000Z",
       "description": "KB금융그룹이 역대 최대 실적을 이끈 양종희 회장의 연임 대신 2인자 이재근 KB금융 부문장(부회장)을 차기 회장 후보로 선택했다. 실적 부진에 따른 교체는 아닌 것으로 풀이된다. 회장후보추천위원회(회추위)는 오히려 현 체제의 성과를 인정하면서도 금융산업 재편과 머니무브에 대응하려면 과감한 변화와 세대교체가 필요하다고 판단한 것으로 보인다.11일 금융권에 따르면 KB금융 회추위는 권광석 전 우리은행장과 양 회장, 이 부문장을 대상으로 각각 2시간의 심층 인터뷰를 진행한 뒤 이 부문장을 최종 후보로 선정했다. 업무경험과 전문성, 리더",
       "author": "류수재 기자",
-      "summary": "KB금융이 역대 최고 실적의 양종희 회장 연임 예상을 뒤엎고 금융산업 재편에 대응하기 위해 이재근 부문장을 차기 회장 후보로 선택했다.",
+      "summary": "KB금융이 역대 최대 실적을 이끈 양종희 회장 대신 이재근 부문장을 차기 회장 후보로 선정했으며, 이는 금융산업의 변화에 대응하기 위한 세대교체로 평가된다.",
       "summarySource": "llm"
     },
     {
@@ -310,7 +310,7 @@
       "publishedAt": "2026-09-11T09:03:37.000Z",
       "description": "국내 주요 가상자산거래소 3곳이 보안 사고와 불투명한 공시를 이유로 '봉크(BONK)' 퇴출을 결정한 가운데 빗썸만 홀로 거래 지원을 유지하며 대규모 물량을 흡수하고 있다. 봉크는 솔라나(Solana) 블록체인을 기반으로 발행된 대표적인 밈코인(Meme Coin·유행이나 재미를 동기로 발행된 가상자산)으로 최근 보안 사고 및 거버넌스 논란에 휩싸였다.타 거래소의 거래 종료로 빗썸 내 봉크 입금량이 500% 이상 증가하며 투자 위험 경고까지 떴지만 빗썸은 유의 해제 당일 입금 유도 행사를 열며 거래를 유치했다. 이에 자율규제 시스템의",
       "author": "최이담 기자",
-      "summary": "국내 주요 거래소 3곳이 보안 사고로 솔라나 기반 밈코인 봉크(BONK)를 퇴출한 가운데, 빗썸만 거래를 유지하며 입금량이 500% 이상 급증했다.",
+      "summary": "국내 주요 거래소들이 봉크 거래를 중단한 가운데 빗썸만 거래를 유지하며 대규모 물량을 흡수하고 있으며, 투자 위험 경고까지 나왔다.",
       "summarySource": "llm"
     },
     {
@@ -318,12 +318,12 @@
       "category": "economy",
       "source": "BBC Business",
       "region": "intl",
-      "title": "Alstom to build new battery-electric train fleet",
+      "title": "알스톰, 배터리 전기 열차 신규 건설",
       "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-11T14:43:33.000Z",
       "description": "The government says the work will support thousands of jobs across the UK.",
       "author": null,
-      "summary": "알스톰이 배터리-전기 기차를 건조하며, 영국 정부는 이 사업이 수천 개의 일자리를 창출할 것이라고 밝혔다.",
+      "summary": "알스톰이 영국에서 배터리 전기 열차 신규 건설을 진행하며, 영국 정부는 이를 통해 수천 개의 일자리를 지원할 것이라고 발표했다.",
       "summarySource": "llm"
     },
     {
@@ -331,12 +331,12 @@
       "category": "economy",
       "source": "The Guardian",
       "region": "intl",
-      "title": "Tell us: how did your childhood shape your attitude to money?",
+      "title": "어린 시절이 금전관리 태도에 미치는 영향",
       "link": "https://www.theguardian.com/money/2026/sep/11/tell-us-how-did-your-childhood-shape-your-attitude-to-money",
       "publishedAt": "2026-09-11T14:38:31.000Z",
       "description": "We would like to speak to people about how their early years coloured their relationship with cash We would like to speak to people about how their childhoods shaped their attitude towards money in later life. Do you think the way you manage money has been affected by your upbringing? Did your family talk about money openly, or was it a subject that felt taboo? And how has that shaped your attitude to your personal finances today? Continue reading...",
       "author": "Guardian community team",
-      "summary": "어린 시절의 경제 환경이 성인 시 금전 관계에 어떤 영향을 미쳤는지에 대해 독자의 경험을 모집하고 있다.",
+      "summary": "가디언이 독자들의 어린 시절 경험이 성인기의 금전 관리 태도에 미친 영향에 대해 물어보고 있다.",
       "summarySource": "llm"
     },
     {
@@ -344,12 +344,12 @@
       "category": "economy",
       "source": "BBC Business",
       "region": "intl",
-      "title": "US prices remain high as fuel costs squeeze household budgets",
+      "title": "미국 물가, 연료비 상승으로 가계 압박",
       "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-11T14:22:42.000Z",
       "description": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official report on inflation.",
       "author": null,
-      "summary": "미국의 물가가 8월까지 12개월간 3.4% 상승했으며, 연료비 상승이 가계 예산을 압박하고 있다.",
+      "summary": "미국의 물가가 12개월간 3.4% 상승했으며, 연료비 상승이 가계 예산을 압박하고 있다.",
       "summarySource": "llm"
     },
     {
@@ -357,12 +357,12 @@
       "category": "economy",
       "source": "The Guardian",
       "region": "intl",
-      "title": "UK chancellor urged to remove ‘hidden taxes’ from energy bills",
+      "title": "영국, 에너지 요금 '숨은 세금' 제거 촉구",
       "link": "https://www.theguardian.com/money/2026/sep/11/chancellor-remove-hidden-taxes-energy-bills",
       "publishedAt": "2026-09-11T12:37:01.000Z",
       "description": "Businesses, charities and other groups sign letter calling for levies to be paid by the government More than 120 organisations including big businesses and charities have called for the removal of “hidden taxes” added to energy bills to help reduce costs for consumers and prevent businesses closing. In a letter to the chancellor the signatories – including Energy UK, business trade body the CBI, End Fuel Poverty and Age UK – called for levies amounting to 10% of energy bills that fund policies to be paid for by the government. John Healey is to present his first budget on 28 October. Continue ",
       "author": "Mark Sweney",
-      "summary": "에너지 부문 기업과 자선단체 등 120개 이상 단체들이 에너지 요금에 포함된 '숨겨진 세금'의 제거를 촉구하는 편지를 영국 재무장관에게 보냈다.",
+      "summary": "영국의 에너지업체, 자선단체, 기업들이 에너지 요금에 포함된 숨겨진 부담금(에너지 요금의 10%)을 정부가 부담하도록 요청했다.",
       "summarySource": "llm"
     },
     {
@@ -370,12 +370,12 @@
       "category": "economy",
       "source": "매일경제 경제",
       "region": "kr",
-      "title": "“주담대 금리 내리겠습니다”…0.45%P 역주행 택한 NH농협은행",
+      "title": "주담대 금리 내리겠습니다…0.45%P 역주행 택한 NH농협은행",
       "link": "https://www.mk.co.kr/news/economy/12150826",
       "publishedAt": "2026-09-11T11:53:55.000Z",
       "description": "시장금리 오름세 속 금리 인하 실수요자 부담 낮추기 나서NH농협은행이 주택담보대출 금리를 최대 0.45%포인트 낮춘다. 시장금리 상승으로 은행권 대출금리가 전반적으로 오르는 추세지..",
       "author": "매일경제",
-      "summary": "시장금리가 오르는 추세 속에서 NH농협은행이 주택담보대출 금리를 최대 0.45%포인트 인하하기로 결정했다.",
+      "summary": "NH농협은행이 시장금리 상승 추세 속에서도 주택담보대출 금리를 최대 0.45%포인트 낮춰 실수요자의 부담을 덜기로 했다.",
       "summarySource": "llm"
     },
     {
@@ -383,12 +383,12 @@
       "category": "economy",
       "source": "매일경제 경제",
       "region": "kr",
-      "title": "젊은 층 30% 이상 “아이 원치 않아”…韓·日 닮은꼴",
+      "title": "젊은 층 30% 이상 \"아이 원치 않아\"…韓·日 닮은꼴",
       "link": "https://www.mk.co.kr/news/economy/12150816",
       "publishedAt": "2026-09-11T11:29:54.000Z",
       "description": "출생 동향 기본 조사 출산 의향 역대 최저일본 젊은 층의 30% 이상이 자녀를 원하지 않는 것으로 나타났다. 11일 일본 국립사회보장·인구문제연구소가 이날 발표한 ‘출생 동향 기본..",
       "author": "매일경제",
-      "summary": "일본 국립사회보장·인구문제연구소 조사 결과 일본 젊은 층의 30% 이상이 자녀를 원하지 않는 것으로 나타났다.",
+      "summary": "일본 국립사회보장·인구문제연구소의 조사에 따르면 일본 젊은 층 30% 이상이 자녀를 원하지 않는 것으로 나타났다.",
       "summarySource": "llm"
     },
     {
@@ -396,12 +396,12 @@
       "category": "economy",
       "source": "매일경제 증권",
       "region": "kr",
-      "title": "유가 110달러에 美국채금리 5%…‘더블펀치’ 공포 [뉴스&분석]",
+      "title": "유가 110달러에 美국채금리 5%…'더블펀치' 공포 [뉴스&분석]",
       "link": "https://www.mk.co.kr/news/world/12150747",
       "publishedAt": "2026-09-11T09:23:57.000Z",
       "description": "미국 금융시장 위기론 중동 ‘2개의 전선’ 확전에 브렌트유 109弗까지 올라 30년물 금리 19년來 최고 트럼프, ‘포퓰리즘’ 영향도글로벌 경제가 중동전쟁의 늪에 다시 빠져드는 ..",
       "author": "매일경제",
-      "summary": "중동 전쟁 확대로 유가가 109달러까지 상승하고 미국 국채 금리가 30년 만에 최고 수준에 도달하면서 글로벌 경제가 위기 신호를 보이고 있다.",
+      "summary": "중동 전쟁 확전으로 유가가 109달러까지 올랐고, 미국 국채금리는 19년 만에 최고 수준에 도달해 글로벌 금융시장이 위기론에 직면했다.",
       "summarySource": "llm"
     },
     {
@@ -409,12 +409,12 @@
       "category": "economy",
       "source": "매일경제 증권",
       "region": "kr",
-      "title": "“햄버거 제국 만든 형제는 그 간판 못 썼다”…맥도날드에 얽힌 엇갈린 운명 [흥부전]",
+      "title": "\"햄버거 제국 만든 형제는 그 간판 못 썼다\"…맥도날드에 얽힌 엇갈린 운명 [흥부전]",
       "link": "https://www.mk.co.kr/news/economy/12150743",
       "publishedAt": "2026-09-11T09:16:55.000Z",
       "description": "맥도날드 형제햄버거의 시대, 그 시대를 연 형제햄버거의 전성시대다. 몇천 원짜리 패스트푸드부터 한 끼에 2만원을 훌쩍 넘는 프리미엄 버거까지 선택지는 어느 때보다 다양해졌다. 유명..",
       "author": "매일경제",
-      "summary": "맥도날드 형제가 건설한 햄버거 제국이 현대의 다양한 버거 시장으로 발전했으며, 형제는 자신들의 간판을 쓰지 못했다.",
+      "summary": "맥도날드의 창업자인 형제들이 햄버거 산업을 개척했으나, 현재는 저가 패스트푸드부터 프리미엄 버거까지 다양한 시장이 형성되어 있다.",
       "summarySource": "llm"
     },
     {
@@ -427,7 +427,7 @@
       "publishedAt": "2026-09-11T09:02:17.000Z",
       "description": "코스닥 상장사 아티스트스튜디오가 39억 9999만 9160원 규모의 제3자배정증자를 실시한다고 2026년 9월 11일 공시했다. 이번 유상증자에서 신주 발행 주식 수는 보통주 14..",
       "author": "매일경제",
-      "summary": "코스닥 상장사 아티스트스튜디오가 39억 9999만 원 규모의 제3자배정증자를 실시하기로 공시했다.",
+      "summary": "코스닥 상장사 아티스트스튜디오가 약 40억 원 규모의 제3자배정 유상증자를 실시했다.",
       "summarySource": "llm"
     },
     {
@@ -440,7 +440,7 @@
       "publishedAt": "2026-09-11T12:52:19.000Z",
       "description": "(서울=연합뉴스) 임기창 기자 = 홍지선 국토교통부 장관 후보자는 인사청문회를 앞두고 병역 관련 자료 제출을 거부했다는 의혹과 관련해 \"군 복무...",
       "author": "임기창",
-      "summary": "홍지선 국토교통부 장관 후보자가 4급 보충역 판정사유에 대해 병무청이 확인 불가라고 회신했다.",
+      "summary": "홍지선 국토교통부 장관 후보자는 4급 보충역 판정사유에 대해 병무청에 확인을 요청했으나 '확인 불가' 회신을 받았다.",
       "summarySource": "llm"
     },
     {
@@ -453,7 +453,7 @@
       "publishedAt": "2026-09-11T12:40:22.000Z",
       "description": "(서울=연합뉴스) 김효정 김현수 기자 = 강신철 국방부 장관 후보자는 11일 \"내일 전작권이 회수되더라도 우리가 스스로 지키는 데는 크게 문제가...",
       "author": "김효정",
-      "summary": "강신철 국방부 장관 후보자는 전작권 회수 이후에도 한국이 스스로 방어하는 데 큰 문제가 없다고 주장했다.",
+      "summary": "강신철 국방부 장관 후보자는 전작권 회수 후에도 한국이 자체적으로 국방할 능력이 있다고 표했다.",
       "summarySource": "llm"
     },
     {
@@ -466,7 +466,7 @@
       "publishedAt": "2026-09-11T10:07:14.000Z",
       "description": "(서울=연합뉴스) 박수윤 조다운 기자 = 국민의힘은 11일 무소속 한동훈 의원의 국회 기자회견에 총리실 직원이 일반인이라면서 참여한 것과 관련,...",
       "author": "박수윤",
-      "summary": "국민의힘이 총리실 직원이 한동훈 의원 기자회견에 일반인으로 참여한 것을 문제 삼아 총리 사퇴를 촉구했다.",
+      "summary": "국민의힘은 총리실 직원이 한동훈 의원의 기자회견에 개입한 것에 대해 총리의 사퇴를 요구했다.",
       "summarySource": "llm"
     },
     {
@@ -479,7 +479,7 @@
       "publishedAt": "2026-09-11T09:58:25.000Z",
       "description": "(서울=연합뉴스) 박수윤 권희원 조다운 기자 = 국민의힘은 11일 김승원·용혜인 장관 후보자에 대한 낙마 공세 수위를 끌어올리는 동시에 강신철 ...",
       "author": "박수윤",
-      "summary": "국민의힘이 제보자 신원공개를 만행이라고 비판하며 여당의 김승원 장관 후보자 지키기에 역공했다.",
+      "summary": "국민의힘은 제보자 신원공개가 만행이라고 주장하면서 김승원·용혜인 장관 후보자에 대한 공세에 역공을 펼쳤다.",
       "summarySource": "llm"
     },
     {
@@ -487,12 +487,12 @@
       "category": "politics",
       "source": "서울신문",
       "region": "kr",
-      "title": "대정부질문서 부동산 공방…與 “오로남불” 野 “징벌세금”",
+      "title": "대정부질문서 부동산 공방…與 \"오로남불\" 野 \"징벌세금\"",
       "link": "https://www.seoul.co.kr/news/newsView.php?id=20260911500294",
       "publishedAt": "2026-09-11T09:51:53.000Z",
       "description": "여야는 11일 경제 분야 국회 대정부질문에서 부동산 공급 정책과 세제 개편을 놓고 맞붙었다. 더불어민주당은 서울시가 주택 공급 확대에 제동을 걸고 있다고 비판했고, 국민의힘은 정부의 부동산 세제가 사실상 국민의 거주·이전 선택을 제약하고 있다고 주장했다. 복기왕 민주당 의원은 서울의 주택 공급 부족 책임을 오세훈 서울시장에게 돌렸다. 복 의원은 “오 시장이 무려 6년 넘게 서울 시정을 운영하면서 아직도 서울의 주택 공급에 대해서 이재명 정부 탓을 한다”며 “오히려 서울시가 서울시의 권한으로 서울시의 주택 공급을 가로막고 있는 이런 모습을 보이고 있다”고 지적했다. 특히 오 시장이 서울지역 개발제한구역(그린벨트) 해제에 부정적인 입장을 밝힌 점을 문제 삼았다. 복 의원은 “본인이 속한 당에서 하면 공급이고 본인이 속하지 않은 당의 정부에서 운영하면 훼손이냐”며 “그래서 서울시에서는 ‘오(吳)로남불’이라는 말도 나온다”고 말했다. 국민의힘은 정부의 규제와 세금 정책이 오히려 주택시장과 임대차 시장의 부담을 키웠다고 맞섰다. 박수민 의원은 “9·7 공급 대책으로 민간 생태계를 활성화해야 하는데 1년간 허송세월했다”며 “그동안 대출 규제와 징벌 세금이 다 퍼져서 지",
       "author": "반영윤 기자",
-      "summary": "국회 경제 분야 대정부질문에서 여야가 부동산 정책을 놓고 충돌했으며, 민주당은 서울시의 주택 공급 부족을, 국민의힘은 정부 세제의 규제성을 비판했다.",
+      "summary": "여야는 경제 분야 국회 대정부질문에서 부동산 공급 정책과 세제 개편을 두고 대립했으며, 민주당은 서울시의 책임을 지적하고 국민의힘은 정부 세제 정책의 문제를 주장했다.",
       "summarySource": "llm"
     },
     {
@@ -500,12 +500,12 @@
       "category": "politics",
       "source": "경향신문 정치",
       "region": "kr",
-      "title": "이 대통령 “예술인 최저생계 유지 뒷받침…프랑스식 소피카 제도 적극 검토”",
+      "title": "이 대통령 \"예술인 최저생계 유지 뒷받침…프랑스식 소피카 제도 적극 검토\"",
       "link": "https://www.khan.co.kr/article/202609111746001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
       "publishedAt": "2026-09-11T08:46:00.000Z",
       "description": "이재명 대통령이 11일 청와대에서 수석보좌관회의를 주재하고 있다. 청와대 통신사진기자단이재명 대통령이 11일 민간 자본이 영화·영상산업에 투자할 경우 세제 혜택을 주는 프랑스식 소피카(SOFICA) 제도 도입을 적극 검토하라고 지시했다.이 대통령은 이날 청와대에서 주재한 수석보좌관회의에서 프랑스의 영화·영상산업 세제 지원 제도인 소피카를 언급하며 “해외에서···",
       "author": "민서영 기자",
-      "summary": "이재명 대통령이 민간 자본의 영화·영상산업 투자 활성화를 위해 프랑스식 소피카 제도 도입을 적극 검토하도록 지시했다.",
+      "summary": "이재명 대통령은 영화·영상산업 투자에 세제 혜택을 주는 프랑스식 소피카(SOFICA) 제도 도입을 검토하도록 지시했다.",
       "summarySource": "llm"
     },
     {
@@ -513,12 +513,12 @@
       "category": "politics",
       "source": "경향신문 정치",
       "region": "kr",
-      "title": "청와대 “용혜인 기자회견, 따로 협의 없었다···다양한 국민 목소리 귀 기울여”",
+      "title": "청와대 \"용혜인 기자회견, 따로 협의 없었다···다양한 국민 목소리 귀 기울여\"",
       "link": "https://www.khan.co.kr/article/202609111731001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
       "publishedAt": "2026-09-11T08:31:00.000Z",
       "description": "강유정 수석대변인이 지난 1일 청와대 기자회견장에서 김용범 정책실장 사퇴 관련 브리핑을 하고 있다. 청와대사진기자단청와대가 용혜인 성평등가족부 장관 후보자의 기자회견과 관련해 11일 “청와대와 따로 협의는 없었다”며 “다양한 국민들 목소리에 대해 귀기울여 듣고 있다”고 밝혔다.강유정 청와대 수석대변인은 이날 청와대 춘추관에서 브리핑을 열고 “어제(10일) ···",
       "author": "민서영 기자",
-      "summary": "청와대가 용혜인 장관 후보자의 기자회견은 청와대와 별도의 협의 없이 진행되었다고 해명했다.",
+      "summary": "청와대는 용혜인 장관 후보자의 기자회견이 청와대와의 협의 없이 진행되었으며 다양한 국민 목소리에 귀 기울이고 있다고 밝혔다.",
       "summarySource": "llm"
     },
     {
@@ -531,7 +531,7 @@
       "publishedAt": "2026-09-11T06:47:00.000Z",
       "description": "국민의힘이 김승원 법무부 장관 후보자 인사청문회 정국에서 무소속 한동훈 의원을 어떻게 활용할지를 두고 갈라졌다. 당 지도부 내 이견이 공개 표출되고, 국민의힘 소속 국회 법제사법위원회 위원들 간에도 온도차가 나타났다.무소속 한동훈 의원이 11일 국회 의원회관 박정훈 국민의힘 의원 사무실에서 열린 김승원 법무부 장관 후보자 ‘신약 임상실험 승인 청탁 의혹’ ···",
       "author": "박순봉 기자",
-      "summary": "국민의힘이 김승원 법무부 장관 후보자 인사청문회에 한동훈 의원을 청문위원으로 포함시킬지 여부를 두고 당 내 의견이 갈렸다.",
+      "summary": "국민의힘이 김승원 법무부 장관 후보자 청문회에서 한동훈 의원을 청문위원으로 포함할지 여부를 두고 당 내에서 의견이 엇갈렸다.",
       "summarySource": "llm"
     },
     {
@@ -539,12 +539,12 @@
       "category": "politics",
       "source": "경향신문 정치",
       "region": "kr",
-      "title": "한성숙, 한동훈 기자회견 논란에 “유감, 국민께 송구···사찰은 아니다”",
+      "title": "한성숙, 한동훈 기자회견 논란에 \"유감, 국민께 송구···사찰은 아니다\"",
       "link": "https://www.khan.co.kr/article/202609111518001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
       "publishedAt": "2026-09-11T06:18:00.000Z",
       "description": "한성숙 국무총리가 11일 국회 본회의 경제에관한 대정부질문에서 의원질의에 답하고 있다. 2026.9.11 박민규 선임기자한성숙 국무총리가 11일 한동훈 무소속 의원의 국회 기자회견에서 총리실 직원이 자신을 일반인이라고 소개하며 질문한 일과 관련해 유감을 표했다. 한 총리는 재발 방지를 위한 조치를 검토하겠다고 말했다.한 총리는 이날 국회 경제분야 대정부질문···",
       "author": "허남설 기자",
-      "summary": "한성숙 총리가 총리실 직원이 한동훈 의원 기자회견에 참여한 일에 대해 유감을 표하고 재발 방지 조치를 검토하겠다고 밝혔다.",
+      "summary": "한성숙 국무총리는 총리실 직원이 한동훈 의원 기자회견에 개입한 일에 대해 유감을 표하고 재발 방지 조치를 검토하겠다고 밝혔다.",
       "summarySource": "llm"
     },
     {
@@ -552,12 +552,12 @@
       "category": "world",
       "source": "BBC World",
       "region": "intl",
-      "title": "Has Trump won over voters with his midterm convention?",
+      "title": "현직 중 공화당 전당대회로 트럼프가 유권자를 설득했나?",
       "link": "https://www.bbc.co.uk/news/videos/cn9w5e7wl9ro?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-11T06:16:54.000Z",
       "description": "The BBC's North America editor Sarah Smith breaks down the main takeaways from the first-ever Republican convention held in the middle of a US presidential term.",
       "author": null,
-      "summary": "BBC 북미 특파원이 미국 대통령 임기 중 처음 열린 공화당 전당대회의 주요 내용을 분석했다.",
+      "summary": "현직 대통령 임기 중에 처음 열린 미국 공화당 전당대회가 유권자를 설득했는지를 BBC가 분석했다.",
       "summarySource": "llm"
     },
     {
@@ -565,12 +565,12 @@
       "category": "world",
       "source": "BBC World",
       "region": "intl",
-      "title": "Brother of Muslim police cadet killed in 9/11 'disappointed' by calls for Mamdani to sit out memorial",
+      "title": "9/11 추모식서 무슬림 시장 불참 요구에 유족 반발",
       "link": "https://www.bbc.co.uk/news/videos/ce8e67l4330o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-11T04:10:24.000Z",
       "description": "Zeshan Hamdani speaks out after push back against New York Mayor Zohran Mamdani, who is Muslim, attending 9/11 events.",
       "author": null,
-      "summary": "무슬림인 뉴욕시장이 9·11 추모 행사 참석에서 배제되어야 한다는 주장에 대해, 9·11로 사망한 무슬림 경찰 후보생의 형이 실망감을 표명했다.",
+      "summary": "9/11 추모식에서 무슬림인 뉴욕시장 조흐란 맘다니의 참석을 반대하는 움직임에 대해 9/11 희생자 유족이 실망감을 나타냈다.",
       "summarySource": "llm"
     },
     {
@@ -578,12 +578,12 @@
       "category": "world",
       "source": "The Guardian",
       "region": "intl",
-      "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "title": "여성할례 근절 위한 1,550만 달러 펀드 출범",
       "link": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
       "publishedAt": "2026-09-11T04:00:04.000Z",
       "description": "Her Horizon Fund seeks $100m to stop practice harming 230m women and girls globally Frontline activists and leaders in the fight against female genital mutilation, which has affected more than 230 million women and girls worldwide, have welcomed an unprecedented $15.5m (£11.4m) fund aimed at creating “unstoppable momentum” to finally end the practice. The launch of the fund comes as women’s rights are increasingly under attack and donor funding is in sharp decline, particularly for work led by FGM survivors in local communities. It is thought to be the largest single philanthropic contribution",
       "author": "Karen McVeigh",
-      "summary": "여성할례로 인해 피해를 입은 2억 3천만 명 이상의 여성과 소녀들을 보호하기 위해 1,550만 달러 규모의 기금이 출범했다.",
+      "summary": "전 세계 2억 3천만 명 이상이 피해를 입은 여성할례를 근절하기 위해 1,550만 달러 규모의 헤리즌 펀드가 출범했다.",
       "summarySource": "llm"
     },
     {
@@ -591,12 +591,12 @@
       "category": "world",
       "source": "BBC World",
       "region": "intl",
-      "title": "Watch: Americans remember what they were doing on 9/11",
+      "title": "9/11 당시 미국인들의 기억",
       "link": "https://www.bbc.co.uk/news/videos/cdr765xj1k1o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-09-11T02:48:43.000Z",
       "description": "The BBC asks people in Washington what they were doing on that day and how 11 September 2001 changed the country.",
       "author": null,
-      "summary": "BBC가 워싱턴 주민들에게 2001년 9월 11일에 어디서 무엇을 하고 있었는지, 그날이 미국에 어떤 영향을 미쳤는지 물었다.",
+      "summary": "BBC가 워싱턴 주민들을 대상으로 2001년 9월 11일 당시의 기억과 그 사건이 미국에 미친 영향을 물었다.",
       "summarySource": "llm"
     },
     {
@@ -604,12 +604,12 @@
       "category": "world",
       "source": "The Guardian",
       "region": "intl",
-      "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "title": "캐나다, 젤렌스키 방문 중 우크라이나 공중방어 지원 약속",
       "link": "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit",
       "publishedAt": "2026-09-10T20:35:06.000Z",
       "description": "Canadian PM Mark Carney hosts president in Calgary, where he grew up alongside large Ukrainian community Canada offered support on Thursday to boost Ukraine’s air defenses and help replenish its drone stocks, as the countries pledged to deepen their alliance during a visit by Volodymyr Zelenskyy. Mark Carney hosted the president of Ukraine in Calgary in the western province of Alberta, where the Canadian prime minister grew up among a large community of people with Ukrainian heritage. Continue reading...",
       "author": "Agence France-Presse",
-      "summary": "캐나다가 우크라이나의 방공 능력 강화와 드론 재보급을 지원하기로 약속했으며, 마크 칸리 총리와 젤렌스키 대통령은 양국 동맹 심화에 합의했다.",
+      "summary": "캐나다 총리 마크 카니가 우크라이나 대통령 젤렌스키를 맞아 공중방어 지원과 드론 보충을 약속했다.",
       "summarySource": "llm"
     },
     {
@@ -617,12 +617,12 @@
       "category": "world",
       "source": "The Guardian",
       "region": "intl",
-      "title": "Secret son revelation ignites bitter succession dispute in Ugandan kingdom",
+      "title": "우간다 왕국, 비공개 아들 공개로 왕위 계승 분쟁",
       "link": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
       "publishedAt": "2026-09-10T17:29:20.000Z",
       "description": "Family of late King Oyo Nyimba Kabamba Iguru Rukidi IV reject committee’s choice of cousin and TV presenter as new monarch A traditional Ugandan kingdom has become engulfed in a bitter succession dispute after the family of a king who recently died rejected the selection of a television news anchor as his successor. King Oyo Nyimba Kabamba Iguru Rukidi IV, who became the world’s youngest reigning monarch when he took the throne in the kingdom of Tooro in 1995 at the age of three, died on 27 August in the US, where he was receiving cancer treatment. Continue reading...",
       "author": "Carlos Mureithi in Nairobi and agencies",
-      "summary": "우간다 토로 왕국에서 지난 8월 사망한 왕의 가족이 위원회가 선정한 TV 진행자 후보자를 거부하면서 왕위 계승을 둘러싼 갈등이 심화됐다.",
+      "summary": "우간다 토로 왕국의 왕이 8월에 사망한 후, 왕실 가족이 텔레비전 앵커를 왕위 계승자로 선택한 위원회 결정을 거부하며 왕위 계승을 두고 분쟁이 빚어졌다.",
       "summarySource": "llm"
     },
     {
@@ -630,12 +630,12 @@
       "category": "editorial",
       "source": "The Guardian Opinion",
       "region": "intl",
-      "title": "In Gaza, we’ve seen horror unfold with global powers’ support. Is that a blueprint for horror elsewhere? | Ahdaf Soueif",
+      "title": "가자, 국제사회의 묵인 속에서 끔찍한 일이 벌어지고 있다",
       "link": "https://www.theguardian.com/commentisfree/2026/sep/11/gaza-horror-global-powers-support-blueprint-palestinians-israel",
       "publishedAt": "2026-09-11T14:29:23.000Z",
       "description": "For now, it is Palestinians who are being killed and displaced. But ideologies of supremacy and domination threaten us all Last week, Itamar Ben-Gvir, Israel’s minister of national security, put out an AI-generated video that showed a conveyor belt of overweight Palestinian prisoners – dreaming of food and education – entering one of his prisons; he pops the dream bubbles above their heads and they come out emaciated and crying. Ben-Gvir is building an execution site for Palestinian prisoners with spectator booths, and he recently showed up at Damon prison in northern Israel and taunted female",
       "author": "Ahdaf Soueif",
-      "summary": "Ahdaf Soueif는 이스라엘의 팔레스타인 피수인 학대가 글로벌 강국의 지지 속에서 일어나고 있으며, 이러한 우월주의 이데올로기가 전 세계를 위협한다고 비판했다.",
+      "summary": "팔레스타인 포로의 학대 실태를 지적하며, 국제사회의 침묵 속에서 진행되는 인권 침해가 다른 지역의 전례가 될 수 있다고 우려했다.",
       "summarySource": "llm"
     },
     {
@@ -643,12 +643,12 @@
       "category": "editorial",
       "source": "NYT Opinion",
       "region": "intl",
-      "title": "Fashion’s Most Disgusting Product",
+      "title": "패션업계의 가장 혐오스러운 상품",
       "link": "https://www.nytimes.com/2026/09/10/opinion/new-york-fashion-week-fast-fashion.html",
       "publishedAt": "2026-09-11T14:02:29.000Z",
       "description": "A modicum of self-restraint is the new black.",
       "author": "Dana Thomas",
-      "summary": "Dana Thomas는 패션산업의 과도한 소비주의를 비판하며, 절제가 새로운 미덕이 되어야 한다고 주장했다.",
+      "summary": "패션 산업의 과도한 소비 문화를 비판하며 절제력이 새로운 트렌드가 되어야 한다고 주장했다.",
       "summarySource": "llm"
     },
     {
@@ -656,12 +656,12 @@
       "category": "editorial",
       "source": "NYT Opinion",
       "region": "intl",
-      "title": "This Tiny Canadian Town Took In Americans on 9/11. It Would Again.",
+      "title": "9/11 때 미국인을 받아준 캐나다의 작은 마을, 지금도 그럴 것이다",
       "link": "https://www.nytimes.com/2026/09/10/opinion/911-canada-gander-newfoundland-come-from-away.html",
       "publishedAt": "2026-09-11T12:51:07.000Z",
       "description": "A tiny slice of Newfoundland welcomed in stranded passengers.",
       "author": "Glynnis MacNicol",
-      "summary": "Glynnis MacNicol은 9/11 당시 뉴펀들랜드가 난항한 승객들을 환영한 사례를 들며, 앞으로도 그러한 인도주의적 행동이 계속될 수 있다고 촉구했다.",
+      "summary": "뉴펀들랜드의 작은 마을이 9/11 당시 고립된 탑승객들을 받아든 사례를 통해, 위기 상황에서 국경을 초월한 인도적 정신의 중요성을 강조했다.",
       "summarySource": "llm"
     },
     {
@@ -669,12 +669,12 @@
       "category": "editorial",
       "source": "The Guardian Opinion",
       "region": "intl",
-      "title": "Memo to King Charles: you can’t stop the Sussexes’ reality show bandwagon. You only spice up the script | Marina Hyde",
+      "title": "찰스 국왕에게: 서섹스 부부의 리얼리티 쇼는 막을 수 없다",
       "link": "https://www.theguardian.com/commentisfree/2026/sep/11/king-charles-sussexes-reality-tv-harry-meghan-celebrity",
       "publishedAt": "2026-09-11T12:31:49.000Z",
       "description": "If the monarch thought his sniffy letter would put Harry and Meghan at a disadvantage, he doesn’t understand how the celebrity world works Once again, it has been a lively week for the Real Housewives of Windsor franchise, with Harry and Meghan back in the UK for precisely 12 days before the king fired out a letter via the lord chamberlain on Monday, reminding viewers that the Sussexes are “private citizens” and not to treat them as working royals. You have to say the producers on this unscripted reality show are truly at the top of their game with these targeted provocations. Harry and Meghan",
       "author": "Marina Hyde",
-      "summary": "Marina Hyde는 국왕의 편지가 해리와 메건을 제약하려는 시도라고 지적하면서, 오히려 그것이 이들의 리얼리티 쇼를 더욱 흥미롭게 만들 뿐이라고 비판했다.",
+      "summary": "왕실의 공식 성명이 해리와 메건을 사적 개인으로 규정하려 해도, 실제로는 그들의 유명인 활동을 제지하지 못하며 오히려 드라마만 증폭시킨다고 지적했다.",
       "summarySource": "llm"
     },
     {
@@ -682,12 +682,12 @@
       "category": "editorial",
       "source": "The Guardian Opinion",
       "region": "intl",
-      "title": "Wake up, Britain: Donald Trump’s US is no friend of ours. We must secure our own place in the world | Simon Jenkins",
+      "title": "깨어나라, 영국이여: 트럼프의 미국은 우리 친구가 아니다",
       "link": "https://www.theguardian.com/commentisfree/2026/sep/11/britain-donald-trump-us-president-secure-defence-europe",
       "publishedAt": "2026-09-11T11:00:04.000Z",
       "description": "The US president is ever more wayward – and has little interest in defending Europe. The constitution may hold him to account, but we can’t wait If Americans vote for a Republican majority in both houses of Congress in November, “I will issue a dividend to every adult citizen in the United States of America for $5,000.” But they must not spend it in Canada or China or anywhere else outside the US. So said Donald Trump in Texas on Wednesday in advance of the forthcoming midterm elections. He further told voters to “Pretend that I’m on the ballot”. It was a climactic moment in an almost two-hour",
       "author": "Simon Jenkins",
-      "summary": "Simon Jenkins는 트럼프 행정부가 예측 불가능해지고 유럽 방어에 무관심해지고 있다며, 영국이 독립적으로 자신의 위치를 확보해야 한다고 주장했다.",
+      "summary": "트럼프 미국 대통령의 자국 중심주의를 비판하며, 영국이 더 이상 미국에 의존하지 않고 유럽 방위에 자립해야 한다고 주장했다.",
       "summarySource": "llm"
     },
     {
@@ -700,7 +700,7 @@
       "publishedAt": "2026-09-11T09:15:00.000Z",
       "description": "원민경 성평등가족부 장관이 11일 정부서울청사에서 구글 디지털 성범죄 피해 정보 유출 관련 브리핑을 하고 있다. 연합뉴스정부가 디지털성범죄 피해자의 삭제 요청문을 외부 사이트에 넘겨 신상정보를 유츌한 구글에 “책임 있는 자세를 보이라”며 법적 대응 검토에 나섰다. 성평등가족부·방송미디어통신위원회는 11일 정부서울청사에서 브리핑을 열고 “위법 사항이 확인될 ···",
       "author": null,
-      "summary": "경향신문은 피해자의 삭제 요청 정보를 외부에 넘겨 신상을 유출한 구글에 대해 법적 책임을 묻도록 촉구했다.",
+      "summary": "디지털 성범죄 피해자의 삭제 요청 정보를 외부에 유출해 신상을 노출시킨 구글에 대해 법적 책임을 물어야 한다고 주장했다.",
       "summarySource": "llm"
     },
     {
@@ -713,7 +713,7 @@
       "publishedAt": "2026-09-11T09:10:00.000Z",
       "description": "예멘의 친이란 후티 반군 병사가 10일(현지시간) 수도 사나에서 모형 미사일을 어깨에 매고 걸어가고 있다. 사나|EPA연합뉴스친미국가 사우디아라비아와 예멘의 친이란 후티 반군이 전면전을 방불케하는 무력 충돌을 벌이면서 중동 전쟁이 호르무즈 해협에서 홍해로 확산되고 있다. 미·이란 전쟁으로 사실상 봉쇄 상태인 호르무즈 해협에 이어 우회로인 홍해 역시 원유 수···",
       "author": null,
-      "summary": "경향신문은 중동 전쟁이 홍해로 확산되면서 국제유가 급등과 국채 위험에 대비해야 한다고 경고했다.",
+      "summary": "사우디와 후티 반군의 무력 충돌로 중동 전쟁이 홍해로 확산되면서 유가 급등과 국채 급증의 위험이 높아지고 있다며 대비를 촉구했다.",
       "summarySource": "llm"
     },
     {
@@ -721,12 +721,12 @@
       "category": "editorial",
       "source": "NYT Opinion",
       "region": "intl",
-      "title": "Francis Fukuyama on Trump, China and the Legacy of 9/11",
+      "title": "트럼프, 중국 그리고 9/11의 유산: 프란시스 후쿠야마의 평가",
       "link": "https://www.nytimes.com/video/opinion/100000011143292/francis-fukuyama-on-trump-china-and-the-legacy-of-9-11.html",
       "publishedAt": "2026-09-11T08:58:00.000Z",
       "description": "The political scientist Francis Fukuyama looks back on his 1992 book, “The End of History and the Last Man,” and what it has predicted about the state of liberalism today.",
       "author": null,
-      "summary": "Francis Fukuyama는 1992년 저작 「역사의 종말」을 회고하며 현재 자유주의 상태에 대해 당시 자신의 예측이 어떻게 나타났는지를 논했다.",
+      "summary": "정치학자 후쿠야마(Francis Fukuyama)가 1992년 저서 '역사의 종말과 마지막 인간'을 통해 예측한 자유주의의 미래가 현재의 국제정치 상황 속에서 어떻게 검증되고 있는지 평가했다.",
       "summarySource": "llm"
     },
     {
@@ -734,16 +734,16 @@
       "category": "editorial",
       "source": "경향신문 오피니언",
       "region": "kr",
-      "title": "​[법무법인 위온] 직장 내 괴롭힘, 피해자가 조사를 원하지 않을 때 어떻게 해야 하나",
+      "title": "[법무법인 위온] 직장 내 괴롭힘, 피해자가 조사를 원하지 않을 때 어떻게 해야 하나",
       "link": "https://www.khan.co.kr/article/202609111105018/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
       "publishedAt": "2026-09-11T02:05:01.000Z",
       "description": "직장 내 괴롭힘 신고를 접수한 뒤에도 정작 조사를 어떻게 시작해야 할지 고민하는 사업장이 적지 않다. 동료가 신고했지만 당사자는 일을 키우고 싶지 않다고 하거나, 본인이 직접 신고한 뒤 며칠 만에 없던 일로 해 달라고 요청하는 경우도 있다. 피해자가 원하지 않는데 조사를 강행하면 2차 피해로 이어질 수 있고, 그렇다고 아무런 조치 없이 사건을 덮어 두면 사···",
       "author": "법무법인 위온 대표변호사 전병모",
-      "summary": "전병모 대표변호사는 직장 내 괴롭힘 신고 시 피해자가 조사를 거부할 때 무리한 진행을 피하면서도 사건을 덮지 않는 적절한 대응을 촉구했다.",
+      "summary": "직장 내 괴롭힘 신고 후 피해자가 조사를 원하지 않을 경우, 회사가 2차 피해를 피하면서도 법적 책임을 완수할 수 있는 방안을 제시했다.",
       "summarySource": "llm"
     }
   ],
-  "summarizedAt": "2026-09-13T23:10:45.124Z",
+  "summarizedAt": "2026-09-14T03:06:06.147Z",
   "summaryStats": {
     "llm": 42,
     "fallback": 0,
