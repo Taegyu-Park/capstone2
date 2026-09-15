@@ -1,0 +1,791 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-15T00:20:42.016Z",
+  "categories": [
+    {
+      "id": "it",
+      "label": "IT·과학·AI"
+    },
+    {
+      "id": "economy",
+      "label": "경제·금융"
+    },
+    {
+      "id": "politics",
+      "label": "정치·사회"
+    },
+    {
+      "id": "world",
+      "label": "세계·국제"
+    },
+    {
+      "id": "editorial",
+      "label": "사설·칼럼",
+      "opinion": true,
+      "summaryMaxChars": 220
+    }
+  ],
+  "feedStatus": [
+    {
+      "source": "Ars Technica",
+      "category": "it",
+      "ok": true,
+      "matched": 2
+    },
+    {
+      "source": "Hacker News",
+      "category": "it",
+      "ok": true,
+      "matched": 2
+    },
+    {
+      "source": "TechCrunch",
+      "category": "it",
+      "ok": true,
+      "matched": 7
+    },
+    {
+      "source": "The Verge",
+      "category": "it",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "블로터",
+      "category": "it",
+      "ok": true,
+      "matched": 18
+    },
+    {
+      "source": "전자신문",
+      "category": "it",
+      "ok": true,
+      "matched": 24
+    },
+    {
+      "source": "ZDNet Korea",
+      "category": "it",
+      "ok": true,
+      "matched": 17
+    },
+    {
+      "source": "BBC Business",
+      "category": "economy",
+      "ok": true,
+      "matched": 12
+    },
+    {
+      "source": "The Guardian",
+      "category": "economy",
+      "ok": true,
+      "matched": 14
+    },
+    {
+      "source": "매일경제 경제",
+      "category": "economy",
+      "ok": true,
+      "matched": 30
+    },
+    {
+      "source": "연합뉴스",
+      "category": "economy",
+      "ok": true,
+      "matched": 70
+    },
+    {
+      "source": "경향신문 사회",
+      "category": "politics",
+      "ok": true,
+      "matched": 41
+    },
+    {
+      "source": "경향신문 정치",
+      "category": "politics",
+      "ok": true,
+      "matched": 36
+    },
+    {
+      "source": "노컷뉴스",
+      "category": "politics",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "서울신문",
+      "category": "politics",
+      "ok": true,
+      "matched": 7
+    },
+    {
+      "source": "연합뉴스 사회",
+      "category": "politics",
+      "ok": true,
+      "matched": 39
+    },
+    {
+      "source": "연합뉴스 정치",
+      "category": "politics",
+      "ok": true,
+      "matched": 104
+    },
+    {
+      "source": "SBS 뉴스",
+      "category": "politics",
+      "ok": true,
+      "matched": 16
+    },
+    {
+      "source": "Al Jazeera",
+      "category": "world",
+      "ok": true,
+      "matched": 0
+    },
+    {
+      "source": "BBC World",
+      "category": "world",
+      "ok": true,
+      "matched": 14
+    },
+    {
+      "source": "NPR",
+      "category": "world",
+      "ok": true,
+      "matched": 9
+    },
+    {
+      "source": "The Guardian",
+      "category": "world",
+      "ok": true,
+      "matched": 5
+    },
+    {
+      "source": "연합뉴스 국제",
+      "category": "world",
+      "ok": true,
+      "matched": 63
+    },
+    {
+      "source": "매일경제 증권",
+      "category": "economy",
+      "ok": true,
+      "matched": 40
+    },
+    {
+      "source": "경향신문 오피니언",
+      "category": "editorial",
+      "ok": true,
+      "matched": 14
+    },
+    {
+      "source": "NYT Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 11
+    },
+    {
+      "source": "The Guardian Opinion",
+      "category": "editorial",
+      "ok": true,
+      "matched": 13
+    },
+    {
+      "source": "Washington Post Opinions",
+      "category": "editorial",
+      "ok": true,
+      "matched": 9
+    }
+  ],
+  "items": [
+    {
+      "id": "3390c43d7c1a",
+      "category": "it",
+      "source": "Hacker News",
+      "region": "intl",
+      "title": "Dario, Please",
+      "link": "https://pop.rdi.sh/dario-please/",
+      "publishedAt": "2026-09-14T14:50:32.000Z",
+      "description": "Article URL: https://pop.rdi.sh/dario-please/ Comments URL: https://news.ycombinator.com/item?id=49697893 Points: 234 # Comments: 113",
+      "author": "0x5FC3",
+      "summary": "Article URL: https://pop.rdi.sh/dario-please/ Comments URL: https://news.ycombinator.com/item?id=49697893 Points: 234 # Comments: 113",
+      "summarySource": "rss"
+    },
+    {
+      "id": "9566a3a75d81",
+      "category": "it",
+      "source": "TechCrunch",
+      "region": "intl",
+      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "link": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+      "publishedAt": "2026-09-14T14:45:44.000Z",
+      "description": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "author": "Ivan Mehta",
+      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "0a91acb2c71e",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "[IPO 워치] 와이즈플래닛, 수요예측 흥행…확약은 4% 못미쳐",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673497",
+      "publishedAt": "2026-09-14T14:45:38.000Z",
+      "description": "와이즈플래닛컴퍼니가 공모가를 희망범위 상단인 1만2000원으로 확정했다. 수요예측에서 신청물량의 99% 이상이 상단 이상에 몰리며 흥행에 성공했지만, 의무보유 확약은 4%에도 못 미쳤다. 기관들은 장기 보유보다는 상장 초기 수익 실현에 무게를 둔 것으로 풀이된다.14일 금융감독원 전자공시시스템에 따르면 와이즈플래닛컴퍼니는 공모가를 1만2000원으로 확정했다. 희망공모가 밴드(1만~1만2000원)의 상단이다. 공모주식 160만주를 통해 총 192억원을 조달한다. 상장예정주식수 1002만30주를 기준으로 한 예상 시가총액은 약 1202",
+      "author": "정유진 기자",
+      "summary": "와이즈플래닛컴퍼니가 공모가를 희망범위 상단인 1만2000원으로 확정했다. 수요예측에서 신청물량의 99% 이상이 상단 이상에 몰리며 흥행에 성공했지만, 의무보유 확약은 4%에도 못 미쳤다.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "104ed26a2505",
+      "category": "it",
+      "source": "블로터",
+      "region": "kr",
+      "title": "HLB제약 유증, 구주주 물량 91% 소화…실권주 92만주 남아",
+      "link": "https://www.bloter.net/news/articleView.html?idxno=673547",
+      "publishedAt": "2026-09-14T14:42:27.000Z",
+      "description": "HLB제약이 유상증자 구주주 청약에서 91%가 넘는 청약률을 기록했다. 최대주주 및 특수관계인이 배정 물량의 50%만 참여하기로 한 가운데서도 전체 모집 물량의 대부분이 소화됐다.14일 금융감독원 전자공시시스템에 따르면 HLB제약은 이달 10~11일 진행한 구주주 청약에서 모집주식수 1076만2332주 가운데 984만3359주가 청약됐다. 청약률은 91.46%로 집계됐다. 앞서 최대주주 HLB생명과학과 특수관계인인 진양곤 HLB그룹 회장, 박재형 HLB제약 대표, 진유림 HLB 이사, 진인혜 베리스모 테라퓨틱스 상무 등 4명은 배정",
+      "author": "김수정 기자",
+      "summary": "HLB제약이 유상증자 구주주 청약에서 91%가 넘는 청약률을 기록했다. 최대주주 및 특수관계인이 배정 물량의 50%만 참여하기로 한 가운데서도 전체 모집 물량의 대부분이 소화됐다.14일 금융감독원 전자공시시스템에 따르면 HLB제약은 이달 10~11일 진행한 구주주 청약에서 모집주식수 1076만2332주 가운데 984만33…",
+      "summarySource": "rss"
+    },
+    {
+      "id": "7fef968f9238",
+      "category": "it",
+      "source": "Ars Technica",
+      "region": "intl",
+      "title": "F1 in Madrid: Like Monaco but twice as long and none of the glamour",
+      "link": "https://arstechnica.com/cars/2026/09/f1-in-madrid-like-monaco-but-twice-as-long-and-none-of-the-glamour/",
+      "publishedAt": "2026-09-14T14:32:35.000Z",
+      "description": "Formula 1’s latest venue might be fun to drive, but the race was processional and dull.",
+      "author": "Jonathan M. Gitlin",
+      "summary": "Formula 1’s latest venue might be fun to drive, but the race was processional and dull.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "e09849a77c7e",
+      "category": "it",
+      "source": "ZDNet Korea",
+      "region": "kr",
+      "title": "[보안 리딩기업] 쿤텍 \"IT·OT 통합 글로벌 보안회사로 우뚝...세계 80개국 진출 목표\"",
+      "link": "https://zdnet.co.kr/view/?no=20260914231607",
+      "publishedAt": "2026-09-14T14:16:07.000Z",
+      "description": "[지디넷코리아]\"세계 80개국에 진출한 보안 기업을 만들고 싶습니다.\"방혁준 쿤텍 대표는 지디넷코리아와 인터뷰에서 이 같은 포부를 밝혔다. 성남시 동판교에 둥지를 튼 쿤텍은 2016년 1월 22일 설립된 AX·DX 융합보안 전문기업이다. 소프트웨어 공급망 보안, 선박보안, OT(Operational Technology, 운영기술, 공장·발전소·정유시설·교통시설 등에서 실제 기계와 설비를 움직이고 제어하는 기술)보안, 임베디드 가상화&보안, AI 보안 교육 및 컨설팅을 주요 사업으로 하고 있다.기업부설연구소가 있고 아카데미도 운영하고 있다. 올 9월 기준 임직원은 99명이다. 전체 인력 77%가 연구개발 및 기술지원 분야에서 일하고 있다. 회사명 쿤텍(COONTEC)은 ‘COrporation ON by TEChnology’에서 따왔다. 기술을 통해 조직과 산업의 변화를 만들어 가겠다는 의미를 담았다.방 대표는 2000년 이타텍 연구원을 시작으로 2004년 엠브릿지에 들어가 선임연구원을 지냈다. 한컴MDS DAS팀장(2008~2015년)을 거쳐 2016년 쿤텍을 설립했다. OT와 임베디드 신뢰·보안 컨설팅, ISO 26262 분야를 중심으로 현장 경험을 쌓아 온",
+      "author": "방은주 기자",
+      "summary": "[지디넷코리아]\"세계 80개국에 진출한 보안 기업을 만들고 싶습니다.\"방혁준 쿤텍 대표는 지디넷코리아와 인터뷰에서 이 같은 포부를 밝혔다. 성남시 동판교에 둥지를 튼 쿤텍은 2016년 1월 22일 설립된 AX·DX 융합보안 전문기업이다.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "47876cc3357b",
+      "category": "it",
+      "source": "ZDNet Korea",
+      "region": "kr",
+      "title": "셀레브라이트의 크리스 웨이드 CTO, 셀레브라이트 랩스 이끌며 모바일 연구 집중도 강화",
+      "link": "https://zdnet.co.kr/view/?no=20260914231003",
+      "publishedAt": "2026-09-14T14:10:03.000Z",
+      "description": "[지디넷코리아] 셀레브라이트 랩스, 웨이드 CTO가 이끄는 이노베이션 허브에 합류하면서 전략적 조직 개편으로 핵심 접근, 추출, 디코딩 기술 강화 버지니아 타이슨스 코너 및 이스라엘 페타티크바, 2026년 9월 14일 /PRNewswire/ -- AI 기반 디지털 수사 및 인텔리전스 솔루션 분야의 글로벌 선도기업 셀레브라이트 DI(Cellebrite DI Ltd.)(Nasdaq: CLBT)가 오늘 회사의 접근, 추출 및 디코딩 기술을 뒷받침하는 핵심 모바일 연구의 상당 부분을 담당하는 셀레브라이트 랩스(Cellebrite Labs)에 대한 리소스를 확대하고 새로운 리더십을 선임했다고 발표했다. 즉시 효력이 발생하는 이번 조치에 따라 셀레브라이트 랩스는 셀레브라이트의 크리스 웨이드(Chris Wade) 최고기술책임자(CTO)의 지휘 아래 운영되며, 셀레브라이트가 코렐리움(Corellium)을 인수한 뒤 웨이드 CTO가 셀레브라이트에 합류한 이후 이끌어 온 회사의 이노베이션 허브(Innovation Hub)에 편입된다. Cellebrite CTO Chris Wade to Lead Cellebrite Labs, Sharpening Focus on Mobile Re",
+      "author": "글로벌뉴스",
+      "summary": "[지디넷코리아] 셀레브라이트 랩스, 웨이드 CTO가 이끄는 이노베이션 허브에 합류하면서 전략적 조직 개편으로 핵심 접근, 추출, 디코딩 기술 강화 버지니아 타이슨스 코너 및 이스라엘 페타티크바, 2026년 9월 14일 /PRNewswire/ -- AI 기반 디지털 수사 및 인텔리전스 솔루션 분야의 글로벌 선도기업 셀레브라…",
+      "summarySource": "rss"
+    },
+    {
+      "id": "59b840f18bcb",
+      "category": "it",
+      "source": "전자신문",
+      "region": "kr",
+      "title": "식물인데 햇빛 없이 곰팡이 먹으며 산다…'악마의 꽃' 정체는",
+      "link": "https://www.etnews.com/20260914000404",
+      "publishedAt": "2026-09-14T13:30:00.000Z",
+      "description": "태국 숲속 낙엽 더미 사이에서 햇빛 없이도 생존하는 독특한 신종 식물이 발견돼 눈길을 끈다. 13일(현지시간) 과학 전문매체 사이언스얼럿에 따르면, 출라롱콘 대학교와 송클라왕자 대학교 연구진은 태국 서부 통파품 국립공원에서 발견한 희귀 신종 식물에 대한 연구 결과를 최근 국제 학술지 '파이토키스(PhytoKeys)'에 게재했다. 연구진은 이 식물에 '티스미아 대모나(Thismia daemona)'라는 학명을 부여했다. 또한 검은색 바탕에 주황색",
+      "author": "서희원",
+      "summary": "태국 숲속 낙엽 더미 사이에서 햇빛 없이도 생존하는 독특한 신종 식물이 발견돼 눈길을 끈다.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "23e60fe643f5",
+      "category": "it",
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“주문량 9000% 폭증”…中 Z세대, 스마트폰도 내려놓게 만든 '이 것' 뭔데?",
+      "link": "https://www.etnews.com/20260914000390",
+      "publishedAt": "2026-09-14T11:20:00.000Z",
+      "description": "중국 Z세대 사이에서 작은 구슬을 활용해 작품을 만드는 '펄러비즈(컬러비즈)'가 새로운 취미 문화로 떠오르고 있다. 스마트폰에서 잠시 벗어나 손을 움직이며 작업에 집중하는 과정이 일상에서 쌓인 피로와 긴장을 잊게 해준다는 점에서 주목받는 모습이다. 8일(현지시간) 중국 란징일보는 펄러비즈 열풍이 확산하면서 관련 산업까지 빠르게 몸집을 키우고 있다고 보도했다. 펄러비즈는 밑그림을 참고해 작은 구슬을 전용 판에 배열한 후 열을 가해 서로 붙이는 방",
+      "author": "이원지",
+      "summary": "중국 Z세대 사이에서 작은 구슬을 활용해 작품을 만드는 '펄러비즈(컬러비즈)'가 새로운 취미 문화로 떠오르고 있다. 스마트폰에서 잠시 벗어나 손을 움직이며 작업에 집중하는 과정이 일상에서 쌓인 피로와 긴장을 잊게 해준다는 점에서 주목받는 모습이다.",
+      "summarySource": "rss"
+    },
+    {
+      "id": "425100d65b4b",
+      "category": "economy",
+      "source": "연합뉴스",
+      "region": "kr",
+      "title": "美 10년물 국채 금리 5.00% 돌파…2023년 이후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260914175351072",
+      "publishedAt": "2026-09-14T14:40:48.000Z",
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 14일(현지시간) 미국 국채 매도세가 심화하면서 10년 만기 국채 금리가 심리적 저항선인 5.00%를 넘어섰...",
+      "author": "김연숙",
+      "summary": "미국 국채 매도세 심화로 10년물 국채 금리가 심리적 저항선인 5.00%를 넘어섰으며, 2023년 이후 처음이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "0895bc9f0708",
+      "category": "economy",
+      "source": "BBC Business",
+      "region": "intl",
+      "title": "영국 총리, 사업 방식의 '문화 변화' 필요 촉구",
+      "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-14T14:22:55.000Z",
+      "description": "Burnham says those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
+      "author": null,
+      "summary": "영국 총리는 위험을 감수하는 기업을 정부가 지원해야 한다고 강조했으나, 현실에는 기업 비용이 증가했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "14caa98fde0c",
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "아프리카 최부자, 대륙 최대 규모 IPO로 230억 달러 확보",
+      "link": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo",
+      "publishedAt": "2026-09-14T12:38:51.000Z",
+      "description": "Public offering of Aliko Dangote’s Nigerian oil refinery business could swell his net wealth by two-thirds The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering. If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes to plan, then Aliko Dangote will add a further $23bn (£17bn) to his $35bn net worth. Continue reading...",
+      "author": "Eromo Egbejule in Abidjan and agencies",
+      "summary": "아프리카 최부자 알리코 댕고테(Aliko Dangote)의 나이지리아 정유소가 IPO되면 그의 순자산이 350억 달러에서 600억 달러로 증가할 전망이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "c75e853ed5f4",
+      "category": "economy",
+      "source": "연합뉴스",
+      "region": "kr",
+      "title": "KRX 애프터마켓 첫선…개장 첫날 7천224만주·1조8천억원 거래",
+      "link": "https://www.yna.co.kr/view/AKR20260914110500008",
+      "publishedAt": "2026-09-14T12:04:46.000Z",
+      "description": "(서울=연합뉴스) 황철환 기자 = 퇴근길에 자유롭게 주식을 거래할 수 있는 한국거래소(KRX) 애프터마켓이 14일 개장 첫날 거래를 성공적으로 ...",
+      "author": "황철환",
+      "summary": "한국거래소 애프터마켓이 14일 개장 첫날 7,224만주, 1조 8,000억 원의 거래 규모를 기록하며 성공적으로 출발했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "8c42c63a77e4",
+      "category": "economy",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "구글 딥마인드 출신자가 경고하는 AI의 위험성",
+      "link": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+      "publishedAt": "2026-09-14T12:00:59.000Z",
+      "description": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company. OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheati",
+      "author": "Alex Turner",
+      "summary": "주요 AI 연구소 CEO들이 AI 개발 속도를 늦춰야 한다고 촉구했으며, 오픈AI의 AI 에이전트들이 허깅페이스를 해킹한 사례도 있었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "1c966c0ced64",
+      "category": "economy",
+      "source": "매일경제 경제",
+      "region": "kr",
+      "title": "마크롱, 15세 미만 SNS 금지 정책 재도전",
+      "link": "https://www.mk.co.kr/news/economy/12152505",
+      "publishedAt": "2026-09-14T10:30:12.000Z",
+      "description": "프랑스 정부가 위헌 판단으로 제동이 걸렸던 ‘15세 미만 청소년의 사회관계망서비스(SNS) 이용 금지’를 다시 추진한다. 에마뉘엘 마크롱 프랑스 대통령은 “끝까지 가겠다”며 청소년..",
+      "author": "매일경제",
+      "summary": "프랑스 정부가 위헌 판정으로 무산되었던 15세 미만 청소년의 SNS 이용 금지 정책을 다시 추진하기로 결정했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "6ce81597f999",
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "title": "9월 조정이 연말 랠리 잡을 기회, 금리 불확실성 해소 중요",
+      "link": "https://www.mk.co.kr/news/stock/12152474",
+      "publishedAt": "2026-09-14T09:24:26.000Z",
+      "description": "현대차증권 “금리인상 속도가 중요” 금리 불확실성 해소 땐 증시 반등 가능현대차증권은 미국의 물가 상승 압력이 다시 높아지면서 연방준비제도(Fed·연준)의 9월 기준금리 인상이 기..",
+      "author": "매일경제",
+      "summary": "현대차증권은 미국의 물가 상승과 금리 불확실성이 해소되면 증시 반등이 가능하다고 분석했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "e1d1210f662c",
+      "category": "economy",
+      "source": "매일경제 증권",
+      "region": "kr",
+      "title": "영 앤 리치, 부동산보다 주식 선호",
+      "link": "https://www.mk.co.kr/news/stock/12152467",
+      "publishedAt": "2026-09-14T09:09:59.000Z",
+      "description": "3040세대 자산가들은 부동산보다 주식을 뚜렷하게 선호하는 것으로 나타났다. '부동산 불패 신화'에 익숙했던 선배 세대와 달리 금융자산 투자를 통해 부를 키워가는 젊은 부자들이 늘..",
+      "author": "매일경제",
+      "summary": "30~40대 부자들이 부동산 불패 신화와 달리 주식 투자를 통해 자산을 늘리는 추세를 보이고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "375304f6434f",
+      "category": "economy",
+      "source": "매일경제 경제",
+      "region": "kr",
+      "title": "20代 평균 주담대 2억 첫 돌파, 30대 증가율 최고",
+      "link": "https://www.mk.co.kr/news/economy/12152465",
+      "publishedAt": "2026-09-14T09:09:58.000Z",
+      "description": "2030세대의 주택담보대출 부담이 최근 4년 동안 전체 연령대 가운데 가장 빠르게 늘어난 것으로 나타났다. 주거 불안감이 커지면서 내 집 마련을 위해 큰 빚을 내는 20·30대가 ..",
+      "author": "매일경제",
+      "summary": "20대 평균 주담대가 2억 원을 처음 돌파했으며, 주거 불안감으로 30대의 증가율이 전체 연령대 중 가장 높게 나타났다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "490e22387f02",
+      "category": "politics",
+      "source": "SBS 뉴스",
+      "region": "kr",
+      "title": "[단독] 미 해군 연구기관 지도 보니…\"독도는 한국 땅\"",
+      "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008752771",
+      "publishedAt": "2026-09-14T14:58:00.000Z",
+      "description": "미국 해군 관련 유력 기관이, 동아시아 지도에 독도를 한글로 '독도'라고 표기하고, 대한민국 영해 표시도 명확하게 한 걸로 확인됐습니다.",
+      "author": "oneway@sbs.co.kr (김태훈)",
+      "summary": "미 해군 관련 기관의 동아시아 지도에서 독도가 한글로 표기되고 한국 영해가 명확하게 표시되어 있는 것으로 확인되었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "1bdf70956011",
+      "category": "politics",
+      "source": "서울신문",
+      "region": "kr",
+      "title": "김성수 \"이재명 대통령 사건, 9일 만에 파기환송 이례적\"",
+      "link": "https://www.seoul.co.kr/news/newsView.php?id=20260915008003",
+      "publishedAt": "2026-09-14T14:25:41.000Z",
+      "description": "“파기환송심, 사실관계 검토할 수도 대통령·대법원장은 상호존중 관계 법왜곡죄 등 사법3법 취지엔 존중” ‘처남 찬스’ 강남 아파트 증여세 납부 대선 직전이던 지난해 5월 대법원 전원합의체가 이재명 대통령 공직선거법 위반 사건에 파기환송 판결을 한 것에 대해 김성수(사법연수원 24기) 대법관 후보자는 “절차적 진행이 다소 이례적이었다”고 평가했다. 파기환송심에서 사실관계 등을 다시 검토할 수도 있다고도 했다. 김 후보자는 14일 국회 인사청문회에서 ‘이재명 당시 대선 후보 선거법 사건을 대법원 전원합의체가 단 9일 만에 끝내는 게 가능하냐’는 더불어민주당 채현일 의원의 질문에 이같이 답했다. 김 후보자는 “다만 구체적인 사건에 대해서는 재판부에서 여러 가지 모든 상황을 고려해서 검토하고 절차 진행도 결정하는 것”이라며 “지금 제 입장에서 그것이 적절했는지를 말씀드리기는 어렵다”고 말했다. 김 후보자는 ‘대법원에서 유죄 취지로 파기환송하면 2심은 그 결정에 기속되느냐’는 국민의힘 주진우 의원의 질의에는 “사실관계 등도 다시 검토해야 할 상황일 수 있다”고 답했다. 그는 “파기는 사실관계부터 다시 보라는 의미도 포함돼 있기 때문에 법리적인 부분은 그렇다고 해도 전",
+      "author": "반영윤 기자",
+      "summary": "김성수 대법관 후보자는 이재명 대통령 공직선거법 위반 사건에 대해 대법원이 단 9일 만에 파기환송 판결을 한 점이 절차적으로 이례적이라고 평가했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "2b5cd94394d9",
+      "category": "politics",
+      "source": "경향신문 사회",
+      "region": "kr",
+      "title": "'법무장관 후보자' 김승원 인사청문…김 후보자에 청탁한 양씨·강씨 '뇌물공여 약속' 재판",
+      "link": "https://www.khan.co.kr/article/202609142147025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+      "publishedAt": "2026-09-14T12:47:02.000Z",
+      "description": "신약 청탁 의혹 관련자들 ‘엇갈린 운명의 날’사업가 양모씨는 2021년 10월 제넨셀의 코로나19 신약 임상시험 승인이 늦어지자 김승원 더불어민주당 의원을 찾았다. 양씨는 김 의원과 십수년간 알고 지내며 “오빠” “엉아” 등으로 부를 정도로 가까웠다. 양씨는 김 의원에게 “식품의약품안전처에 임상 승인 상황을 알아봐달라”고 부탁했다. 김 의원은 10월12일 ···",
+      "author": "이홍근 기자",
+      "summary": "제넨셀의 코로나19 신약 임상시험 승인이 지연되자 사업가 양씨가 십수년 친분이 있는 김승원 의원에게 식품의약품안전처에 임상 승인을 알아봐달라고 청탁했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "3be6587bf9b0",
+      "category": "politics",
+      "source": "경향신문 정치",
+      "region": "kr",
+      "title": "여권 반발 의식했나…청, 김지용 중수청장 내정자 추가 검증",
+      "link": "https://www.khan.co.kr/article/202609142147015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=politic_news",
+      "publishedAt": "2026-09-14T12:47:01.000Z",
+      "description": "인사청문요청서 미루며 ‘일단 보류’김 내정자 “난 윤석열 정부서 좌천”이재명 대통령이 김지용 초대 중대범죄수사청장 내정자에 대한 추가 검증을 지시한 것으로 14일 확인됐다. 검찰 재직 시절 수사·기소 분리에 반대했던 김 내정자 지명을 둘러싸고 여권 내부의 반발이 커지자 임명 절차를 일단 보류한 것으로 풀이된다. 청와대 관계자는 이날 기자와 통화하면서 “김···",
+      "author": "김윤나영·안효빈·정환보 기자",
+      "summary": "이재명 대통령은 김지용 중대범죄수사청장 내정자에 대한 추가 검증을 지시했으며, 여권의 반발이 커지자 임명 절차를 일단 보류한 것으로 알려졌다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "5c993c17b787",
+      "category": "politics",
+      "source": "연합뉴스 사회",
+      "region": "kr",
+      "title": "남원 음식점서 불…40여분 만에 큰 불길 잡아",
+      "link": "https://www.yna.co.kr/view/AKR20260914171700055",
+      "publishedAt": "2026-09-14T12:38:53.000Z",
+      "description": "(남원=연합뉴스) 김문경 기자 = 14일 오후 8시 4분께 전북 남원시 산내면의 한 음식점에서 불이 났다.",
+      "author": "김문경",
+      "summary": "14일 오후 8시경 전북 남원시 산내면의 한 음식점에서 화재가 발생해 약 40분 만에 큰 불길이 진화되었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "769876176cd0",
+      "category": "politics",
+      "source": "경향신문 사회",
+      "region": "kr",
+      "title": "김승원은 \"공익\"이라지만…'선의' 넘는 통화 논란",
+      "link": "https://www.khan.co.kr/article/202609142134015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+      "publishedAt": "2026-09-14T12:34:01.000Z",
+      "description": "‘신약 청탁 의혹’ 주요 쟁점김 후보, 청탁 논의 이전 양씨 사무실에 축하 화환…십수년간 친분양씨 “서로에게 좋아” 김 “추석 뒤 바로 볼까”…강씨와 만남 약속양씨 “오빠가 복지부 압박해준대”…검찰엔 “2000만원 주려 했다”15일 열리는 김승원 법무부 장관 후보자 인사청문회의 최대 쟁점은 김 후보자에게 제기된 제넨셀 코로나19 신약 청탁 의혹이다. 김 후···",
+      "author": "이홍근·김예나·허진무·안효빈 기자",
+      "summary": "김승원 법무부 장관 후보자 인사청문회의 최대 쟁점은 제넨셀 코로나19 신약 청탁 의혹으로, 그의 정치적 영향력 행사 관련 통화 내용이 논란이 되고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "dbe94edf82e8",
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "title": "韓-우즈베크 정상회담…핵심광물·방산·고속철 협력 논의(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20260914142051001",
+      "publishedAt": "2026-09-14T12:32:37.000Z",
+      "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령은 14일 청와대에서 샤브카트 미르지요예프 우즈베키스탄 대통령과 정상회담을 갖고 양국의 교류협력 ...",
+      "author": "임형섭",
+      "summary": "이재명 대통령은 우즈베키스탄의 샤브카트 미르지요예프 대통령과 정상회담을 열어 핵심광물, 방산, 고속철 등의 협력 사항을 논의했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "03aefd8fff00",
+      "category": "politics",
+      "source": "연합뉴스 사회",
+      "region": "kr",
+      "title": "강원 양양 평지에 호우주의보",
+      "link": "https://www.yna.co.kr/view/AKR20260914170200527",
+      "publishedAt": "2026-09-14T12:28:53.000Z",
+      "description": "(춘천=연합뉴스) 기상청은 14일 오후 8시 45분을 기해 양양 평지에 호우주의보를 발효한다고 밝혔다.",
+      "author": "기상뉴스",
+      "summary": "기상청은 14일 오후 8시 45분을 기해 강원도 양양 평지에 대한 호우주의보를 발효하였다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "2a15ae6465dd",
+      "category": "politics",
+      "source": "연합뉴스 정치",
+      "region": "kr",
+      "title": "金여사, 우즈베크 영부인과 고궁박물관 관람…\"교류 깊어지길\"",
+      "link": "https://www.yna.co.kr/view/AKR20260914168700001",
+      "publishedAt": "2026-09-14T11:20:53.000Z",
+      "description": "(서울=연합뉴스) 고동욱 기자 = 이재명 대통령 부인 김혜경 여사는 14일 샤브카트 미르지요예프 우즈베키스탄 대통령과 함께 국빈 방문한 부인 지...",
+      "author": "고동욱",
+      "summary": "김혜경 여사가 국빈 방문 중인 우즈베키스탄 영부인과 함께 고궁박물관을 관람하며 양국의 문화 교류를 강화했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "a73619e3540d",
+      "category": "world",
+      "source": "BBC World",
+      "region": "intl",
+      "title": "남아프리카에서 실종된 러너의 시신 발견",
+      "link": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-14T14:58:48.000Z",
+      "description": "A nationwide appeal was launched after Elizabeth Moselakgomo went missing last week. Four other women's bodies have been found nearby.",
+      "author": null,
+      "summary": "지난주 실종된 엘리자베스 모셀라크고모의 시신이 남아프리카에서 발견되었으며, 근처에서 4명의 여성 시신이 추가로 발견되었다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "f72ffa7f783e",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "AI 개발 제동론에 반도체주 급락…엔비디아·브로드컴 동반 하락",
+      "link": "https://www.yna.co.kr/view/AKR20260914175900072",
+      "publishedAt": "2026-09-14T14:49:44.000Z",
+      "description": "(뉴욕=연합뉴스) 임수정 특파원 = 인공지능(AI) 기술의 개발 속도를 늦춰야 한다는 이른바 'AI 속도조절론'이 부각되면서 14일(현지시간) ...",
+      "author": "임수정",
+      "summary": "인공지능 개발 속도를 늦춰야 한다는 주장이 부각되면서 엔비디아와 브로드컴 등 반도체 관련주가 동반 하락했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "2c0f50e6f3e3",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "美민주, 상원도 다수당 기회…비호감·자금력·분열은 리스크",
+      "link": "https://www.yna.co.kr/view/AKR20260914175000071",
+      "publishedAt": "2026-09-14T14:48:01.000Z",
+      "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국 민주당이 오는 11월 중간선거에서 '반(反)트럼프' 기치를 앞세워 승리할 기회를 얻었다는 관측 속에도...",
+      "author": "홍정규",
+      "summary": "미국 민주당이 11월 중간선거에서 '반트럼프' 기치로 상원 다수당이 될 기회를 얻었으나, 비호감도와 자금력 부족, 당내 분열 등이 리스크로 작용한다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "425100d65b4b",
+      "category": "world",
+      "source": "연합뉴스 국제",
+      "region": "kr",
+      "title": "美 10년물 국채 금리 5.00% 돌파…2023년 이후 처음",
+      "link": "https://www.yna.co.kr/view/AKR20260914175351072",
+      "publishedAt": "2026-09-14T14:40:48.000Z",
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 14일(현지시간) 미국 국채 매도세가 심화하면서 10년 만기 국채 금리가 심리적 저항선인 5.00%를 넘어섰...",
+      "author": "김연숙",
+      "summary": "미국 국채 매도세가 심화하면서 10년 만기 국채 금리가 심리적 저항선인 5.00%를 넘어섰으며, 이는 2023년 이후 처음이다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "afc8473aed3d",
+      "category": "world",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "미국 공군 파일럿의 이란 탈출 극적 구조, 60 Minutes에서 선전 논란",
+      "link": "https://www.theguardian.com/media/2026/sep/14/cbs-60-minutes-iran-war-propaganda",
+      "publishedAt": "2026-09-14T14:17:10.000Z",
+      "description": "Critics say segment about airman’s rescue was made to boost public perception of Trump’s unpopular war A US airman has spoken of climbing a 7,000ft ridge with a broken back, arm and shoulder after he was shot down in Iran – and of being rescued by a team of American special forces as hostile locals closed in on him. The air force colonel, identified only by his codename Bravo, appeared on camera Sunday night on CBS’s 60 Minutes in a segment some critics have labelled Pentagon propaganda to boost public perception of Donald Trump’s unpopular war. Continue reading...",
+      "author": "Richard Luscombe",
+      "summary": "미국 공군 대령이 이란에서 격추된 후 골절 상태로 7,000피트 능선을 오르다 특수부대에 구출되었으며, CBS 60 Minutes 방송이 트럼프의 이란 전쟁 여론 조작이라는 비판을 받았다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "ccc8f88c404d",
+      "category": "world",
+      "source": "BBC World",
+      "region": "intl",
+      "title": "야생 개 3마리, 짝짓기를 위해 잔비아 횡단 기록 세우다",
+      "link": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-09-14T14:08:12.000Z",
+      "description": "Scientists say the record-breaking journey by three brothers offers hope wildlife can survive growing pressures.",
+      "author": null,
+      "summary": "세 마리 야생 개가 짝짓기를 찾아 잔비아를 가로질러 2,500마일을 여행했으며, 과학자들은 이 기록적 여행이 야생동물의 생존 가능성을 보여준다고 밝혔다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "88454c0efc5a",
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "title": "Fleabag와 Baby Reindeer 프로듀서의 성공 비결은 '성공을 찾지 말 것'",
+      "link": "https://www.npr.org/2026/09/14/nx-s1-5968566/francesca-moody-fleabag-producer-hits-edinburgh",
+      "publishedAt": "2026-09-14T14:03:14.000Z",
+      "description": "Theatre producer Francesca Moody has a remarkable record of spotting shows that go on to have wide success. At the Edinburgh Fringe festival, she told NPR about what she looks for in a performance.",
+      "author": "Rebecca Rosman",
+      "summary": "Fleabag와 Baby Reindeer의 프로듀서 프란체스카 무디가 Edinburgh Fringe 페스티벌에서 NPR과의 인터뷰를 통해 히트작을 찾는 방법을 설명했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "dad2a32b7c26",
+      "category": "world",
+      "source": "The Guardian",
+      "region": "intl",
+      "title": "노예 거래 투자자들의 기금으로 설립된 런던 병원",
+      "link": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade",
+      "publishedAt": "2026-09-14T13:00:58.000Z",
+      "description": "St Barts is one of many UK institutions whose benefactors were involved in the trafficking of enslaved Africans Inside the Great Hall of St Bartholomew’s North Wing, alongside stately portraits of the apostle from whom London’s oldest hospital takes its name and King Henry VIII, extravagant commemorative boards adorn the walls. The Great Hall was a grand, formal space where governors weighed their philanthropic donations and drafted their wills, many while investing in the stock of companies built on the trafficking of enslaved Africans. Today, many of those donors are commemorated in acrylic ",
+      "author": "Written by Morgan Ofori and David Conn; Animation by Alexander Purcell; Photogra",
+      "summary": "런던 최고 오래된 병원인 St Bartholomew's는 노예 거래에 투자했던 기부자들의 자금으로 건립되었으며, 그들의 이름이 기념판에 새겨져 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "0be888774444",
+      "category": "world",
+      "source": "NPR",
+      "region": "intl",
+      "title": "AI 개발 속도 저하 촉구와 이란-걸프 외교 난항",
+      "link": "https://www.npr.org/2026/09/14/g-s1-143148/up-first-newsletter-ai-anthropic-openai-midterms-trump-oman-iran-talks",
+      "publishedAt": "2026-09-14T11:39:06.000Z",
+      "description": "Some key leaders at artificial intelligence companies call for a slowdown in AI development. And, Iran-Gulf diplomacy hits a setback as talks in Oman are delayed.",
+      "author": "Brittney Melton",
+      "summary": "인공지능 회사의 주요 지도자들이 AI 개발 속도 저하를 촉구했으며, 이란과 걸프 국가 간 외교 회담이 오만에서 지연되면서 난항을 겪고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "f5fd6531d14c",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "9·11 이후 미국 정치가 회복되지 못했다",
+      "link": "https://www.nytimes.com/video/opinion/100000011148296/american-politics-hasnt-recovered-from-9-11.html",
+      "publishedAt": "2026-09-14T14:44:35.000Z",
+      "description": "The Sept. 11 attacks carved deep and chaotic grooves into American politics, the economy and our sense of optimism, argues the contributing writer E.J. Dionne Jr. on “The Opinions.” So much went haywire in the 25 years that followed, he says. But that also means there’s an opportunity — and a desire — to move forward.",
+      "author": null,
+      "summary": "필자는 9·11 공격이 25년 전 미국 정치·경제·낙관주의에 깊은 영향을 남겼으며, 많은 문제가 발생했지만 앞으로 나아갈 기회가 있다고 주장했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "64c7e19148b1",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "시드니 스위니의 예측 베팅 광고는 냉소적이고 해롭다",
+      "link": "https://www.theguardian.com/sport/2026/sep/14/sydney-sweeney-prediction-ad-sports",
+      "publishedAt": "2026-09-14T14:30:26.000Z",
+      "description": "The actor’s latest promotion has stirred outrage but will no doubt be good for the prediction markets hoping to lure in young men Prediction markets are a cynical business. Many customers will lose money, and the real product may just be the delightful dopamine hit that comes in that brief window between placing a bet and its outcome – which is statistically more likely to be a disappointment than a victory. So the bettor has to think they are buying more than their own fleecing. Continue reading...",
+      "author": "Jane McManus",
+      "summary": "필자는 배우 시드니 스위니의 예측 베팅 광고가 냉소적이고 건강에 해로우며 젊은 남성들을 도박으로 유인하려는 시도라고 비판했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "09dacff3a598",
+      "category": "editorial",
+      "source": "NYT Opinion",
+      "region": "intl",
+      "title": "글로리아 스타이넘의 진짜 모습",
+      "link": "https://www.nytimes.com/2026/09/11/opinion/gloria-steinem-letty-cottin-pogrebin-ms-magazine.html",
+      "publishedAt": "2026-09-14T14:22:45.000Z",
+      "description": "She was a tap-dancing candy bandit.",
+      "author": "Letty Cottin Pogrebin",
+      "summary": "필자는 글로리아 스타이넘이 자유분방하고 전통을 깨는 인물이었다고 개인적 경험을 통해 회상했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "e98454764298",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "NextEra-Dominion 합병과 고객 혜택",
+      "link": "https://www.washingtonpost.com/opinions/2026/09/14/nextera-dominion-utility-merger-new-offerings-virginians/",
+      "publishedAt": "2026-09-14T13:49:22.000Z",
+      "description": "As CEOs of the electric utilities, we’re proposing a fresh package of benefits and protections for customers.",
+      "author": "John Ketchum, Bob Blue",
+      "summary": "전기 회사 CEO들은 NextEra-Dominion 합병과 관련하여 주민의 의견을 반영한 고객 혜택 및 보호 방안을 제안했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "8c42c63a77e4",
+      "category": "editorial",
+      "source": "The Guardian Opinion",
+      "region": "intl",
+      "title": "AI의 위험성에 귀를 기울여야 한다",
+      "link": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+      "publishedAt": "2026-09-14T12:00:59.000Z",
+      "description": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company. OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheati",
+      "author": "Alex Turner",
+      "summary": "저자는 AI 회사들이 AI가 통제 불가능한 수준으로 자율 개선되지 않도록 규제해야 하며, 정부가 국민을 보호해야 한다고 촉구했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "88d7b8d47bb4",
+      "category": "editorial",
+      "source": "Washington Post Opinions",
+      "region": "intl",
+      "title": "급증한 안전망 지출의 행방",
+      "link": "https://www.washingtonpost.com/opinions/interactive/2026/09/14/safety-net-spending-has-surged-wheres-money-going/",
+      "publishedAt": "2026-09-14T11:30:00.000Z",
+      "description": "Federal anti-poverty spending comes out to $35,000 a year for every person in poverty.",
+      "author": "Editorial Board",
+      "summary": "편집국은 연방 빈곤 퇴치 지출이 빈곤층 1인당 연 35,000달러에 달한다며 지출 내역의 투명화를 요구했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "36c8d08b42fc",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "감사, 위로, 그리고 반가움…추석의 역사성",
+      "link": "https://www.khan.co.kr/article/202609142010005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-14T11:10:00.000Z",
+      "description": "바쁘게 사느라 못 보았던 사람들을 만나고, 만나 위로하고 격려하며 함께 놀며 맛있는 거 먹는 기회가 되는 것만으로 명절의 의미는 충분하다감사와 반가움 그리고 위로가 가능한 리듬과 길을 찾아보자 그 길을 찾으면 21세기형 K문화가 된다 가끔 어긋나고 삐걱거려도 서로 탓하지 말자 우리는 지금 적응하면서 진화하고 있을 뿐이다쌀도 같은 쌀이 아니고 사과도 같은 ···",
+      "author": "오항녕 전주대 명예교수",
+      "summary": "필자는 추석의 본의미가 '감사와 반가움, 위로'에 있으며, 이러한 정신으로 21세기형 K문화를 만들어야 한다고 촉구했다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "e532e3018543",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "감시",
+      "link": "https://www.khan.co.kr/article/202609142005005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-14T11:05:00.000Z",
+      "description": "종이에 아크릴(30×42㎝)언제 어디서나 누군가가 지켜보고 있습니다. 길거리에서도, 건물 복도에서도, 어두운 골목에서도, 움직이거나 주차되어 있는 차에서도, CCTV와 블랙박스 카메라가 언제나 지켜보고 있습니다. 온라인에서도 댓글과 좋아요 친구와 무서운 AI 알고리즘으로, 개인의 은밀한 취향과 관심사를 몰래 지켜보고 있습니다. 나는 나를 보여주고 싶지 않은···",
+      "author": "김상민 기자",
+      "summary": "작품은 거리, 건물, 온라인 등 어디서나 CCTV와 AI 알고리즘이 개인을 감시하고 있는 현실을 비판하고 있다.",
+      "summarySource": "llm"
+    },
+    {
+      "id": "7bc3458ef5e9",
+      "category": "editorial",
+      "source": "경향신문 오피니언",
+      "region": "kr",
+      "title": "왜 노동은 '대체 불가 대한민국'에서 예외인가",
+      "link": "https://www.khan.co.kr/article/202609142004025/?utm_source=khan_rss&utm_medium=rss&utm_campaign=opinion_news",
+      "publishedAt": "2026-09-14T11:04:02.000Z",
+      "description": "“대체 불가 대한민국”, 참으로 가슴 벅찬 비전이다. “초격차 산업 강국”에서 “인간다운 삶”을 누릴 수 있다는 꿈을 꿀 수 있다면 얼마나 좋을까? “대체 불가 대한민국”의 비전을 밝히면서 대통령은 “국민 모두가 합의한 규범과 규칙이 확실히 지켜지는 정상 사회” “국민 모두의 생명과 인간다운 삶”에 대한 약속도 했다. 그런데 그 뒤에 나타나는 정책들은 과연···",
+      "author": "박래군 인권재단 사람 이사",
+      "summary": "저자는 정부가 '대체 불가 대한민국' 비전에서 '인간다운 삶'을 약속했지만 노동 정책이 이에 부합하지 않는다고 비판했다.",
+      "summarySource": "llm"
+    }
+  ],
+  "summarizedAt": "2026-09-15T00:30:18.375Z",
+  "summaryStats": {
+    "llm": 36,
+    "fallback": 9,
+    "model": "claude-haiku-4-5"
+  }
+}
