@@ -3,6 +3,10 @@ site/
 .DS_Store
 *.log
 
+# Python (uv)
+.venv/
+__pycache__/
+
 # 토큰·자격증명. 절대 커밋하지 않습니다.
 .env
 .env.*
