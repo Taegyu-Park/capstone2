@@ -9,7 +9,8 @@
     "summarize": "node scripts/summarize.mjs",
     "render": "node scripts/render.mjs",
     "build": "node scripts/build.mjs",
-    "check-feeds": "node scripts/check-feeds.mjs"
+    "check-feeds": "node scripts/check-feeds.mjs",
+    "deploy": "gh workflow run daily-digest.yml -f deploy_only=true"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"

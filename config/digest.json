@@ -24,7 +24,7 @@
     }
   ],
   "limits": {
-    "perCategory": 9,
+    "perCategory": 10,
     "feedTimeoutMs": 15000,
     "titleSimilarityThreshold": 0.4
   },
@@ -196,6 +196,48 @@
       "source": "Washington Post Opinions",
       "region": "intl",
       "url": "https://feeds.washingtonpost.com/rss/opinions"
+    },
+    {
+      "category": "editorial",
+      "source": "동아일보 사설",
+      "region": "kr",
+      "url": "https://rss.donga.com/editorials.xml"
+    },
+    {
+      "category": "politics",
+      "source": "동아일보 정치",
+      "region": "kr",
+      "url": "https://rss.donga.com/politics.xml"
+    },
+    {
+      "category": "politics",
+      "source": "조선일보",
+      "region": "kr",
+      "url": "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "category": "economy",
+      "source": "동아일보 경제",
+      "region": "kr",
+      "url": "https://rss.donga.com/economy.xml"
+    },
+    {
+      "category": "economy",
+      "source": "머니투데이",
+      "region": "kr",
+      "url": "https://rss.mt.co.kr/mt_news.xml"
+    },
+    {
+      "category": "it",
+      "source": "Wired",
+      "region": "intl",
+      "url": "https://www.wired.com/feed/rss"
+    },
+    {
+      "category": "world",
+      "source": "DW News",
+      "region": "intl",
+      "url": "https://rss.dw.com/rdf/rss-en-all"
     }
   ],
   "exclude": {

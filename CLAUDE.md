@@ -27,6 +27,12 @@
 - **`categories[].opinion: true`는 두 곳에 동시에 영향을 줍니다.** `fetch.mjs`가 그 카테고리 기사에는
   `exclude.bracketTags` 검사를 건너뛰고(`[사설]`이 콘텐츠 자체이므로), `summarize.mjs`가 사실 요약
   대신 논조를 살린 프롬프트를 씁니다. 둘 중 하나만 고치면 다른 쪽과 어긋납니다.
+- **다이제스트 갱신 시 `summarize` 실행 및 해외 기사 번역을 반드시 검증하세요.**
+  - `fetch.mjs`만 실행된 직후에는 모든 기사의 `summary`가 `null` 상태입니다. 이 상태로 `render.mjs`를 돌리면 해외 기사가 영문 그대로 노출되고, Hacker News처럼 본문이 없는 피드는 URL/댓글/포인트 메타데이터만 노출됩니다.
+  - 항상 `build.mjs` 전체 파이프라인을 사용하거나, 개별 실행 시 `fetch` → `summarize` → `render` 순서를 철저히 지키세요.
+  - 렌더링 전 `data/YYYY-MM-DD.json`을 점검하여:
+    1. 해외 기사(`region: "intl"`)의 제목과 요약이 한국어로 번역되었는지 (`summarySource === "llm"`)
+    2. 요약란에 "Article URL:", "Comments URL:" 등 단순 링크/메타데이터만 들어간 항목이 없는지 확인해야 합니다.
 
 ## 설정을 고칠 때
 
@@ -36,8 +42,9 @@ JSON에 정규식을 넣으면 이스케이프 때문에 조용히 깨지므로 
 ## 확인 방법
 
 ```bash
-npm run check-feeds                        # 피드 28개 상태 (실패 시 exit 1)
+npm run check-feeds                        # 피드 35개 상태 (실패 시 exit 1)
 node scripts/build.mjs --date=YYYY-MM-DD   # 특정 날짜로 전체 파이프라인
+npm run deploy                             # GitHub Pages 즉시 재배포 (deploy_only)
 ```
 
 `check-feeds`는 `전체`/`요약40자+`/`최신` 세 숫자를 봅니다. 피드를 추가할 때 판단 기준은 README에 있습니다.

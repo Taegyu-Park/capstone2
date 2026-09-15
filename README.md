@@ -5,7 +5,7 @@
 ### 🔗 [taegyu-park.github.io/capstone2](https://taegyu-park.github.io/capstone2/)
 
 - **분야**: IT·과학·AI / 경제·금융 / 정치·사회 / 세계·국제 / 사설·칼럼
-- **분량**: 분야당 최대 9건 (하루 45건 안팎)
+- **분량**: 분야당 최대 10건 (하루 50건 안팎)
 - **아카이브**: 날짜별 페이지를 계속 보관합니다
 
 사설·칼럼은 사실 보도가 아니라 특정 입장을 주장하는 글이라 다른 분야와 다르게 다룹니다.
@@ -14,7 +14,7 @@
 ## 동작 방식
 
 ```
-① fetch.mjs      RSS 28개 수집 → 전날(KST) 필터 → 중복 제거 → 분야별 9건 선별
+① fetch.mjs      RSS 35개 수집 → 전날(KST) 필터 → 중복 제거 → 분야별 10건 선별
 ② summarize.mjs  Claude로 한국어 요약 생성 (실패 시 RSS 원문으로 폴백)
 ③ render.mjs     data/ 전체를 읽어 site/ 정적 사이트를 통째로 재생성
 ④ Actions        data/ 커밋 후 GitHub Pages 배포
@@ -31,6 +31,7 @@ npm install
 npm run build                      # 전날치 생성
 node scripts/build.mjs --date=2026-09-13   # 특정 날짜 다시 생성
 npm run check-feeds                # 피드 상태 점검
+npm run deploy                     # GitHub Pages 즉시 재배포 (deploy_only)
 ```
 
 생성된 사이트는 `site/`에 있습니다. `npx serve site` 등으로 열어보면 됩니다.

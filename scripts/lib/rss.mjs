@@ -60,7 +60,10 @@ export async function fetchFeed(feed, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
     if (!res.ok) {
       return { feed, ok: false, error: `HTTP ${res.status}`, ms: Date.now() - startedAt, items: [] };
     }
-    const parsed = await parser.parseString(await res.text());
+    const rawText = await res.text();
+    // RSS 원문에 이스케이프되지 않은 & 문자가 있으면 XML 파서가 깨지므로 &amp;로 보정합니다.
+    const cleanXml = rawText.replace(/&(?!(amp|lt|gt|quot|apos|#\d+|#[xX][0-9a-fA-F]+);)/g, '&amp;');
+    const parsed = await parser.parseString(cleanXml);
     const items = [];
     for (const raw of parsed.items || []) {
       const link = raw.link?.trim();

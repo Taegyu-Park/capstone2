@@ -30,6 +30,10 @@ payloads.forEach((payload, i) => {
 
 // 최신 다이제스트를 첫 화면으로
 const latest = payloads[payloads.length - 1];
+const unsummarized = latest.items.filter((i) => !i.summary).length;
+if (unsummarized > 0) {
+  console.warn(`[render] 경고: ${latest.date} 기사 중 요약(summary)이 비어 있는 항목이 ${unsummarized}건 있습니다. summarize.mjs가 정상 실행되었는지 확인하세요.`);
+}
 writeFileSync(
   new URL('index.html', siteDir),
   renderDigestPage(latest, {
